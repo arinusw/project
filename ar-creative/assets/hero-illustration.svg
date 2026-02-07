@@ -1,0 +1,22 @@
+<svg width="500" height="500" viewBox="0 0 500 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background Circle -->
+  <circle cx="250" cy="250" r="200" fill="#f0f0ff" />
+
+  <!-- Abstract Shapes -->
+  <rect x="150" y="150" width="200" height="200" rx="40" fill="#6c5ce7" fill-opacity="0.1" transform="rotate(15 250 250)" />
+  <circle cx="350" cy="150" r="60" fill="#00cec9" fill-opacity="0.2" />
+
+  <!-- Main Elements -->
+  <!-- Laptop/Screen shape -->
+  <rect x="120" y="220" width="260" height="180" rx="10" fill="#6c5ce7" />
+  <rect x="140" y="240" width="220" height="130" rx="5" fill="#ffffff" />
+
+  <!-- "Code" lines -->
+  <rect x="160" y="260" width="100" height="8" rx="4" fill="#6c5ce7" fill-opacity="0.2" />
+  <rect x="160" y="280" width="180" height="8" rx="4" fill="#6c5ce7" fill-opacity="0.2" />
+  <rect x="160" y="300" width="140" height="8" rx="4" fill="#6c5ce7" fill-opacity="0.2" />
+
+  <!-- Floating Creative elements -->
+  <path d="M380 320L410 350L380 380L350 350L380 320Z" fill="#a29bfe" />
+  <circle cx="100" cy="200" r="30" fill="#00cec9" />
+</svg>

@@ -1,0 +1,15 @@
+<svg width="500" height="500" viewBox="0 0 500 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Soft background circle -->
+  <circle cx="250" cy="250" r="180" fill="#e0fcfb" fill-opacity="0.5" />
+
+  <!-- Book/Knowledge -->
+  <rect x="150" y="200" width="200" height="150" rx="10" fill="#ffffff" stroke="#6c5ce7" stroke-width="4" />
+  <line x1="250" y1="200" x2="250" y2="350" stroke="#6c5ce7" stroke-width="4" />
+
+  <!-- Digital waves/signal -->
+  <path d="M100 150C150 100 350 100 400 150" stroke="#00cec9" stroke-width="6" stroke-linecap="round" fill="none" />
+  <path d="M130 180C170 140 330 140 370 180" stroke="#00cec9" stroke-width="4" stroke-linecap="round" fill="none" opacity="0.6" />
+
+  <!-- Graduation/Education spark -->
+  <path d="M250 100L270 140L310 150L280 180L290 220L250 200L210 220L220 180L190 150L230 140L250 100Z" fill="#a29bfe" />
+</svg>

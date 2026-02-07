@@ -1,0 +1,16 @@
+<svg width="500" height="500" viewBox="0 0 500 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Soft background -->
+  <rect width="500" height="500" rx="100" fill="#f9f9f9" />
+
+  <!-- Team/Collaboration concept -->
+  <circle cx="200" cy="200" r="80" fill="#a29bfe" fill-opacity="0.3" />
+  <circle cx="300" cy="280" r="100" fill="#6c5ce7" fill-opacity="0.2" />
+
+  <!-- Creative Pen/Tool -->
+  <path d="M350 150L200 300L180 340L220 320L370 170L350 150Z" fill="#6c5ce7" />
+
+  <!-- Connection nodes -->
+  <circle cx="150" cy="150" r="10" fill="#00cec9" />
+  <circle cx="400" cy="350" r="15" fill="#00cec9" />
+  <path d="M150 150L400 350" stroke="#00cec9" stroke-width="2" stroke-dasharray="5 5" />
+</svg>
