@@ -25,10 +25,14 @@ Repository ini bersifat **dinamis** dan akan terus diperbarui seiring perkembang
 ```text
 project/
 │
-├── project-1/
+├── ar-creative/
 │   ├── index.html
-│   ├── style.css
-│   └── script.js
+│   ├── contact.php
+│   ├── css/
+│   │   └── styles.css
+│   ├── js/
+│   │   └── main.js
+│   └── assets/
 │
 ├── project-2/
 │   ├── README.md
