@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ar Creative – Digital Creative Portfolio & Service Website</title>
+
+    <!-- Google Fonts: Poppins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Remix Icons CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">
+                <i class="ri-pulse-line"></i> <span class="nav__logo-text">Ar Creative</span>
+            </a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active-link">
+                            <i class="ri-home-5-line nav__icon"></i>
+                            <span class="nav__name">Beranda</span>
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">
+                            <i class="ri-user-line nav__icon"></i>
+                            <span class="nav__name">Tentang Kami</span>
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#services" class="nav__link">
+                            <i class="ri-briefcase-line nav__icon"></i>
+                            <span class="nav__name">Layanan</span>
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#education" class="nav__link">
+                            <i class="ri-book-open-line nav__icon"></i>
+                            <span class="nav__name">Edukasi</span>
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#contact" class="nav__link">
+                            <i class="ri-message-3-line nav__icon"></i>
+                            <span class="nav__name">Kontak</span>
+                        </a>
+                    </li>
+                </ul>
+
+                <!-- Close button for mobile menu -->
+                <div class="nav__close" id="nav-close">
+                    <i class="ri-close-line"></i>
+                </div>
+            </div>
+
+            <!-- Theme change button & Toggle button -->
+            <div class="nav__buttons">
+                <!-- Theme change button -->
+                <i class="ri-moon-line change-theme" id="theme-button"></i>
+
+                <!-- Toggle button for mobile menu -->
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="ri-menu-4-line"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!--==================== MAIN CONTENT ====================-->
+    <main class="main">
+
+        <!--==================== HERO SECTION ====================-->
+        <section class="home section" id="home">
+            <div class="home__container container grid">
+                <!-- Social media icons (No entrance animations for immediately visible tests) -->
+                <div class="home__social">
+                    <a href="https://www.facebook.com/arkreative" target="_blank" class="home__social-link">
+                        <i class="ri-facebook-fill"></i>
+                    </a>
+                    <a href="https://www.instagram.com/arcreative_26" target="_blank" class="home__social-link">
+                        <i class="ri-instagram-line"></i>
+                    </a>
+                    <a href="https://www.youtube.com/@arcreative-24" target="_blank" class="home__social-link">
+                        <i class="ri-youtube-fill"></i>
+                    </a>
+                </div>
+
+                <!-- Hero data content -->
+                <div class="home__data">
+                    <h1 class="home__title">Ar Creative</h1>
+                    <h2 class="home__subtitle">Jasa & Produk Digital | Edukasi Teknologi</h2>
+                    <p class="home__description">
+                        Ar Creative adalah sebuah studio kreatif digital yang berdedikasi untuk menciptakan solusi teknologi inovatif, produk digital berkualitas tinggi, serta membagikan edukasi teknologi yang inspiratif bagi semua kalangan.
+                    </p>
+                    <div class="home__buttons">
+                        <a href="#services" class="button">Lihat Layanan</a>
+                        <a href="#contact" class="button button--ghost">Hubungi Kami</a>
+                    </div>
+                </div>
+
+                <!-- Hero digital illustration (SVG) -->
+                <div class="home__img-wrapper">
+                    <svg class="home__img" viewBox="0 0 500 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <!-- Background abstract blob -->
+                        <path d="M450 250C450 360.457 360.457 450 250 450C139.543 450 50 360.457 50 250C50 139.543 139.543 50 250 50C360.457 50 450 139.543 450 250Z" fill="var(--first-color-lighten)" />
+                        <!-- Graphic elements representing creative tech -->
+                        <rect x="150" y="150" width="200" height="150" rx="10" fill="var(--first-color)" opacity="0.8" />
+                        <rect x="170" y="170" width="160" height="110" rx="5" fill="var(--body-color)" />
+                        <!-- Abstract lines of code inside screen -->
+                        <line x1="185" y1="190" x2="235" y2="190" stroke="var(--first-color)" stroke-width="6" stroke-linecap="round" />
+                        <line x1="185" y1="210" x2="285" y2="210" stroke="var(--first-color-light)" stroke-width="6" stroke-linecap="round" />
+                        <line x1="185" y1="230" x2="215" y2="230" stroke="var(--first-color-lighten)" stroke-width="6" stroke-linecap="round" />
+                        <line x1="185" y1="250" x2="265" y2="250" stroke="var(--first-color)" stroke-width="6" stroke-linecap="round" />
+                        <!-- Screen stand -->
+                        <path d="M220 300H280L290 340H210L220 300Z" fill="var(--first-color)" opacity="0.9" />
+                        <!-- Abstract glowing spheres/ideas -->
+                        <circle cx="120" cy="180" r="30" fill="var(--first-color)" />
+                        <path d="M120 165V195M105 180H135" stroke="var(--body-color)" stroke-width="4" stroke-linecap="round"/>
+                        <circle cx="380" cy="280" r="40" fill="var(--first-color-light)" />
+                        <path d="M380 265L390 285H370L380 265Z" fill="var(--body-color)" />
+                    </svg>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== ABOUT SECTION ====================-->
+        <section class="about section" id="about">
+            <h2 class="section__title">Tentang Kami</h2>
+
+            <div class="about__container container grid">
+                <!-- SVG Digital Illustration (Order -1 in desktop layout via CSS) -->
+                <div class="about__image">
+                    <svg viewBox="0 0 500 500" fill="none" xmlns="http://www.w3.org/2000/svg" class="about__img">
+                        <circle cx="250" cy="250" r="180" fill="var(--first-color-lighten)" />
+                        <!-- Idea & Gear illustration -->
+                        <g transform="translate(180, 180)">
+                            <!-- Outer gear wheel -->
+                            <circle cx="70" cy="70" r="50" stroke="var(--first-color)" stroke-width="12" fill="none" />
+                            <rect x="62" y="5" width="16" height="20" rx="4" fill="var(--first-color)" />
+                            <rect x="62" y="115" width="16" height="20" rx="4" fill="var(--first-color)" />
+                            <rect x="5" y="62" width="20" height="16" rx="4" fill="var(--first-color)" />
+                            <rect x="115" y="62" width="20" height="16" rx="4" fill="var(--first-color)" />
+                            <rect x="22" y="22" width="16" height="16" rx="4" fill="var(--first-color)" transform="rotate(45, 30, 30)" />
+                            <rect x="102" y="102" width="16" height="16" rx="4" fill="var(--first-color)" transform="rotate(45, 110, 110)" />
+                            <!-- Light bulb in center -->
+                            <circle cx="70" cy="70" r="25" fill="var(--body-color)" />
+                            <path d="M70 55C60 55 55 60 55 70C55 75 60 80 65 83V90H75V83C80 80 85 75 85 70C85 60 80 55 70 55Z" fill="var(--first-color-light)" />
+                            <rect x="67" y="90" width="6" height="3" fill="var(--first-color)" />
+                        </g>
+                        <!-- Connection nodes -->
+                        <circle cx="120" cy="350" r="12" fill="var(--first-color)" />
+                        <line x1="120" y1="350" x2="180" y2="300" stroke="var(--first-color)" stroke-width="3" />
+                        <circle cx="380" cy="150" r="15" fill="var(--first-color-light)" />
+                        <line x1="380" y1="150" x2="320" y2="200" stroke="var(--first-color-light)" stroke-width="3" />
+                    </svg>
+                </div>
+
+                <!-- Textual Content -->
+                <div class="about__data">
+                    <p class="about__description">
+                        <strong>Ar Creative</strong> adalah partner terpercaya Anda dalam menghadirkan solusi teknologi kreatif. Kami menyediakan berbagai macam jasa desain kreatif, multimedia, dan pengembangan produk digital yang inovatif, fungsional, dan estetis.
+                    </p>
+                    <p class="about__description">
+                        Fokus utama kami terletak pada sinergi antara <strong>kreativitas, teknologi terkini, dan solusi digital praktis</strong> untuk membantu individu, komunitas, institusi, hingga usaha mikro kecil dan menengah (UMKM) berkembang di era modern.
+                    </p>
+                    <p class="about__description">
+                        Tidak hanya berorientasi pada bisnis, kami juga memiliki komitmen sosial yang tinggi untuk berbagi <strong>edukasi dan literasi seputar teknologi serta dunia digital</strong>, membantu mempersempit kesenjangan digital di masyarakat.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== SERVICES SECTION ====================-->
+        <section class="services section" id="services">
+            <h2 class="section__title">Layanan Kami</h2>
+
+            <div class="services__container container grid">
+                <!-- Card 1: Jasa Kreatif Digital -->
+                <div class="services__card">
+                    <div class="services__icon-wrapper">
+                        <i class="ri-paint-brush-line services__icon"></i>
+                    </div>
+                    <h3 class="services__card-title">Jasa Kreatif Digital</h3>
+                    <p class="services__card-description">
+                        Desain grafis profesional, branding identitas visual, UI/UX modern untuk aplikasi dan website, serta materi promosi kreatif yang disesuaikan dengan kebutuhan Anda.
+                    </p>
+                </div>
+
+                <!-- Card 2: Produk Digital -->
+                <div class="services__card">
+                    <div class="services__icon-wrapper">
+                        <i class="ri-code-box-line services__icon"></i>
+                    </div>
+                    <h3 class="services__card-title">Produk Digital</h3>
+                    <p class="services__card-description">
+                        Pengembangan website portofolio, landing page, sistem manajemen konten, aplikasi web interaktif, serta template digital siap pakai yang efisien dan responsif.
+                    </p>
+                </div>
+
+                <!-- Card 3: Multimedia & Konten Kreatif -->
+                <div class="services__card">
+                    <div class="services__icon-wrapper">
+                        <i class="ri-video-chat-line services__icon"></i>
+                    </div>
+                    <h3 class="services__card-title">Multimedia & Konten</h3>
+                    <p class="services__card-description">
+                        Produksi konten video kreatif, animasi motion graphics, infografis menarik, serta pengelolaan konten media sosial untuk memperkuat presensi digital Anda.
+                    </p>
+                </div>
+
+                <!-- Card 4: Edukasi & Literasi Teknologi -->
+                <div class="services__card">
+                    <div class="services__icon-wrapper">
+                        <i class="ri-terminal-window-line services__icon"></i>
+                    </div>
+                    <h3 class="services__card-title">Edukasi Teknologi</h3>
+                    <p class="services__card-description">
+                        Pelatihan teknologi terarah, workshop pengembangan skill digital, pemrograman dasar, hingga konsultasi literasi teknologi bagi pemula dan profesional.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== EDUCATION SECTION ====================-->
+        <section class="education section" id="education">
+            <h2 class="section__title">Edukasi & Literasi</h2>
+
+            <div class="education__container container grid">
+                <div class="education__data">
+                    <p class="education__description">
+                        Kami sangat meyakini bahwa teknologi harus bersifat inklusif dan dapat diakses oleh semua kalangan. Oleh karena itu, Ar Creative aktif membagikan konten-konten edukatif seputar perkembangan teknologi, tutorial coding, desain kreatif, dan tips digital secara gratis.
+                    </p>
+                    <p class="education__description">
+                        Melalui berbagai inisiatif program pembelajaran, kami berupaya mendukung <strong>pembelajaran digital yang merata serta menumbuhkan kreativitas lokal</strong> agar generasi muda siap menghadapi tantangan industri masa depan.
+                    </p>
+                    <div class="education__quote">
+                        <i class="ri-double-quotes-l education__quote-icon"></i>
+                        <p class="education__quote-text">
+                            "Mendorong literasi digital adalah investasi terbaik untuk masa depan kreativitas lokal."
+                        </p>
+                    </div>
+                </div>
+
+                <!-- SVG Digital Illustration for Education -->
+                <div class="education__img-wrapper">
+                    <svg viewBox="0 0 500 500" fill="none" xmlns="http://www.w3.org/2000/svg" class="education__img">
+                        <rect width="500" height="500" rx="30" fill="var(--first-color-lighten)" />
+                        <!-- Book and graduation elements -->
+                        <g transform="translate(130, 150)">
+                            <!-- Opened Book Base -->
+                            <path d="M20 150C60 130 110 130 120 140C130 130 180 130 220 150V30C180 10 130 10 120 20C110 10 60 10 20 30V150Z" fill="var(--first-color)" />
+                            <path d="M30 145C65 128 110 128 118 135V25C110 18 65 18 30 35V145Z" fill="var(--body-color)" />
+                            <path d="M210 145C175 128 130 128 122 135V25C130 18 175 18 210 35V145Z" fill="var(--body-color)" />
+                            <!-- Lines of text inside book -->
+                            <line x1="45" y1="50" x2="95" y2="50" stroke="var(--first-color-light)" stroke-width="4" stroke-linecap="round" />
+                            <line x1="45" y1="70" x2="100" y2="70" stroke="var(--first-color-light)" stroke-width="4" stroke-linecap="round" />
+                            <line x1="45" y1="90" x2="80" y2="90" stroke="var(--first-color-light)" stroke-width="4" stroke-linecap="round" />
+                            <line x1="140" y1="50" x2="190" y2="50" stroke="var(--first-color-light)" stroke-width="4" stroke-linecap="round" />
+                            <line x1="140" y1="70" x2="195" y2="70" stroke="var(--first-color-light)" stroke-width="4" stroke-linecap="round" />
+                            <line x1="140" y1="90" x2="175" y2="90" stroke="var(--first-color-light)" stroke-width="4" stroke-linecap="round" />
+                            <!-- Graduation mortarboard cap floating above -->
+                            <path d="M120 -40L180 -15L120 10L60 -15L120 -40Z" fill="var(--first-color-light)" />
+                            <rect x="100" y="-15" width="40" height="20" fill="var(--first-color)" />
+                            <path d="M180 -15V15" stroke="var(--first-color)" stroke-width="3" />
+                            <circle cx="180" cy="15" r="5" fill="var(--first-color-light)" />
+                        </g>
+                    </svg>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== SOCIAL MEDIA SECTION ====================-->
+        <section class="social section" id="social">
+            <h2 class="section__title">Ikuti Sosial Media Kami</h2>
+
+            <div class="social__container container grid">
+                <!-- Facebook -->
+                <a href="https://www.facebook.com/arkreative" target="_blank" class="social__card">
+                    <div class="social__icon-box social__icon-box--fb">
+                        <i class="ri-facebook-fill"></i>
+                    </div>
+                    <span class="social__name">Facebook</span>
+                    <span class="social__username">@arkreative</span>
+                </a>
+
+                <!-- Instagram -->
+                <a href="https://www.instagram.com/arcreative_26" target="_blank" class="social__card">
+                    <div class="social__icon-box social__icon-box--ig">
+                        <i class="ri-instagram-line"></i>
+                    </div>
+                    <span class="social__name">Instagram</span>
+                    <span class="social__username">@arcreative_26</span>
+                </a>
+
+                <!-- YouTube -->
+                <a href="https://www.youtube.com/@arcreative-24" target="_blank" class="social__card">
+                    <div class="social__icon-box social__icon-box--yt">
+                        <i class="ri-youtube-fill"></i>
+                    </div>
+                    <span class="social__name">YouTube</span>
+                    <span class="social__username">@arcreative-24</span>
+                </a>
+            </div>
+        </section>
+
+        <!--==================== CONTACT SECTION ====================-->
+        <section class="contact section" id="contact">
+            <h2 class="section__title">Hubungi Kami</h2>
+
+            <div class="contact__container container grid">
+                <!-- Contact info cards -->
+                <div class="contact__info">
+                    <div class="contact__info-card">
+                        <i class="ri-whatsapp-line contact__info-icon"></i>
+                        <h3 class="contact__info-title">WhatsApp / Telepon</h3>
+                        <span class="contact__info-data">+62 812 4861 6454</span>
+                        <a href="https://wa.me/6281248616454" target="_blank" class="contact__button">
+                            Kirim Pesan <i class="ri-arrow-right-line contact__button-icon"></i>
+                        </a>
+                    </div>
+
+                    <div class="contact__info-card">
+                        <i class="ri-mail-line contact__info-icon"></i>
+                        <h3 class="contact__info-title">Email</h3>
+                        <span class="contact__info-data">infostudio ari</span>
+                        <a href="mailto:infostudio.arcreative@gmail.com" target="_blank" class="contact__button">
+                            Kirim Email <i class="ri-arrow-right-line contact__button-icon"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Contact form -->
+                <div class="contact__content">
+                    <form action="contact.php" method="POST" class="contact__form" id="contact-form">
+                        <!-- Hidden simulation_mode set to 0 by default -->
+                        <input type="hidden" name="simulation_mode" id="simulation_mode" value="0">
+
+                        <div class="contact__form-div">
+                            <label for="user_name" class="contact__form-tag">Nama</label>
+                            <input type="text" name="user_name" id="user_name" placeholder="Masukkan nama Anda" class="contact__form-input" required>
+                        </div>
+
+                        <div class="contact__form-div">
+                            <label for="user_email" class="contact__form-tag">Email</label>
+                            <input type="email" name="user_email" id="user_email" placeholder="Masukkan email Anda" class="contact__form-input" required>
+                        </div>
+
+                        <div class="contact__form-div contact__form-area">
+                            <label for="user_project" class="contact__form-tag">Proyek / Pesan</label>
+                            <textarea name="user_project" id="user_project" placeholder="Tuliskan detail proyek atau pesan Anda" class="contact__form-input" required></textarea>
+                        </div>
+
+                        <button type="submit" class="button">Kirim Pesan</button>
+
+                        <p class="contact__message" id="contact-message"></p>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer">
+        <div class="footer__container container">
+            <h2 class="footer__title">Ar Creative</h2>
+            <p class="footer__text">Digital Creative & Technology Education</p>
+
+            <ul class="footer__social">
+                <li>
+                    <a href="https://www.facebook.com/arkreative" target="_blank" class="footer__social-link">
+                        <i class="ri-facebook-fill"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/arcreative_26" target="_blank" class="footer__social-link">
+                        <i class="ri-instagram-line"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.youtube.com/@arcreative-24" target="_blank" class="footer__social-link">
+                        <i class="ri-youtube-fill"></i>
+                    </a>
+                </li>
+            </ul>
+
+            <span class="footer__copy">
+                &#169; Ar Creative – Digital Creative & Technology Education. All rights reserved.
+            </span>
+        </div>
+    </footer>
+
+    <!--==================== SCROLL UP ====================-->
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="ri-arrow-up-line"></i>
+    </a>
+
+    <!--==================== SCROLLREVEAL ====================-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!--==================== MAIN JS ====================-->
+    <script src="js/main.js"></script>
+</body>
+</html>
