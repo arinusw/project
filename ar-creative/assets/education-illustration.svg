@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="edu-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#725BDE" />
+      <stop offset="100%" stop-color="#4B32B3" />
+    </linearGradient>
+    <linearGradient id="book-grad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#36D1DC" />
+      <stop offset="100%" stop-color="#5B86E5" />
+    </linearGradient>
+    <filter id="shadow-edu" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#725BDE" flood-opacity="0.2"/>
+    </filter>
+  </defs>
+
+  <!-- Background Card Base -->
+  <rect x="50" y="50" width="400" height="400" rx="30" fill="#F8F7FF" />
+
+  <!-- Graduation Cap -->
+  <path d="M250,90 L370,140 L250,190 L130,140 Z" fill="url(#edu-grad)" filter="url(#shadow-edu)"/>
+  <rect x="180" y="160" width="140" height="40" rx="8" fill="#3A239B" />
+  <path d="M370,140 L370,220 C370,230 365,240 360,240" stroke="#FF7B9C" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <circle cx="360" cy="245" r="8" fill="#FF7B9C" />
+
+  <!-- Open Digital Book Base -->
+  <path d="M100,320 C160,300 220,310 250,330 C280,310 340,300 400,320 L400,240 C340,220 280,230 250,250 C220,230 160,220 100,240 Z" fill="#FFFFFF" filter="url(#shadow-edu)"/>
+
+  <!-- Book Pages Lines & Code -->
+  <path d="M120,260 L220,250" stroke="#E2DCFF" stroke-width="4" stroke-linecap="round"/>
+  <path d="M120,280 L200,270" stroke="#725BDE" stroke-width="4" stroke-linecap="round"/>
+  <path d="M120,300 L180,290" stroke="#E2DCFF" stroke-width="4" stroke-linecap="round"/>
+
+  <path d="M280,250 L380,260" stroke="#E2DCFF" stroke-width="4" stroke-linecap="round"/>
+  <path d="M300,270 L380,280" stroke="#FF7B9C" stroke-width="4" stroke-linecap="round"/>
+  <path d="M320,290 L380,300" stroke="#E2DCFF" stroke-width="4" stroke-linecap="round"/>
+
+  <!-- Center Book Spine -->
+  <line x1="250" y1="250" x2="250" y2="330" stroke="#725BDE" stroke-width="4"/>
+
+  <!-- Floating Digital Icons -->
+  <circle cx="120" cy="180" r="22" fill="url(#book-grad)" filter="url(#shadow-edu)"/>
+  <path d="M112,180 L118,174 M112,180 L118,186 M128,180 L122,174 M128,180 L122,186" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+
+  <circle cx="380" cy="180" r="22" fill="#FF7B9C" filter="url(#shadow-edu)"/>
+  <polygon points="375,170 390,180 375,190" fill="#FFFFFF"/>
+
+  <!-- Technology Growth Rocket Icon -->
+  <circle cx="250" cy="385" r="28" fill="url(#edu-grad)"/>
+  <path d="M250,370 C258,378 260,388 260,398 L240,398 C240,388 242,378 250,370 Z" fill="#FFFFFF"/>
+  <polygon points="250,402 245,398 255,398" fill="#FF7B9C"/>
+</svg>
