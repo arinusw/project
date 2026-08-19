@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="aboutGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#7B61FF"/>
+      <stop offset="100%" stop-color="#00F2FE"/>
+    </linearGradient>
+    <linearGradient id="aboutGrad2" x1="100%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FF6B6B"/>
+      <stop offset="100%" stop-color="#7B61FF"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background Layer -->
+  <rect x="50" y="50" width="400" height="400" rx="30" fill="#181824" opacity="0.8"/>
+  <circle cx="250" cy="250" r="160" fill="none" stroke="url(#aboutGrad1)" stroke-width="2" stroke-dasharray="10 8" opacity="0.4"/>
+
+  <!-- Stylized Digital Creative Lightbulb & Gear Vector Art -->
+  <g transform="translate(150, 110)">
+    <!-- Gear backdrop -->
+    <path d="M 100 20 L 110 35 L 128 30 L 133 48 L 150 50 L 148 68 L 163 78 L 153 93 L 163 108 L 148 118 L 150 136 L 133 138 L 128 156 L 110 151 L 100 166 L 86 156 L 72 166 L 62 151 L 44 156 L 39 138 L 22 136 L 24 118 L 9 108 L 19 93 L 9 78 L 24 68 L 22 50 L 39 48 L 44 30 L 62 35 L 72 20 L 86 30 Z" fill="#232338" opacity="0.9" stroke="url(#aboutGrad1)" stroke-width="2"/>
+
+    <!-- Bulb Core -->
+    <path d="M 100 50 C 65 50 45 75 45 105 C 45 130 60 145 70 160 L 130 160 C 140 145 155 130 155 105 C 155 75 135 50 100 50 Z" fill="url(#aboutGrad1)" opacity="0.85"/>
+    <rect x="75" y="168" width="50" height="12" rx="4" fill="#A0A0CF"/>
+    <rect x="82" y="184" width="36" height="8" rx="3" fill="#A0A0CF"/>
+    <path d="M 90 120 L 100 90 L 110 120" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <!-- Digital Nodes & Connection Lines -->
+  <line x1="120" y1="360" x2="220" y2="280" stroke="url(#aboutGrad2)" stroke-width="3"/>
+  <circle cx="120" cy="360" r="10" fill="url(#aboutGrad2)"/>
+  <text x="120" y="395" font-family="sans-serif" font-size="12" fill="#E2E2E8" text-anchor="middle" font-weight="bold">Inovasi</text>
+
+  <line x1="380" y1="360" x2="280" y2="280" stroke="url(#aboutGrad1)" stroke-width="3"/>
+  <circle cx="380" cy="360" r="10" fill="url(#aboutGrad1)"/>
+  <text x="380" y="395" font-family="sans-serif" font-size="12" fill="#E2E2E8" text-anchor="middle" font-weight="bold">Edukasi</text>
+
+  <line x1="250" y1="100" x2="250" y2="150" stroke="#00F2FE" stroke-width="3" stroke-dasharray="4 4"/>
+  <circle cx="250" cy="90" r="8" fill="#00F2FE"/>
+  <text x="250" y="70" font-family="sans-serif" font-size="12" fill="#E2E2E8" text-anchor="middle" font-weight="bold">Solusi Digital</text>
+</svg>
