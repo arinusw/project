@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="heroGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#7c66dc" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#a893fd" stop-opacity="0.3"/>
+    </linearGradient>
+    <linearGradient id="heroGrad2" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#6249cd"/>
+      <stop offset="100%" stop-color="#9375ff"/>
+    </linearGradient>
+    <linearGradient id="screenGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2a2250"/>
+      <stop offset="100%" stop-color="#181332"/>
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="15" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+  </defs>
+
+  <!-- Background decorative shapes -->
+  <circle cx="300" cy="250" r="200" fill="url(#heroGrad1)" />
+  <circle cx="450" cy="120" r="40" fill="#a893fd" opacity="0.4" filter="url(#glow)"/>
+  <circle cx="120" cy="380" r="60" fill="#6249cd" opacity="0.3" filter="url(#glow)"/>
+
+  <!-- Main Monitor Stand -->
+  <rect x="270" y="350" width="60" height="70" rx="8" fill="#4a3e7d" />
+  <ellipse cx="300" cy="420" rx="100" ry="15" fill="#322858" />
+
+  <!-- Monitor Screen Frame -->
+  <rect x="120" y="100" width="360" height="260" rx="16" fill="#382e66" stroke="#6249cd" stroke-width="4"/>
+  <rect x="135" y="115" width="330" height="230" rx="10" fill="url(#screenGrad)"/>
+
+  <!-- Screen Content / UI Artwork -->
+  <!-- Header bar of mock UI -->
+  <rect x="150" y="130" width="300" height="24" rx="6" fill="#231b42"/>
+  <circle cx="165" cy="142" r="4" fill="#ff5f56"/>
+  <circle cx="177" cy="142" r="4" fill="#ffbd2e"/>
+  <circle cx="189" cy="142" r="4" fill="#27c93f"/>
+
+  <!-- Geometric Artwork inside Screen -->
+  <polygon points="170,310 240,210 300,270 380,170 430,310" fill="url(#heroGrad2)" opacity="0.7"/>
+  <circle cx="380" cy="200" r="30" fill="#ffbd2e" opacity="0.8"/>
+  <rect x="170" y="170" width="110" height="12" rx="4" fill="#a893fd" opacity="0.6"/>
+  <rect x="170" y="190" width="80" height="8" rx="3" fill="#6249cd" opacity="0.5"/>
+
+  <!-- Floating Digital Tools Elements -->
+  <!-- Palette / Creative Badge -->
+  <g transform="translate(70, 180)">
+    <rect x="0" y="0" width="90" height="90" rx="18" fill="#ffffff" opacity="0.9" filter="url(#glow)"/>
+    <path d="M45 20 C30 20 20 30 20 45 C20 60 30 70 45 70 C50 70 55 65 55 60 C55 57.5 54 55 52 53 C50 51 49 49 49 46 C49 41.5 52.5 38 57 38 L65 38 C70 38 75 33.5 75 28 C70 23 60 20 45 20 Z" fill="#7c66dc"/>
+    <circle cx="32" cy="35" r="4" fill="#ff5f56"/>
+    <circle cx="45" cy="28" r="4" fill="#ffbd2e"/>
+    <circle cx="58" cy="35" r="4" fill="#27c93f"/>
+  </g>
+
+  <!-- Code / Tech Badge -->
+  <g transform="translate(440, 260)">
+    <rect x="0" y="0" width="90" height="90" rx="18" fill="#ffffff" opacity="0.9" filter="url(#glow)"/>
+    <text x="45" y="52" font-family="monospace" font-size="28" font-weight="bold" fill="#6249cd" text-anchor="middle">&lt;/&gt;</text>
+  </g>
+
+  <!-- Floating Star & Dots -->
+  <path d="M 200 70 Q 205 85 220 90 Q 205 95 200 110 Q 195 95 180 90 Q 195 85 200 70 Z" fill="#a893fd"/>
+  <path d="M 400 390 Q 403 400 413 403 Q 403 406 400 416 Q 397 406 387 403 Q 397 400 400 390 Z" fill="#7c66dc"/>
+</svg>
