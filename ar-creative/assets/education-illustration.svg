@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="eduGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#7c66dc"/>
+      <stop offset="100%" stop-color="#4a3e7d"/>
+    </linearGradient>
+    <filter id="shadowEdu" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#181332" flood-opacity="0.12"/>
+    </filter>
+  </defs>
+
+  <!-- Background decorative elements -->
+  <rect x="30" y="30" width="440" height="340" rx="20" fill="#f5f2ff"/>
+  <circle cx="250" cy="200" r="140" fill="#e8e0ff" opacity="0.6"/>
+
+  <!-- Open Digital Book / Portal Illustration -->
+  <g transform="translate(100, 100)" filter="url(#shadowEdu)">
+    <!-- Book Backing -->
+    <path d="M 10 200 Q 150 230 150 60 Q 150 230 290 200 L 290 40 Q 150 70 150 20 Q 150 70 10 40 Z" fill="#6249cd"/>
+    <!-- Book Left Page -->
+    <path d="M 15 190 Q 145 218 145 55 L 145 25 Q 145 65 15 35 Z" fill="#ffffff"/>
+    <!-- Book Right Page -->
+    <path d="M 285 190 Q 155 218 155 55 L 155 25 Q 155 65 285 35 Z" fill="#fcfaff"/>
+
+    <!-- Left Page Content Lines -->
+    <rect x="35" y="60" width="80" height="6" rx="3" fill="#a893fd"/>
+    <rect x="35" y="78" width="95" height="5" rx="2.5" fill="#e2d9fe"/>
+    <rect x="35" y="92" width="90" height="5" rx="2.5" fill="#e2d9fe"/>
+    <rect x="35" y="106" width="70" height="5" rx="2.5" fill="#e2d9fe"/>
+
+    <!-- Right Page Graphic / Light Bulb / Graduation Cap Concept -->
+    <circle cx="220" cy="90" r="30" fill="#f4f0ff"/>
+    <path d="M 220 70 C 208 70 200 78 200 90 C 200 98 205 104 210 108 L 210 115 L 230 115 L 230 108 C 235 104 240 98 240 90 C 240 78 232 70 220 70 Z" fill="#ffbd2e"/>
+    <rect x="213" y="117" width="14" height="4" rx="1" fill="#7c66dc"/>
+  </g>
+
+  <!-- Floating Digital Knowledge Symbols -->
+  <!-- Light bulb glow particles -->
+  <circle cx="320" cy="170" r="6" fill="#ffbd2e"/>
+  <circle cx="340" cy="140" r="4" fill="#a893fd"/>
+
+  <!-- Code symbol badge floating -->
+  <g transform="translate(60, 80)" filter="url(#shadowEdu)">
+    <circle cx="25" cy="25" r="25" fill="#ffffff"/>
+    <text x="25" y="32" font-family="sans-serif" font-weight="bold" font-size="18" fill="#6249cd" text-anchor="middle">&lt;&gt;</text>
+  </g>
+
+  <!-- Share / Community badge floating -->
+  <g transform="translate(370, 240)" filter="url(#shadowEdu)">
+    <circle cx="25" cy="25" r="25" fill="#a893fd"/>
+    <path d="M 20 25 L 30 18 M 20 25 L 30 32" stroke="#ffffff" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="18" cy="25" r="4" fill="#ffffff"/>
+    <circle cx="32" cy="17" r="4" fill="#ffffff"/>
+    <circle cx="32" cy="33" r="4" fill="#ffffff"/>
+  </g>
+
+  <path d="M 250 40 Q 255 50 265 55 Q 255 60 250 70 Q 245 60 235 55 Q 245 50 250 40 Z" fill="#ffbd2e"/>
+</svg>
