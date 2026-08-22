@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="heroGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6C63FF" />
+      <stop offset="100%" stop-color="#3F3D56" />
+    </linearGradient>
+    <linearGradient id="heroGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8B5CF6" />
+      <stop offset="100%" stop-color="#6366F1" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#000" flood-opacity="0.15" />
+    </filter>
+  </defs>
+
+  <!-- Background decorative elements -->
+  <circle cx="250" cy="250" r="200" fill="url(#heroGrad1)" opacity="0.08" />
+  <circle cx="380" cy="120" r="60" fill="#8B5CF6" opacity="0.12" />
+  <circle cx="100" cy="380" r="80" fill="#6C63FF" opacity="0.1" />
+
+  <!-- Studio Workspace Illustration -->
+  <!-- Desk Base -->
+  <rect x="70" y="360" width="360" height="12" rx="6" fill="#3F3D56" filter="url(#shadow)" />
+
+  <!-- Main Monitor -->
+  <rect x="150" y="160" width="200" height="140" rx="12" fill="#2F2E41" filter="url(#shadow)" />
+  <rect x="160" y="170" width="180" height="110" rx="6" fill="#1E1E2E" />
+  <!-- Monitor Stand -->
+  <rect x="235" y="300" width="30" height="60" fill="#4B4A67" />
+  <ellipse cx="250" cy="360" rx="45" ry="8" fill="#3F3D56" />
+
+  <!-- Screen Content (Code & Art Interface) -->
+  <rect x="170" y="180" width="90" height="8" rx="4" fill="#6C63FF" />
+  <rect x="170" y="195" width="60" height="6" rx="3" fill="#8B5CF6" />
+  <rect x="170" y="208" width="75" height="6" rx="3" fill="#A78BFA" opacity="0.7" />
+  <rect x="170" y="221" width="50" height="6" rx="3" fill="#6366F1" opacity="0.8" />
+
+  <circle cx="300" cy="210" r="20" fill="url(#heroGrad2)" />
+  <polygon points="290,240 320,240 305,215" fill="#EC4899" opacity="0.8" />
+  <rect x="270" y="245" width="55" height="20" rx="4" fill="#10B981" opacity="0.7" />
+
+  <!-- Floating Digital Art Elements -->
+  <!-- Palette / Laptop side -->
+  <g filter="url(#shadow)">
+    <rect x="80" y="260" width="90" height="60" rx="8" fill="#3F3D56" transform="rotate(-10 125 290)" />
+    <rect x="85" y="265" width="80" height="50" rx="5" fill="#6C63FF" transform="rotate(-10 125 290)" opacity="0.9" />
+  </g>
+
+  <!-- Graphics Tablet / Stylus -->
+  <g filter="url(#shadow)">
+    <rect x="320" y="310" width="100" height="50" rx="6" fill="#2F2E41" transform="rotate(5 370 335)" />
+    <rect x="330" y="315" width="80" height="40" rx="4" fill="#1E1E2E" transform="rotate(5 370 335)" />
+    <!-- Stylus -->
+    <line x1="390" y1="290" x2="360" y2="340" stroke="#EC4899" stroke-width="4" stroke-linecap="round" />
+  </g>
+
+  <!-- Creative Sparkles / Nodes -->
+  <circle cx="120" cy="130" r="8" fill="#EC4899" />
+  <circle cx="390" cy="200" r="12" fill="#8B5CF6" />
+  <path d="M 230 100 L 235 115 L 250 120 L 235 125 L 230 140 L 225 125 L 210 120 L 225 115 Z" fill="#F59E0B" />
+  <path d="M 340 90 L 343 100 L 353 103 L 343 106 L 340 116 L 337 106 L 327 103 L 337 100 Z" fill="#10B981" />
+</svg>
