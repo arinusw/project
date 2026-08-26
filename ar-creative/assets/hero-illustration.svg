@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#7b61ff;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#9d88ff;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="grad2" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#1e1b2e;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#6c5ce7;stop-opacity:0.3" />
+    </linearGradient>
+  </defs>
+  <!-- Background Blob -->
+  <path d="M 350 100 Q 450 200 380 320 Q 300 400 180 370 Q 80 330 100 200 Q 120 80 250 80 Q 350 80 350 100 Z" fill="url(#grad2)"/>
+
+  <!-- Digital Screen Floating -->
+  <rect x="120" y="80" width="260" height="180" rx="16" fill="#1e1e28" stroke="#7b61ff" stroke-width="4"/>
+  <rect x="140" y="100" width="220" height="110" rx="8" fill="#2a2a38"/>
+  <circle cx="160" cy="235" r="8" fill="#7b61ff"/>
+  <rect x="180" y="230" width="80" height="10" rx="5" fill="#4a4a60"/>
+
+  <!-- Graphics inside screen -->
+  <path d="M 150 180 Q 190 130 230 160 T 310 130 T 350 170" fill="none" stroke="#7b61ff" stroke-width="3" stroke-dasharray="4 2"/>
+  <circle cx="230" cy="160" r="6" fill="#00d2d3"/>
+  <circle cx="310" cy="130" r="6" fill="#ff6b6b"/>
+
+  <!-- Creative Elements -->
+  <circle cx="90" cy="120" r="25" fill="url(#grad1)" opacity="0.8"/>
+  <polygon points="390,260 420,310 360,310" fill="#00d2d3" opacity="0.7"/>
+  <rect x="70" y="270" width="40" height="40" rx="8" fill="#ff6b6b" opacity="0.7" transform="rotate(15 90 290)"/>
+
+  <!-- Floating Sparks -->
+  <circle cx="280" cy="60" r="5" fill="#7b61ff"/>
+  <circle cx="410" cy="150" r="8" fill="#00d2d3"/>
+  <circle cx="120" cy="330" r="6" fill="#ff9ff3"/>
+</svg>
