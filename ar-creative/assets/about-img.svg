@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="aboutGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6C5CE7"/>
+      <stop offset="100%" stop-color="#00cec9"/>
+    </linearGradient>
+    <linearGradient id="aboutGrad2" x1="100%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#a29bfe"/>
+      <stop offset="100%" stop-color="#fd79a8"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background decorative shapes -->
+  <rect x="60" y="40" width="380" height="320" rx="24" fill="url(#aboutGrad1)" opacity="0.08"/>
+  <circle cx="400" cy="90" r="45" fill="url(#aboutGrad2)" opacity="0.2"/>
+  <circle cx="90" cy="310" r="55" fill="url(#aboutGrad1)" opacity="0.15"/>
+
+  <!-- Lightbulb / Idea & Technology Fusion -->
+  <g transform="translate(160, 50)">
+    <!-- Lightbulb Outer Glow -->
+    <circle cx="90" cy="110" r="85" fill="#6C5CE7" opacity="0.1"/>
+
+    <!-- Lightbulb Glass Frame -->
+    <path d="M 45 110 C 45 70, 60 40, 90 40 C 120 40, 135 70, 135 110 C 135 135, 120 150, 115 165 L 65 165 C 60 150, 45 135, 45 110 Z"
+          fill="none" stroke="url(#aboutGrad1)" stroke-width="6" stroke-linejoin="round"/>
+
+    <!-- Lightbulb Base -->
+    <rect x="70" y="170" width="40" height="8" rx="2" fill="#718093"/>
+    <rect x="73" y="181" width="34" height="8" rx="2" fill="#718093"/>
+    <path d="M 78 192 L 102 192 L 96 200 L 84 200 Z" fill="#2f3640"/>
+
+    <!-- Interior Creative Tech Nodes -->
+    <circle cx="90" cy="85" r="10" fill="#6C5CE7"/>
+    <circle cx="68" cy="120" r="8" fill="#00cec9"/>
+    <circle cx="112" cy="120" r="8" fill="#fd79a8"/>
+
+    <!-- Connecting Circuit Lines -->
+    <line x1="90" y1="85" x2="68" y2="120" stroke="#6C5CE7" stroke-width="3"/>
+    <line x1="90" y1="85" x2="112" y2="120" stroke="#6C5CE7" stroke-width="3"/>
+    <line x1="68" y1="120" x2="112" y2="120" stroke="#00cec9" stroke-width="3"/>
+    <line x1="90" y1="85" x2="90" y2="155" stroke="#a29bfe" stroke-width="3" stroke-dasharray="4,4"/>
+  </g>
+
+  <!-- Surrounding Service Badges -->
+  <!-- Badge 1: Code/Web -->
+  <g transform="translate(60, 140)">
+    <rect x="0" y="0" width="70" height="60" rx="14" fill="#ffffff" filter="drop-shadow(0px 8px 16px rgba(0,0,0,0.08))"/>
+    <path d="M 22 24 L 14 30 L 22 36" fill="none" stroke="#6C5CE7" stroke-width="3" stroke-linecap="round"/>
+    <path d="M 48 24 L 56 30 L 48 36" fill="none" stroke="#6C5CE7" stroke-width="3" stroke-linecap="round"/>
+  </g>
+
+  <!-- Badge 2: Media/Design -->
+  <g transform="translate(370, 180)">
+    <rect x="0" y="0" width="70" height="60" rx="14" fill="#ffffff" filter="drop-shadow(0px 8px 16px rgba(0,0,0,0.08))"/>
+    <circle cx="35" cy="30" r="14" fill="none" stroke="#fd79a8" stroke-width="3"/>
+    <circle cx="35" cy="30" r="6" fill="#fd79a8"/>
+  </g>
+
+  <!-- Badge 3: Education/Graduation Cap -->
+  <g transform="translate(215, 290)">
+    <rect x="0" y="0" width="70" height="60" rx="14" fill="#ffffff" filter="drop-shadow(0px 8px 16px rgba(0,0,0,0.08))"/>
+    <path d="M 20 28 L 35 20 L 50 28 L 35 36 Z" fill="none" stroke="#00cec9" stroke-width="3"/>
+    <path d="M 25 31 L 25 40 C 25 43 45 43 45 40 L 45 31" fill="none" stroke="#00cec9" stroke-width="2.5"/>
+  </g>
+</svg>
