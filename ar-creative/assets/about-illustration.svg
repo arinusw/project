@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="aboutGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8c77ff"/>
+      <stop offset="100%" stop-color="#5642c5"/>
+    </linearGradient>
+  </defs>
+  <!-- Background Decorative Shapes -->
+  <rect x="50" y="50" width="400" height="400" rx="40" fill="#181824" opacity="0.5"/>
+  <circle cx="250" cy="250" r="160" fill="none" stroke="#7059e2" stroke-width="2" stroke-dasharray="8 8"/>
+
+  <!-- Center Workspace/Artboard Frame -->
+  <rect x="100" y="100" width="300" height="300" rx="20" fill="#222232" stroke="#7059e2" stroke-width="3"/>
+
+  <!-- Creative Gears & Brain Concept -->
+  <circle cx="250" cy="200" r="55" fill="url(#aboutGrad)"/>
+  <path d="M250 160 L250 240 M210 200 L290 200 M222 172 L278 228 M222 228 L278 172" stroke="#ffffff" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="250" cy="200" r="30" fill="#222232"/>
+  <circle cx="250" cy="200" r="15" fill="#8c77ff"/>
+
+  <!-- Sub-nodes / Ideas -->
+  <line x1="250" y1="255" x2="180" y2="320" stroke="#7059e2" stroke-width="3"/>
+  <line x1="250" y1="255" x2="320" y2="320" stroke="#7059e2" stroke-width="3"/>
+
+  <g transform="translate(145, 295)">
+    <rect x="0" y="0" width="70" height="50" rx="10" fill="#32324a" stroke="#8c77ff" stroke-width="2"/>
+    <text x="35" y="30" font-family="sans-serif" font-weight="bold" font-size="14" fill="#ffffff" text-anchor="middle">JASA</text>
+  </g>
+
+  <g transform="translate(285, 295)">
+    <rect x="0" y="0" width="70" height="50" rx="10" fill="#32324a" stroke="#8c77ff" stroke-width="2"/>
+    <text x="35" y="30" font-family="sans-serif" font-weight="bold" font-size="14" fill="#ffffff" text-anchor="middle">PRODUK</text>
+  </g>
+</svg>

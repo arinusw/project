@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="eduGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#7059e2"/>
+      <stop offset="100%" stop-color="#9a8cff"/>
+    </linearGradient>
+  </defs>
+  <!-- Lightbulbs & Books Concept -->
+  <rect x="60" y="60" width="380" height="380" rx="30" fill="#1b1b29"/>
+
+  <!-- Book / Knowledge Base Base -->
+  <path d="M120 340 Q250 370 380 340 L380 360 Q250 390 120 360 Z" fill="#7059e2"/>
+  <path d="M120 320 Q250 350 380 320 L380 340 Q250 370 120 340 Z" fill="#5642c5"/>
+  <path d="M120 300 Q250 330 380 300 L380 320 Q250 350 120 320 Z" fill="#8c77ff"/>
+
+  <!-- Graduation / Digital Education Glowing Bulb -->
+  <circle cx="250" cy="180" r="70" fill="url(#eduGrad)" opacity="0.2"/>
+  <circle cx="250" cy="180" r="50" fill="url(#eduGrad)"/>
+
+  <!-- Bulb Filament / Icon -->
+  <path d="M235 170 L250 150 L265 170 L250 190 Z" fill="#ffffff"/>
+  <rect x="242" y="215" width="16" height="20" rx="3" fill="#ffffff"/>
+
+  <!-- Digital Waves / Rays -->
+  <line x1="250" y1="90" x2="250" y2="110" stroke="#8c77ff" stroke-width="4" stroke-linecap="round"/>
+  <line x1="170" y1="180" x2="150" y2="180" stroke="#8c77ff" stroke-width="4" stroke-linecap="round"/>
+  <line x1="330" y1="180" x2="350" y2="180" stroke="#8c77ff" stroke-width="4" stroke-linecap="round"/>
+  <line x1="190" y1="120" x2="175" y2="105" stroke="#8c77ff" stroke-width="4" stroke-linecap="round"/>
+  <line x1="310" y1="120" x2="325" y2="105" stroke="#8c77ff" stroke-width="4" stroke-linecap="round"/>
+</svg>
