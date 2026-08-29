@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="edu-grad-1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00F2FE"/>
+      <stop offset="100%" stop-color="#7B61FF"/>
+    </linearGradient>
+    <linearGradient id="edu-grad-2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFBD2E"/>
+      <stop offset="100%" stop-color="#FF6584"/>
+    </linearGradient>
+    <filter id="edu-glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="15" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <!-- Glowing background elements -->
+  <circle cx="380" cy="120" r="90" fill="#00F2FE" opacity="0.2" filter="url(#edu-glow)"/>
+  <circle cx="120" cy="280" r="80" fill="#7B61FF" opacity="0.25" filter="url(#edu-glow)"/>
+
+  <!-- Main Digital Book / Knowledge Portal Frame -->
+  <rect x="60" y="60" width="380" height="280" rx="20" fill="#1E1E28" stroke="rgba(255,255,255,0.12)" stroke-width="2"/>
+
+  <!-- Screen Top Bar -->
+  <path d="M 60 80 Q 60 60 80 60 L 420 60 Q 440 60 440 80 L 440 95 L 60 95 Z" fill="rgba(255,255,255,0.05)"/>
+  <circle cx="85" cy="78" r="5" fill="#FF6584"/>
+  <circle cx="102" cy="78" r="5" fill="#FFBD2E"/>
+  <circle cx="119" cy="78" r="5" fill="#00F2FE"/>
+
+  <!-- Digital Graduation / Learning Symbol -->
+  <g transform="translate(150, 140)">
+    <!-- Graduation Cap -->
+    <path d="M 0 25 L 50 0 L 100 25 L 50 50 Z" fill="url(#edu-grad-1)"/>
+    <path d="M 20 37 L 20 60 C 20 70, 80 70, 80 60 L 80 37" fill="none" stroke="#7B61FF" stroke-width="3"/>
+    <path d="M 85 28 L 85 62 L 92 68 L 85 74" fill="none" stroke="#FFBD2E" stroke-width="2.5" stroke-linecap="round"/>
+  </g>
+
+  <!-- Learning Module Cards -->
+  <!-- Module 1: Web & Code -->
+  <g transform="translate(280, 130)">
+    <rect x="0" y="0" width="130" height="60" rx="10" fill="#2A2A38" stroke="rgba(255,255,255,0.1)" stroke-width="1.5"/>
+    <rect x="12" y="15" width="30" height="30" rx="6" fill="rgba(0,242,254,0.15)"/>
+    <path d="M 22 24 L 17 29 L 22 34 M 32 24 L 37 29 L 32 34" stroke="#00F2FE" stroke-width="2" fill="none" stroke-linecap="round"/>
+    <rect x="50" y="18" width="65" height="6" rx="3" fill="#ffffff"/>
+    <rect x="50" y="32" width="45" height="5" rx="2.5" fill="#a0a0b0"/>
+  </g>
+
+  <!-- Module 2: Design & Creativity -->
+  <g transform="translate(280, 205)">
+    <rect x="0" y="0" width="130" height="60" rx="10" fill="#2A2A38" stroke="rgba(255,255,255,0.1)" stroke-width="1.5"/>
+    <rect x="12" y="15" width="30" height="30" rx="6" fill="rgba(255,101,132,0.15)"/>
+    <circle cx="27" cy="30" r="8" stroke="#FF6584" stroke-width="2" fill="none"/>
+    <rect x="50" y="18" width="65" height="6" rx="3" fill="#ffffff"/>
+    <rect x="50" y="32" width="50" height="5" rx="2.5" fill="#a0a0b0"/>
+  </g>
+
+  <!-- Module 3: Digital Literacy -->
+  <g transform="translate(90, 230)">
+    <rect x="0" y="0" width="160" height="65" rx="10" fill="#2A2A38" stroke="rgba(255,255,255,0.1)" stroke-width="1.5"/>
+    <rect x="12" y="15" width="35" height="35" rx="8" fill="rgba(255,189,46,0.15)"/>
+    <!-- Lightbulb Icon -->
+    <path d="M 29 23 C 25 23, 22 26, 22 30 C 22 33, 25 35, 26 37 L 32 37 C 33 35, 36 33, 36 30 C 36 26, 33 23, 29 23 Z M 26 40 L 32 40" stroke="#FFBD2E" stroke-width="2" fill="none" stroke-linecap="round"/>
+    <rect x="56" y="20" width="85" height="6" rx="3" fill="#ffffff"/>
+    <rect x="56" y="34" width="60" height="5" rx="2.5" fill="#a0a0b0"/>
+  </g>
+
+  <!-- Floating Particles / Stars -->
+  <circle cx="100" cy="110" r="3" fill="#00F2FE"/>
+  <circle cx="410" cy="290" r="4" fill="#FFBD2E"/>
+  <polygon points="230,100 233,108 241,111 233,114 230,122 227,114 219,111 227,108" fill="#7B61FF"/>
+</svg>
