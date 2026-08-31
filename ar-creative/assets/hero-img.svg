@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="heroGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6c5ce7" stop-opacity="0.9" />
+      <stop offset="100%" stop-color="#a29bfe" stop-opacity="0.8" />
+    </linearGradient>
+    <linearGradient id="heroGrad2" x1="100%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#00cec9" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#6c5ce7" stop-opacity="0.6" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="10" stdDeviation="15" flood-color="#000" flood-opacity="0.15" />
+    </filter>
+  </defs>
+
+  <!-- Background Decorative Shapes -->
+  <circle cx="250" cy="250" r="180" fill="url(#heroGrad1)" opacity="0.15" />
+  <circle cx="360" cy="140" r="60" fill="url(#heroGrad2)" opacity="0.25" />
+  <circle cx="120" cy="380" r="40" fill="#6c5ce7" opacity="0.1" />
+
+  <!-- Main Digital Canvas Container -->
+  <rect x="80" y="100" width="340" height="260" rx="20" fill="#ffffff" filter="url(#shadow)" opacity="0.95" />
+
+  <!-- Screen Header -->
+  <rect x="80" y="100" width="340" height="36" rx="20" fill="#2d3436" opacity="0.9" />
+  <circle cx="105" cy="118" r="5" fill="#ff7675" />
+  <circle cx="123" cy="118" r="5" fill="#ffeaa7" />
+  <circle cx="141" cy="118" r="5" fill="#55efc4" />
+
+  <!-- Creative Digital Art Elements Inside Canvas -->
+  <!-- Code & Tech UI Elements -->
+  <rect x="110" y="160" width="130" height="12" rx="6" fill="#6c5ce7" opacity="0.8" />
+  <rect x="110" y="182" width="90" height="10" rx="5" fill="#a29bfe" opacity="0.6" />
+  <rect x="110" y="200" width="160" height="10" rx="5" fill="#dfe6e9" />
+  <rect x="110" y="218" width="110" height="10" rx="5" fill="#dfe6e9" />
+
+  <!-- Visual Creative Graphics / Chart -->
+  <rect x="290" y="160" width="100" height="120" rx="12" fill="url(#heroGrad1)" opacity="0.1" />
+  <path d="M 300 250 Q 325 200, 350 220 T 380 180" fill="none" stroke="#6c5ce7" stroke-width="4" stroke-linecap="round" />
+  <circle cx="380" cy="180" r="6" fill="#6c5ce7" />
+  <circle cx="350" cy="220" r="5" fill="#00cec9" />
+
+  <!-- Floating Digital Floating Cubes / Cards -->
+  <g transform="translate(60, 260)" filter="url(#shadow)">
+    <rect x="0" y="0" width="110" height="90" rx="14" fill="#ffffff" />
+    <circle cx="35" cy="35" r="16" fill="url(#heroGrad2)" />
+    <rect x="20" y="62" width="70" height="8" rx="4" fill="#6c5ce7" opacity="0.7" />
+  </g>
+
+  <g transform="translate(320, 270)" filter="url(#shadow)">
+    <rect x="0" y="0" width="120" height="85" rx="14" fill="#6c5ce7" />
+    <path d="M 25 45 L 45 25 L 65 45 L 45 65 Z" fill="#ffffff" opacity="0.9" />
+    <rect x="75" y="30" width="30" height="8" rx="4" fill="#ffffff" opacity="0.8" />
+    <rect x="75" y="46" width="20" height="8" rx="4" fill="#ffffff" opacity="0.5" />
+  </g>
+
+  <!-- Decorative Sparkles/Nodes -->
+  <polygon points="250,50 255,65 270,70 255,75 250,90 245,75 230,70 245,65" fill="#00cec9" />
+  <polygon points="420,380 423,390 433,393 423,396 420,406 417,396 407,393 417,390" fill="#6c5ce7" />
+</svg>

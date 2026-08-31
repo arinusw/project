@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="aboutGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6c5ce7" />
+      <stop offset="100%" stop-color="#00cec9" />
+    </linearGradient>
+    <filter id="shadowAbout" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#000" flood-opacity="0.12" />
+    </filter>
+  </defs>
+
+  <!-- Background Glow -->
+  <circle cx="250" cy="250" r="170" fill="url(#aboutGrad1)" opacity="0.12" />
+
+  <!-- Center Layered Studio Emblem / Target / Core -->
+  <g filter="url(#shadowAbout)">
+    <rect x="130" y="110" width="240" height="280" rx="24" fill="#ffffff" opacity="0.95" />
+  </g>
+
+  <!-- Inner Illustration Content -->
+  <!-- Creative Layers / Blocks -->
+  <rect x="160" y="140" width="180" height="70" rx="14" fill="#6c5ce7" opacity="0.9" />
+  <circle cx="195" cy="175" r="18" fill="#ffffff" opacity="0.3" />
+  <rect x="225" y="163" width="90" height="10" rx="5" fill="#ffffff" />
+  <rect x="225" y="179" width="60" height="8" rx="4" fill="#ffffff" opacity="0.7" />
+
+  <rect x="160" y="225" width="180" height="70" rx="14" fill="#00cec9" opacity="0.85" />
+  <path d="M 185 268 L 205 248 L 225 268" fill="none" stroke="#ffffff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+  <rect x="235" y="248" width="80" height="10" rx="5" fill="#ffffff" />
+  <rect x="235" y="264" width="50" height="8" rx="4" fill="#ffffff" opacity="0.7" />
+
+  <rect x="160" y="310" width="180" height="50" rx="14" fill="#a29bfe" opacity="0.8" />
+  <circle cx="190" cy="335" r="10" fill="#ffffff" />
+  <rect x="215" y="331" width="100" height="8" rx="4" fill="#ffffff" />
+
+  <!-- Orbiting Floating Nodes (Representing Services, Products, Education) -->
+  <g transform="translate(70, 180)" filter="url(#shadowAbout)">
+    <circle cx="35" cy="35" r="32" fill="#ffffff" />
+    <circle cx="35" cy="35" r="22" fill="#6c5ce7" />
+    <path d="M 30 35 L 40 35 M 35 30 L 35 40" stroke="#ffffff" stroke-width="3" stroke-linecap="round" />
+  </g>
+
+  <g transform="translate(360, 260)" filter="url(#shadowAbout)">
+    <circle cx="35" cy="35" r="32" fill="#ffffff" />
+    <circle cx="35" cy="35" r="22" fill="#00cec9" />
+    <polygon points="35,25 43,38 27,38" fill="#ffffff" />
+  </g>
+</svg>

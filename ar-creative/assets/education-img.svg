@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="eduGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6c5ce7" />
+      <stop offset="100%" stop-color="#fd79a8" />
+    </linearGradient>
+    <filter id="shadowEdu" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#000" flood-opacity="0.12" />
+    </filter>
+  </defs>
+
+  <circle cx="250" cy="250" r="170" fill="url(#eduGrad)" opacity="0.12" />
+
+  <!-- Open Digital Book / Knowledge Base Structure -->
+  <g filter="url(#shadowEdu)">
+    <rect x="110" y="140" width="280" height="220" rx="20" fill="#ffffff" />
+  </g>
+
+  <!-- Laptop / Screen Header Inside Book -->
+  <path d="M 140 170 H 360 V 310 H 140 Z" fill="#f8f9fa" rx="8" />
+  <rect x="160" y="190" width="180" height="12" rx="6" fill="#6c5ce7" />
+  <rect x="160" y="212" width="140" height="10" rx="5" fill="#a29bfe" opacity="0.7" />
+  <rect x="160" y="230" width="160" height="10" rx="5" fill="#dfe6e9" />
+
+  <!-- Graduation Cap / Knowledge Symbol -->
+  <g transform="translate(250, 110)" filter="url(#shadowEdu)">
+    <polygon points="0,-25 45,0 0,25 -45,0" fill="#6c5ce7" />
+    <polygon points="0,-15 30,0 0,15 -30,0" fill="#a29bfe" />
+    <rect x="-18" y="10" width="36" height="18" fill="#2d3436" rx="4" />
+    <path d="M 30 0 V 30" stroke="#fd79a8" stroke-width="4" stroke-linecap="round" />
+    <circle cx="30" cy="32" r="5" fill="#fd79a8" />
+  </g>
+
+  <!-- Floating Digital Code Particles -->
+  <circle cx="120" cy="380" r="25" fill="#6c5ce7" opacity="0.2" />
+  <circle cx="380" cy="380" r="30" fill="#00cec9" opacity="0.2" />
+</svg>
