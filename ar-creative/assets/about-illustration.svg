@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="aboutGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00CEC9" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#6C5CE7" stop-opacity="0.5"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="50" y="50" width="400" height="400" rx="24" fill="none" stroke="url(#aboutGrad)" stroke-width="4"/>
+  <circle cx="250" cy="200" r="90" fill="url(#aboutGrad)" opacity="0.8"/>
+
+  <!-- Creative Head / Idea Vector Illustration -->
+  <path d="M 180 250 C 180 170, 320 170, 320 250 C 320 290, 290 310, 280 340 L 220 340 C 210 310, 180 290, 180 250 Z" fill="#1E1E2E" stroke="#6C5CE7" stroke-width="3"/>
+
+  <!-- Lightbulb Filament (Digital Creativity) -->
+  <path d="M 235 360 L 265 360 M 240 370 L 260 370" stroke="#FFEAA7" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="250" cy="230" r="20" fill="#FFEAA7"/>
+  <path d="M 250 200 L 250 180 M 215 215 L 200 200 M 285 215 L 300 200" stroke="#FFEAA7" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Tech Nodes -->
+  <circle cx="130" cy="130" r="8" fill="#6C5CE7"/>
+  <line x1="130" y1="130" x2="200" y2="180" stroke="#6C5CE7" stroke-width="2" stroke-dasharray="4"/>
+
+  <circle cx="370" cy="140" r="10" fill="#FD79A8"/>
+  <line x1="370" y1="140" x2="300" y2="190" stroke="#FD79A8" stroke-width="2" stroke-dasharray="4"/>
+</svg>
