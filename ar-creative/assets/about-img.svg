@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="aboutGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8062ec"/>
+      <stop offset="100%" stop-color="#5537be"/>
+    </linearGradient>
+    <linearGradient id="aboutGrad2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#f3f1fd"/>
+      <stop offset="100%" stop-color="#e2dcfe"/>
+    </linearGradient>
+    <filter id="aboutShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#5537be" flood-opacity="0.12"/>
+    </filter>
+  </defs>
+
+  <!-- Background Layer -->
+  <rect x="50" y="50" width="400" height="400" rx="30" fill="url(#aboutGrad2)"/>
+
+  <!-- Glowing Orbit lines -->
+  <circle cx="250" cy="250" r="160" stroke="#8062ec" stroke-width="2" stroke-dasharray="8,8" fill="none" opacity="0.4"/>
+  <circle cx="250" cy="250" r="110" stroke="#9d85f2" stroke-width="2" fill="none" opacity="0.6"/>
+
+  <!-- Center Hub: Digital Innovation & Education -->
+  <circle cx="250" cy="250" r="65" fill="url(#aboutGrad1)" filter="url(#aboutShadow)"/>
+  <!-- Lightbulb / Idea Icon inside central hub -->
+  <path d="M250 215 C233 215 220 228 220 245 C220 257 228 267 238 272 L238 282 C238 285 241 288 244 288 L256 288 C259 288 262 285 262 282 L262 272 C272 267 280 257 280 245 C280 228 267 215 250 215 Z" fill="#ffffff"/>
+  <rect x="242" y="292" width="16" height="4" rx="2" fill="#ffffff"/>
+
+  <!-- Node 1: Creative Design -->
+  <g transform="translate(110, 130)">
+    <circle cx="35" cy="35" r="35" fill="#ffffff" filter="url(#aboutShadow)"/>
+    <path d="M25 45 L45 25 M37 25 L45 25 L45 33" stroke="#8062ec" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <!-- Node 2: Technology & Code -->
+  <g transform="translate(320, 130)">
+    <circle cx="35" cy="35" r="35" fill="#ffffff" filter="url(#aboutShadow)"/>
+    <path d="M25 35 L30 30 L25 25 M45 35 L40 30 L45 25" stroke="#8062ec" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <!-- Node 3: Education & Literacy -->
+  <g transform="translate(215, 340)">
+    <circle cx="35" cy="35" r="35" fill="#ffffff" filter="url(#aboutShadow)"/>
+    <!-- Graduation Cap -->
+    <path d="M20 30 L35 22 L50 30 L35 38 Z" fill="#8062ec"/>
+    <path d="M25 34 L25 42 C25 45 35 48 35 48 C35 48 45 45 45 42 L45 34" stroke="#8062ec" stroke-width="2" fill="none"/>
+  </g>
+
+  <!-- Decorative Stars -->
+  <polygon points="100,320 104,330 115,330 106,337 109,348 100,341 91,348 94,337 85,330 96,330" fill="#feca57"/>
+  <polygon points="380,310 383,318 392,318 385,323 387,331 380,326 373,331 375,323 368,318 377,318" fill="#8062ec"/>
+</svg>

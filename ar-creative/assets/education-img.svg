@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="eduGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#9d85f2"/>
+      <stop offset="100%" stop-color="#5537be"/>
+    </linearGradient>
+    <filter id="eduShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#5537be" flood-opacity="0.15"/>
+    </filter>
+  </defs>
+
+  <rect x="60" y="80" width="380" height="340" rx="24" fill="#ffffff" filter="url(#eduShadow)"/>
+  <path d="M60 104 C60 90.7 70.7 80 84 80 L416 80 C429.3 80 440 90.7 440 104 L440 150 L60 150 Z" fill="url(#eduGrad)"/>
+
+  <!-- Laptop Header Elements -->
+  <circle cx="90" cy="115" r="7" fill="#ff6b6b"/>
+  <circle cx="110" cy="115" r="7" fill="#feca57"/>
+  <circle cx="130" cy="115" r="7" fill="#1dd1a1"/>
+  <rect x="160" y="103" width="240" height="24" rx="12" fill="#ffffff" opacity="0.2"/>
+
+  <!-- Content Lines & Cards -->
+  <rect x="90" y="180" width="180" height="20" rx="6" fill="#8062ec" opacity="0.8"/>
+  <rect x="90" y="215" width="140" height="12" rx="4" fill="#e2dcfe"/>
+  <rect x="90" y="235" width="160" height="12" rx="4" fill="#e2dcfe"/>
+
+  <!-- Play / Video / Digital Course Card -->
+  <rect x="90" y="270" width="180" height="110" rx="12" fill="#f3f1fd" stroke="#d5ccfd" stroke-width="2"/>
+  <circle cx="180" cy="325" r="22" fill="url(#eduGrad)"/>
+  <polygon points="175,315 190,325 175,335" fill="#ffffff"/>
+
+  <!-- Floating Book & Certificate Badges -->
+  <g transform="translate(300, 180)">
+    <rect x="0" y="0" width="110" height="130" rx="10" fill="url(#eduGrad)"/>
+    <path d="M20 30 L90 30 M20 50 L90 50 M20 70 L70 70" stroke="#ffffff" stroke-width="4" stroke-linecap="round"/>
+    <circle cx="75" cy="95" r="14" fill="#feca57"/>
+  </g>
+
+  <g transform="translate(300, 330)">
+    <rect x="0" y="0" width="110" height="50" rx="8" fill="#feca57"/>
+    <text x="55" y="30" text-anchor="middle" font-family="'Poppins', sans-serif" font-size="12" font-weight="bold" fill="#333">EDUKASI</text>
+  </g>
+</svg>
