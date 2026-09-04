@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="aboutGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8062ec"/>
+      <stop offset="100%" stop-color="#3c1eac"/>
+    </linearGradient>
+    <filter id="aboutShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#3c1eac" flood-opacity="0.2"/>
+    </filter>
+  </defs>
+
+  <!-- Background Pattern -->
+  <rect x="50" y="50" width="400" height="400" rx="30" fill="#f6f4fe"/>
+  <circle cx="250" cy="250" r="160" fill="url(#aboutGrad)" opacity="0.08"/>
+
+  <!-- Central Lightbulb & Bulb Concept (Innovation & Digital Studio) -->
+  <g filter="url(#aboutShadow)">
+    <rect x="110" y="90" width="280" height="320" rx="20" fill="#ffffff"/>
+  </g>
+
+  <!-- Inner Art Grid -->
+  <g filter="url(#aboutShadow)">
+    <circle cx="250" cy="210" r="70" fill="url(#aboutGrad)"/>
+    <!-- Lightbulb Vector Icon inside circle -->
+    <path d="M250 160 C222 160 200 182 200 210 C200 228 210 243 225 252 L225 265 C225 268 227 270 230 270 L270 270 C273 270 275 268 275 265 L275 252 C290 243 300 228 300 210 C300 182 278 160 250 160 Z" fill="#ffffff"/>
+    <rect x="232" y="275" width="36" height="6" rx="3" fill="#ffffff" opacity="0.8"/>
+  </g>
+
+  <!-- Feature Tags / Pillars -->
+  <!-- 1. Kreativitas -->
+  <g filter="url(#aboutShadow)">
+    <rect x="80" y="140" width="120" height="45" rx="10" fill="#ffffff"/>
+    <circle cx="105" cy="162" r="10" fill="#ff7675"/>
+    <rect x="125" y="155" width="60" height="6" rx="3" fill="#2d3436"/>
+    <rect x="125" y="167" width="40" height="5" rx="2.5" fill="#b2bec3"/>
+  </g>
+
+  <!-- 2. Teknologi -->
+  <g filter="url(#aboutShadow)">
+    <rect x="300" y="160" width="120" height="45" rx="10" fill="#ffffff"/>
+    <circle cx="325" cy="182" r="10" fill="#00b894"/>
+    <rect x="345" y="175" width="60" height="6" rx="3" fill="#2d3436"/>
+    <rect x="345" y="187" width="40" height="5" rx="2.5" fill="#b2bec3"/>
+  </g>
+
+  <!-- 3. Edukasi -->
+  <g filter="url(#aboutShadow)">
+    <rect x="90" y="320" width="130" height="48" rx="10" fill="#ffffff"/>
+    <circle cx="115" cy="344" r="10" fill="#0984e3"/>
+    <rect x="135" y="337" width="65" height="6" rx="3" fill="#2d3436"/>
+    <rect x="135" y="349" width="45" height="5" rx="2.5" fill="#b2bec3"/>
+  </g>
+
+  <!-- 4. Solusi Digital -->
+  <g filter="url(#aboutShadow)">
+    <rect x="280" y="310" width="130" height="48" rx="10" fill="#ffffff"/>
+    <circle cx="305" cy="334" r="10" fill="#fdcb6e"/>
+    <rect x="325" y="327" width="65" height="6" rx="3" fill="#2d3436"/>
+    <rect x="325" y="339" width="45" height="5" rx="2.5" fill="#b2bec3"/>
+  </g>
+
+  <!-- Decorative Accents -->
+  <circle cx="250" cy="420" r="6" fill="#8062ec"/>
+  <circle cx="220" cy="420" r="4" fill="#a493f0"/>
+  <circle cx="280" cy="420" r="4" fill="#a493f0"/>
+</svg>

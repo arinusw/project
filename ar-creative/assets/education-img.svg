@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="eduGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3b82f6"/>
+      <stop offset="100%" stop-color="#8062ec"/>
+    </linearGradient>
+    <filter id="eduShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="10" stdDeviation="15" flood-color="#8062ec" flood-opacity="0.2"/>
+    </filter>
+  </defs>
+
+  <!-- Background Base -->
+  <rect x="40" y="40" width="420" height="420" rx="24" fill="#f8faff"/>
+
+  <!-- Main Monitor / Book Interface -->
+  <g filter="url(#eduShadow)">
+    <rect x="80" y="80" width="340" height="250" rx="16" fill="#ffffff"/>
+    <path d="M80 96 C80 87.163 87.163 80 96 80 L404 80 C412.837 80 420 87.163 420 96 L420 120 L80 120 Z" fill="#e0e7ff"/>
+
+    <!-- Top Bar Dots & Title -->
+    <circle cx="105" cy="100" r="5" fill="#ff5f56"/>
+    <circle cx="122" cy="100" r="5" fill="#ffbd2e"/>
+    <circle cx="139" cy="100" r="5" fill="#27c93f"/>
+    <rect x="170" y="96" width="160" height="8" rx="4" fill="#8062ec" opacity="0.6"/>
+
+    <!-- Screen Content: Graduation Cap & Book Illustration -->
+    <!-- Open Book graphic -->
+    <path d="M150 250 C180 235 220 235 250 245 C280 235 320 235 350 250 L350 170 C320 155 280 155 250 165 C220 155 180 155 150 170 Z" fill="#eef2ff" stroke="#8062ec" stroke-width="3"/>
+    <line x1="250" y1="165" x2="250" y2="245" stroke="#8062ec" stroke-width="3"/>
+
+    <!-- Graduation Cap / Mortarboard -->
+    <polygon points="250,130 310,150 250,170 190,150" fill="url(#eduGrad)"/>
+    <polygon points="215,160 215,185 250,195 285,185 285,160" fill="#3b82f6"/>
+    <path d="M310 150 L310 180 L315 185" stroke="#fdcb6e" stroke-width="3" fill="none"/>
+    <circle cx="315" cy="187" r="4" fill="#fdcb6e"/>
+  </g>
+
+  <!-- Interactive Learning Cards Floating Below -->
+  <g filter="url(#eduShadow)">
+    <rect x="70" y="310" width="160" height="90" rx="12" fill="#ffffff"/>
+    <circle cx="100" cy="340" r="14" fill="#3b82f6"/>
+    <!-- Code Symbol -->
+    <path d="M96 336 L90 340 L96 344 M104 336 L110 340 L104 344" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round"/>
+    <rect x="125" y="332" width="80" height="6" rx="3" fill="#1e293b"/>
+    <rect x="125" y="344" width="60" height="5" rx="2.5" fill="#64748b"/>
+    <rect x="85" y="370" width="130" height="12" rx="6" fill="#eff6ff"/>
+    <rect x="85" y="370" width="90" height="12" rx="6" fill="#3b82f6"/>
+  </g>
+
+  <g filter="url(#eduShadow)">
+    <rect x="270" y="310" width="160" height="90" rx="12" fill="#ffffff"/>
+    <circle cx="300" cy="340" r="14" fill="#8062ec"/>
+    <!-- Creative Bulb Symbol -->
+    <circle cx="300" cy="338" r="6" fill="#ffffff"/>
+    <rect x="298" y="344" width="4" height="4" fill="#ffffff"/>
+    <rect x="325" y="332" width="80" height="6" rx="3" fill="#1e293b"/>
+    <rect x="325" y="344" width="60" height="5" rx="2.5" fill="#64748b"/>
+    <rect x="285" y="370" width="130" height="12" rx="6" fill="#f5f3ff"/>
+    <rect x="285" y="370" width="105" height="12" rx="6" fill="#8062ec"/>
+  </g>
+
+  <!-- Decorative Sparkles -->
+  <path d="M440 120 L444 110 L448 120 L458 124 L448 128 L444 138 L440 128 L430 124 Z" fill="#3b82f6"/>
+  <path d="M50 220 L53 212 L56 220 L64 223 L56 226 L53 234 L50 226 L42 223 Z" fill="#8062ec"/>
+</svg>
