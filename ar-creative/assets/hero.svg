@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#7059e2;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#927ff3;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="grad2" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#a595ff;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#5338d1;stop-opacity:0.9" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#7059e2" flood-opacity="0.25"/>
+    </filter>
+  </defs>
+
+  <!-- Background Glow & Geometric Accents -->
+  <circle cx="250" cy="250" r="180" fill="url(#grad1)" opacity="0.12" />
+  <circle cx="360" cy="140" r="40" fill="#a595ff" opacity="0.2" />
+  <circle cx="120" cy="380" r="60" fill="url(#grad2)" opacity="0.15" />
+
+  <!-- Main Digital Monitor / Frame -->
+  <rect x="80" y="100" width="340" height="230" rx="16" fill="#ffffff" filter="url(#shadow)" />
+  <rect x="95" y="115" width="310" height="200" rx="10" fill="#f8f7ff" />
+
+  <!-- Abstract Code & Visual Layout Lines -->
+  <rect x="115" y="135" width="120" height="12" rx="4" fill="#7059e2" />
+  <rect x="115" y="155" width="80" height="8" rx="3" fill="#a595ff" />
+
+  <rect x="115" y="180" width="130" height="110" rx="8" fill="#e8e3ff" />
+  <circle cx="180" cy="225" r="28" fill="#7059e2" opacity="0.8" />
+  <polygon points="170,210 200,225 170,240" fill="#ffffff" />
+
+  <!-- Code Blocks / Digital Cards -->
+  <rect x="260" y="180" width="130" height="48" rx="8" fill="#ffffff" filter="url(#shadow)" />
+  <rect x="275" y="193" width="70" height="8" rx="3" fill="#7059e2" />
+  <rect x="275" y="207" width="45" height="6" rx="2" fill="#c3b8ff" />
+
+  <rect x="260" y="238" width="130" height="52" rx="8" fill="url(#grad1)" />
+  <rect x="275" y="253" width="80" height="8" rx="3" fill="#ffffff" />
+  <rect x="275" y="267" width="50" height="6" rx="2" fill="#e8e3ff" opacity="0.8" />
+
+  <!-- Monitor Stand -->
+  <rect x="225" y="330" width="50" height="40" fill="#d1c9ff" />
+  <path d="M 180 370 L 320 370 L 300 380 L 200 380 Z" fill="#b0a2f7" />
+
+  <!-- Floating Digital Icons / Elements -->
+  <g transform="translate(360, 80)" filter="url(#shadow)">
+    <circle cx="30" cy="30" r="28" fill="url(#grad1)" />
+    <path d="M20 30 L27 37 L40 22" stroke="#ffffff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  </g>
+
+  <g transform="translate(60, 260)" filter="url(#shadow)">
+    <rect x="0" y="0" width="50" height="50" rx="12" fill="#ffffff" />
+    <text x="25" y="33" font-family="sans-serif" font-size="22" font-weight="bold" fill="#7059e2" text-anchor="middle">&lt;/&gt;</text>
+  </g>
+</svg>
