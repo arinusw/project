@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="aboutGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#7059e2;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#4a33c6;stop-opacity:1" />
+    </linearGradient>
+    <filter id="shadowAbout" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#7059e2" flood-opacity="0.2"/>
+    </filter>
+  </defs>
+
+  <!-- Abstract Layered Backdrop -->
+  <rect x="60" y="70" width="380" height="360" rx="30" fill="#f4f1ff" />
+  <circle cx="390" cy="110" r="45" fill="#e2dcff" />
+  <circle cx="100" cy="390" r="55" fill="#d1c7ff" opacity="0.6" />
+
+  <!-- Central Workstation Surface -->
+  <rect x="100" y="120" width="300" height="260" rx="20" fill="#ffffff" filter="url(#shadowAbout)" />
+
+  <!-- Creative Layers Graphic -->
+  <g transform="translate(130, 150)">
+    <!-- Bottom Layer -->
+    <rect x="20" y="70" width="200" height="100" rx="12" fill="#e8e3ff" />
+    <rect x="35" y="85" width="100" height="8" rx="4" fill="#a595ff" />
+    <rect x="35" y="105" width="140" height="6" rx="3" fill="#c3b8ff" />
+
+    <!-- Middle Layer -->
+    <rect x="10" y="40" width="200" height="100" rx="12" fill="#c3b8ff" opacity="0.9" />
+    <circle cx="45" cy="70" r="14" fill="#7059e2" />
+    <rect x="70" y="66" width="90" height="8" rx="4" fill="#ffffff" />
+
+    <!-- Top Front Layer -->
+    <rect x="0" y="10" width="200" height="100" rx="12" fill="url(#aboutGrad)" filter="url(#shadowAbout)" />
+    <rect x="20" y="30" width="90" height="10" rx="5" fill="#ffffff" />
+    <rect x="20" y="50" width="140" height="6" rx="3" fill="#e8e3ff" />
+    <rect x="20" y="64" width="110" height="6" rx="3" fill="#e8e3ff" />
+
+    <!-- Palette / Spark Icon -->
+    <circle cx="165" cy="35" r="18" fill="#ffb703" />
+    <path d="M165 25 L168 32 L175 35 L168 38 L165 45 L162 38 L155 35 L162 32 Z" fill="#ffffff" />
+  </g>
+</svg>
