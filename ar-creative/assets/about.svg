@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="aboutGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6C5CE7" />
+      <stop offset="100%" stop-color="#81ecec" />
+    </linearGradient>
+    <filter id="aboutShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="10" stdDeviation="14" flood-color="#6c5ce7" flood-opacity="0.2" />
+    </filter>
+  </defs>
+
+  <!-- Background decorative elements -->
+  <rect x="50" y="60" width="500" height="380" rx="24" fill="#1e1e2d" opacity="0.05" />
+  <circle cx="500" cy="100" r="60" fill="url(#aboutGrad1)" opacity="0.2" />
+  <circle cx="100" cy="400" r="80" fill="#6C5CE7" opacity="0.15" />
+
+  <!-- Main Digital Studio Card -->
+  <g filter="url(#aboutShadow)">
+    <rect x="120" y="80" width="360" height="340" rx="20" fill="#ffffff" />
+  </g>
+
+  <!-- Inner Header Graphic -->
+  <rect x="120" y="80" width="360" height="120" rx="20" fill="url(#aboutGrad1)" />
+
+  <!-- Studio Emblem / Mascot SVG Graphic -->
+  <circle cx="300" cy="140" r="45" fill="#ffffff" filter="url(#aboutShadow)" />
+  <path d="M 285,130 L 300,115 L 315,130 L 300,145 Z" fill="#6C5CE7" />
+  <path d="M 285,150 L 300,135 L 315,150 L 300,165 Z" fill="#00cec9" opacity="0.8" />
+
+  <!-- Content Representation Lines -->
+  <rect x="160" y="230" width="280" height="14" rx="7" fill="#6C5CE7" opacity="0.8" />
+  <rect x="180" y="260" width="240" height="10" rx="5" fill="#a29bfe" opacity="0.6" />
+  <rect x="200" y="280" width="200" height="10" rx="5" fill="#a29bfe" opacity="0.4" />
+
+  <!-- Three Pillar Badges (Kreativitas, Teknologi, Solusi) -->
+  <g transform="translate(150, 320)">
+    <rect x="0" y="0" width="90" height="60" rx="10" fill="#f0edff" />
+    <circle cx="45" cy="20" r="12" fill="#6C5CE7" />
+    <rect x="20" y="40" width="50" height="6" rx="3" fill="#6C5CE7" />
+  </g>
+
+  <g transform="translate(255, 320)">
+    <rect x="0" y="0" width="90" height="60" rx="10" fill="#e6fffa" />
+    <circle cx="45" cy="20" r="12" fill="#00cec9" />
+    <rect x="20" y="40" width="50" height="6" rx="3" fill="#00cec9" />
+  </g>
+
+  <g transform="translate(360, 320)">
+    <rect x="0" y="0" width="90" height="60" rx="10" fill="#f0edff" />
+    <circle cx="45" cy="20" r="12" fill="#a29bfe" />
+    <rect x="20" y="40" width="50" height="6" rx="3" fill="#a29bfe" />
+  </g>
+</svg>

@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="heroGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6C5CE7" stop-opacity="0.9" />
+      <stop offset="100%" stop-color="#a29bfe" stop-opacity="0.8" />
+    </linearGradient>
+    <linearGradient id="heroGrad2" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00cec9" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#6C5CE7" stop-opacity="0.9" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#6c5ce7" flood-opacity="0.25" />
+    </filter>
+  </defs>
+
+  <!-- Background Abstract Shapes -->
+  <circle cx="120" cy="100" r="70" fill="url(#heroGrad1)" opacity="0.3" />
+  <circle cx="480" cy="380" r="100" fill="url(#heroGrad2)" opacity="0.2" />
+  <path d="M 50,250 Q 150,150 300,220 T 550,200" fill="none" stroke="#6C5CE7" stroke-width="3" stroke-dasharray="6,6" opacity="0.5" />
+
+  <!-- Main Canvas / Monitor Frame -->
+  <g filter="url(#shadow)">
+    <rect x="100" y="80" width="400" height="280" rx="16" fill="#1e1e2d" stroke="#6C5CE7" stroke-width="2" />
+    <!-- Header bar -->
+    <rect x="100" y="80" width="400" height="32" rx="16" fill="#2d2d42" />
+    <circle cx="125" cy="96" r="5" fill="#ff5f56" />
+    <circle cx="140" cy="96" r="5" fill="#ffbd2e" />
+    <circle cx="155" cy="96" r="5" fill="#27c93f" />
+
+    <!-- Code & Art Interface Elements -->
+    <rect x="130" y="130" width="160" height="18" rx="4" fill="#6C5CE7" opacity="0.8" />
+    <rect x="130" y="160" width="110" height="12" rx="3" fill="#a29bfe" opacity="0.5" />
+    <rect x="130" y="180" width="140" height="12" rx="3" fill="#a29bfe" opacity="0.3" />
+
+    <!-- Visual Canvas Graphics -->
+    <rect x="310" y="130" width="160" height="190" rx="8" fill="#252538" />
+    <path d="M 330,280 L 370,220 L 410,250 L 440,200 L 450,280 Z" fill="url(#heroGrad1)" opacity="0.8" />
+    <circle cx="420" cy="170" r="18" fill="#00cec9" opacity="0.8" />
+  </g>
+
+  <!-- Laptop Base -->
+  <path d="M 60,360 L 540,360 C 550,360 555,368 550,375 L 530,390 L 70,390 L 50,375 C 45,368 50,360 60,360 Z" fill="#2d2d42" filter="url(#shadow)"/>
+  <rect x="250" y="362" width="100" height="6" rx="3" fill="#6C5CE7" opacity="0.6" />
+
+  <!-- Floating Creative Icons -->
+  <!-- Brush / Pen Badge -->
+  <g transform="translate(60, 180)" filter="url(#shadow)">
+    <circle cx="30" cy="30" r="30" fill="#6C5CE7" />
+    <path d="M 20,40 L 35,20 L 40,25 L 25,45 Z" fill="#ffffff" />
+    <circle cx="18" cy="42" r="3" fill="#00cec9" />
+  </g>
+
+  <!-- Code Badge -->
+  <g transform="translate(480, 120)" filter="url(#shadow)">
+    <circle cx="30" cy="30" r="30" fill="#00cec9" />
+    <path d="M 22,25 L 15,30 L 22,35 M 38,25 L 45,30 L 38,35 M 32,20 L 26,40" stroke="#ffffff" stroke-width="3" stroke-linecap="round" fill="none" />
+  </g>
+
+  <!-- Star Accents -->
+  <path d="M 200,50 L 204,60 L 214,64 L 204,68 L 200,78 L 196,68 L 186,64 L 196,60 Z" fill="#a29bfe" />
+  <path d="M 430,30 L 433,37 L 440,40 L 433,43 L 430,50 L 427,43 L 420,40 L 427,37 Z" fill="#00cec9" />
+</svg>
