@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="eduGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#74b9ff" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#6c5ce7" stop-opacity="0.8"/>
+    </linearGradient>
+    <filter id="shadowEdu" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#000" flood-opacity="0.15"/>
+    </filter>
+  </defs>
+
+  <circle cx="250" cy="200" r="150" fill="url(#eduGrad)"/>
+
+  <!-- Stack of Digital Knowledge Books / Tablet -->
+  <rect x="130" y="150" width="240" height="160" rx="14" fill="#1e1e2d" filter="url(#shadowEdu)"/>
+  <rect x="145" y="165" width="210" height="130" rx="8" fill="#14141f"/>
+
+  <!-- Graduation Cap / Lightbulb Graphic -->
+  <path d="M 250 80 L 320 115 L 250 150 L 180 115 Z" fill="#6c5ce7"/>
+  <polygon points="305,123 305,155 315,160 315,128" fill="#a29bfe"/>
+  <circle cx="315" cy="163" r="4" fill="#fdcb6e"/>
+
+  <!-- Code & Video Play Icon -->
+  <circle cx="250" cy="230" r="28" fill="#74b9ff"/>
+  <polygon points="243,217 263,230 243,243" fill="#ffffff"/>
+
+  <!-- Lines of Text/Code on Screen -->
+  <rect x="165" y="180" width="70" height="6" rx="3" fill="#6c5ce7"/>
+  <rect x="165" y="195" width="100" height="6" rx="3" fill="#3a3a52"/>
+</svg>
