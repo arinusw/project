@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="aboutGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#a29bfe" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#6c5ce7" stop-opacity="0.7"/>
+    </linearGradient>
+    <filter id="shadowAbout" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="6" stdDeviation="10" flood-color="#000" flood-opacity="0.12"/>
+    </filter>
+  </defs>
+
+  <rect x="50" y="40" width="400" height="320" rx="20" fill="url(#aboutGrad)"/>
+
+  <!-- Canvas Workspace -->
+  <rect x="90" y="70" width="320" height="260" rx="12" fill="#1e1e2d" filter="url(#shadowAbout)"/>
+
+  <!-- Art/Design Elements -->
+  <rect x="120" y="100" width="120" height="150" rx="8" fill="#2d2d44"/>
+  <circle cx="180" cy="150" r="35" fill="#6c5ce7"/>
+  <polygon points="180,120 205,170 155,170" fill="#74b9ff" opacity="0.8"/>
+
+  <!-- Pen Stylus Graphic -->
+  <g transform="translate(240, 90) rotate(25)">
+    <rect x="0" y="0" width="18" height="140" rx="9" fill="#e0e0e0"/>
+    <polygon points="0,140 18,140 9,165" fill="#6c5ce7"/>
+    <circle cx="9" cy="160" r="2" fill="#ffffff"/>
+  </g>
+
+  <!-- Code/Tech Card -->
+  <rect x="150" y="220" width="220" height="80" rx="10" fill="#14141f" stroke="#6c5ce7" stroke-width="2" filter="url(#shadowAbout)"/>
+  <text x="170" y="250" font-family="monospace" font-size="14" fill="#74b9ff">&lt;ArCreative /&gt;</text>
+  <text x="170" y="275" font-family="sans-serif" font-size="12" fill="#a29bfe">Digital Solution &amp; Education</text>
+</svg>
