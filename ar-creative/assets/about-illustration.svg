@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="aboutGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#6366f1;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#a855f7;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background Creative Glow -->
+  <circle cx="250" cy="250" r="190" fill="url(#aboutGrad)" opacity="0.12" />
+
+  <!-- Main Digital Lens/Portal -->
+  <circle cx="250" cy="250" r="140" fill="none" stroke="#7b61ff" stroke-width="4" stroke-dasharray="12 8" />
+  <circle cx="250" cy="250" r="110" fill="#1e1b4b" opacity="0.8" />
+
+  <!-- Center Bulb / Innovation Icon -->
+  <path d="M250 160 C215 160 190 185 190 220 C190 245 205 265 220 280 L220 300 C220 305 225 310 230 310 L270 310 C275 310 280 305 280 300 L280 280 C295 265 310 245 310 220 C310 185 285 160 250 160 Z" fill="#f59e0b" />
+  <rect x="230" y="318" width="40" height="8" rx="4" fill="#cbd5e1" />
+  <rect x="235" y="330" width="30" height="6" rx="3" fill="#94a3b8" />
+
+  <!-- Light Rays -->
+  <line x1="250" y1="130" x2="250" y2="145" stroke="#f59e0b" stroke-width="5" stroke-linecap="round" />
+  <line x1="180" y1="160" x2="192" y2="172" stroke="#f59e0b" stroke-width="5" stroke-linecap="round" />
+  <line x1="320" y1="160" x2="308" y2="172" stroke="#f59e0b" stroke-width="5" stroke-linecap="round" />
+  <line x1="150" y1="220" x2="165" y2="220" stroke="#f59e0b" stroke-width="5" stroke-linecap="round" />
+  <line x1="350" y1="220" x2="335" y2="220" stroke="#f59e0b" stroke-width="5" stroke-linecap="round" />
+
+  <!-- Floating Digital Badges (Education, Services, Innovation) -->
+  <g transform="translate(100, 140)">
+    <rect x="0" y="0" width="80" height="50" rx="10" fill="#0f172a" stroke="#6366f1" stroke-width="2" />
+    <text x="40" y="30" font-family="sans-serif" font-size="20" fill="#38bdf8" text-anchor="middle">⚡ Code</text>
+  </g>
+
+  <g transform="translate(320, 310)">
+    <rect x="0" y="0" width="90" height="50" rx="10" fill="#0f172a" stroke="#a855f7" stroke-width="2" />
+    <text x="45" y="30" font-family="sans-serif" font-size="18" fill="#f43f5e" text-anchor="middle">🎨 Design</text>
+  </g>
+
+  <g transform="translate(90, 320)">
+    <rect x="0" y="0" width="100" height="50" rx="10" fill="#0f172a" stroke="#10b981" stroke-width="2" />
+    <text x="50" y="30" font-family="sans-serif" font-size="18" fill="#10b981" text-anchor="middle">🎓 Edukasi</text>
+  </g>
+</svg>
