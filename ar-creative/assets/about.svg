@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="aboutGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#7352f7"/>
+      <stop offset="100%" stop-color="#9a80f9"/>
+    </linearGradient>
+    <filter id="shadowAbout" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="10" flood-opacity="0.12"/>
+    </filter>
+  </defs>
+
+  <!-- Decorative Shapes -->
+  <rect x="50" y="50" width="380" height="280" rx="24" fill="#7352f7" opacity="0.05"/>
+  <circle cx="420" cy="90" r="30" fill="#9a80f9" opacity="0.2"/>
+
+  <!-- Main Digital Studio Concept Cards -->
+  <!-- Card 1: Creativity -->
+  <g filter="url(#shadowAbout)" transform="translate(80, 80)">
+    <rect x="0" y="0" width="150" height="180" rx="16" fill="#ffffff"/>
+    <circle cx="75" cy="60" r="30" fill="#f0edff"/>
+    <!-- Palette / Design icon -->
+    <path d="M 65 50 C 60 50 55 55 55 60 C 55 70 70 75 70 80 C 70 82 68 84 65 84 C 62 84 60 82 60 80" fill="none" stroke="#7352f7" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="70" cy="55" r="3" fill="#7352f7"/>
+    <circle cx="82" cy="60" r="3" fill="#9a80f9"/>
+    <circle cx="78" cy="70" r="3" fill="#7352f7"/>
+    <text x="75" y="120" font-family="sans-serif" font-size="14" font-weight="bold" fill="#2d2b42" text-anchor="middle">Kreativitas</text>
+    <rect x="35" y="135" width="80" height="6" rx="3" fill="#e2deff"/>
+    <rect x="45" y="147" width="60" height="6" rx="3" fill="#f0edff"/>
+  </g>
+
+  <!-- Card 2: Technology & Solutions -->
+  <g filter="url(#shadowAbout)" transform="translate(250, 130)">
+    <rect x="0" y="0" width="160" height="190" rx="16" fill="#1e1e2d"/>
+    <circle cx="80" cy="65" r="32" fill="#282838"/>
+    <!-- Gear / Tech icon -->
+    <circle cx="80" cy="65" r="14" fill="none" stroke="#9a80f9" stroke-width="4"/>
+    <path d="M 80 45 L 80 51 M 80 79 L 80 85 M 60 65 L 66 65 M 94 65 L 100 65" stroke="#9a80f9" stroke-width="4" stroke-linecap="round"/>
+    <text x="80" y="125" font-family="sans-serif" font-size="14" font-weight="bold" fill="#ffffff" text-anchor="middle">Solusi Digital</text>
+    <rect x="35" y="142" width="90" height="6" rx="3" fill="#38384d"/>
+    <rect x="50" y="154" width="60" height="6" rx="3" fill="#282838"/>
+  </g>
+
+  <!-- Connecting Floating Nodes -->
+  <path d="M 160 260 C 190 310 240 310 270 260" fill="none" stroke="url(#aboutGrad)" stroke-width="3" stroke-dasharray="6,6"/>
+  <circle cx="215" cy="290" r="8" fill="#7352f7"/>
+</svg>
