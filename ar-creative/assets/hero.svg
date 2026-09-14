@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="heroGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8a70f6" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#5037be" stop-opacity="0.9"/>
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#7352f7"/>
+      <stop offset="100%" stop-color="#9a80f9"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="10" stdDeviation="12" flood-opacity="0.15"/>
+    </filter>
+  </defs>
+
+  <!-- Background Decorative Spheres -->
+  <circle cx="400" cy="80" r="60" fill="url(#heroGrad)" opacity="0.15"/>
+  <circle cx="80" cy="320" r="40" fill="url(#heroGrad)" opacity="0.2"/>
+  <circle cx="430" cy="300" r="20" fill="#7352f7" opacity="0.25"/>
+
+  <!-- Main Canvas / Laptop Base -->
+  <g filter="url(#shadow)">
+    <!-- Monitor / Tablet Frame -->
+    <rect x="100" y="60" width="300" height="200" rx="16" fill="#1e1e2d"/>
+    <rect x="110" y="70" width="280" height="180" rx="10" fill="#13131d"/>
+
+    <!-- UI Canvas Header -->
+    <rect x="110" y="70" width="280" height="24" rx="10" fill="#282838"/>
+    <circle cx="125" cy="82" r="4" fill="#ff5f56"/>
+    <circle cx="137" cy="82" r="4" fill="#ffbd2e"/>
+    <circle cx="149" cy="82" r="4" fill="#27c93f"/>
+
+    <!-- UI Elements Inside Monitor -->
+    <!-- Left Sidebar -->
+    <rect x="120" y="104" width="50" height="136" rx="6" fill="#1e1e2d"/>
+    <rect x="130" y="115" width="30" height="6" rx="3" fill="#7352f7"/>
+    <rect x="130" y="130" width="24" height="5" rx="2" fill="#4a4a60"/>
+    <rect x="130" y="143" width="28" height="5" rx="2" fill="#4a4a60"/>
+    <rect x="130" y="156" width="20" height="5" rx="2" fill="#4a4a60"/>
+
+    <!-- Main Canvas Area -->
+    <rect x="180" y="104" width="200" height="136" rx="6" fill="#1a1a26"/>
+    <!-- Art Elements -->
+    <path d="M 200 210 Q 240 130 280 180 T 360 140" fill="none" stroke="url(#accentGrad)" stroke-width="4" stroke-linecap="round"/>
+    <circle cx="280" cy="180" r="6" fill="#9a80f9"/>
+    <circle cx="240" cy="130" r="4" fill="#7352f7"/>
+
+    <!-- Floating Graphic Badges -->
+    <rect x="200" y="120" width="70" height="40" rx="8" fill="url(#heroGrad)"/>
+    <text x="235" y="144" fill="#ffffff" font-family="sans-serif" font-size="10" font-weight="bold" text-anchor="middle">CREATIVE</text>
+  </g>
+
+  <!-- Laptop Base Stand -->
+  <path d="M 180 260 L 320 260 L 340 280 L 160 280 Z" fill="#282838"/>
+  <rect x="220" y="262" width="60" height="4" rx="2" fill="#4a4a60"/>
+
+  <!-- Floating Digital Art Elements Around -->
+  <!-- Palette / Pen Tool Badge -->
+  <g filter="url(#shadow)" transform="translate(60, 140)">
+    <rect x="0" y="0" width="70" height="70" rx="16" fill="#ffffff"/>
+    <!-- Pen Tool Icon -->
+    <path d="M 20 45 L 45 20 C 48 17 53 17 56 20 C 59 23 59 28 56 31 L 31 56 Z" fill="url(#accentGrad)"/>
+    <circle cx="46" cy="29" r="3" fill="#ffffff"/>
+  </g>
+
+  <!-- Code / Tech Badge -->
+  <g filter="url(#shadow)" transform="translate(360, 180)">
+    <rect x="0" y="0" width="80" height="65" rx="16" fill="#7352f7"/>
+    <text x="40" y="38" fill="#ffffff" font-family="monospace" font-size="16" font-weight="bold" text-anchor="middle">&lt;AR/&gt;</text>
+  </g>
+</svg>
