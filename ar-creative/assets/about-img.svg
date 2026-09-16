@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="aboutGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#7B61FF;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#3A86FF;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#00F0FF;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#7B61FF;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Hexagonal background grid effect -->
+  <polygon points="250,50 380,125 380,275 250,350 120,275 120,125" fill="none" stroke="url(#aboutGrad)" stroke-width="2" opacity="0.3" />
+  <polygon points="250,90 350,147 350,262 250,320 150,262 150,147" fill="url(#aboutGrad)" opacity="0.1" />
+
+  <!-- Central Digital Brain / Studio Hub Concept -->
+  <g transform="translate(150, 130)">
+    <rect x="0" y="0" width="200" height="200" rx="24" fill="#1E1E2E" stroke="url(#accentGrad)" stroke-width="3" />
+
+    <!-- Bulb / Idea & Tech Icon -->
+    <circle cx="100" cy="80" r="35" fill="url(#aboutGrad)" opacity="0.2" />
+    <path d="M 100 45 C 80 45, 65 60, 65 80 C 65 95, 75 105, 80 115 L 120 115 C 125 105, 135 95, 135 80 C 135 60, 120 45, 100 45 Z" fill="none" stroke="url(#accentGrad)" stroke-width="4" stroke-linecap="round" />
+    <rect x="88" y="122" width="24" height="12" rx="3" fill="#00F0FF" />
+    <line x1="100" y1="138" x2="100" y2="150" stroke="#7B61FF" stroke-width="4" />
+
+    <!-- Code Bracket Accents -->
+    <path d="M 25 80 L 15 90 L 25 100" fill="none" stroke="#7B61FF" stroke-width="3" stroke-linecap="round" />
+    <path d="M 175 80 L 185 90 L 175 100" fill="none" stroke="#7B61FF" stroke-width="3" stroke-linecap="round" />
+  </g>
+
+  <!-- Orbital Education & Creative Nodes -->
+  <circle cx="110" cy="120" r="25" fill="#252538" stroke="#7B61FF" stroke-width="2" />
+  <path d="M 100 120 L 120 120 M 110 110 L 110 130" stroke="#00F0FF" stroke-width="3" stroke-linecap="round" />
+
+  <circle cx="390" cy="140" r="25" fill="#252538" stroke="#FF5252" stroke-width="2" />
+  <circle cx="390" cy="140" r="10" fill="#FF5252" />
+
+  <circle cx="370" cy="360" r="30" fill="#252538" stroke="#00F0FF" stroke-width="2" />
+  <rect x="358" y="348" width="24" height="24" rx="4" fill="url(#aboutGrad)" />
+
+  <circle cx="130" cy="380" r="22" fill="#252538" stroke="#7B61FF" stroke-width="2" />
+  <polygon points="130,368 140,386 120,386" fill="#00F0FF" />
+</svg>
