@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="hero-grad-1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#7C69EF"/>
+      <stop offset="100%" stop-color="#5038ED"/>
+    </linearGradient>
+    <linearGradient id="hero-grad-2" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#A29BFE"/>
+      <stop offset="100%" stop-color="#6C5CE7"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#5038ED" flood-opacity="0.2"/>
+    </filter>
+  </defs>
+
+  <!-- Background Art Spheres & Blobs -->
+  <circle cx="450" cy="120" r="100" fill="#EAE6FF" opacity="0.6"/>
+  <circle cx="120" cy="380" r="80" fill="#7C69EF" opacity="0.1"/>
+
+  <!-- Central Workspace Base -->
+  <rect x="80" y="380" width="440" height="12" rx="6" fill="#D1CBFC"/>
+
+  <!-- Desk Screen / Dashboard -->
+  <rect x="130" y="120" width="340" height="230" rx="16" fill="#FFFFFF" filter="url(#shadow)"/>
+  <rect x="130" y="120" width="340" height="36" rx="16" fill="#F4F2FF"/>
+  <!-- Window Controls -->
+  <circle cx="155" cy="138" r="5" fill="#FF5F56"/>
+  <circle cx="170" cy="138" r="5" fill="#FFBD2E"/>
+  <circle cx="185" cy="138" r="5" fill="#27C93F"/>
+
+  <!-- Code & Graphic UI Elements inside screen -->
+  <rect x="160" y="180" width="120" height="12" rx="6" fill="url(#hero-grad-1)"/>
+  <rect x="160" y="204" width="80" height="8" rx="4" fill="#D1CBFC"/>
+  <rect x="160" y="220" width="180" height="8" rx="4" fill="#EAE6FF"/>
+  <rect x="160" y="236" width="140" height="8" rx="4" fill="#EAE6FF"/>
+
+  <!-- UI Card Overlay 1 (Analytics/Creative graph) -->
+  <rect x="300" y="175" width="140" height="120" rx="12" fill="#F9F8FF" stroke="#EAE6FF" stroke-width="2"/>
+  <path d="M 320 260 Q 350 210, 380 235 T 420 195" fill="none" stroke="url(#hero-grad-1)" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="420" cy="195" r="5" fill="#5038ED"/>
+
+  <!-- Floating Card 1 - Creative Palette -->
+  <rect x="70" y="200" width="110" height="100" rx="14" fill="#FFFFFF" filter="url(#shadow)"/>
+  <circle cx="105" cy="235" r="14" fill="#7C69EF"/>
+  <circle cx="140" cy="235" r="14" fill="#FF7675"/>
+  <circle cx="122.5" cy="265" r="14" fill="#00CEC9"/>
+
+  <!-- Floating Card 2 - Code Symbol -->
+  <rect x="410" y="270" width="120" height="90" rx="14" fill="url(#hero-grad-1)" filter="url(#shadow)"/>
+  <text x="440" y="325" font-family="monospace" font-size="28" font-weight="bold" fill="#FFFFFF">&lt;/&gt;</text>
+
+  <!-- Stars / Sparkles -->
+  <path d="M 100 100 L 104 112 L 116 116 L 104 120 L 100 132 L 96 120 L 84 116 L 96 112 Z" fill="#7C69EF"/>
+  <path d="M 480 80 L 482 88 L 490 90 L 482 92 L 480 100 L 478 92 L 470 90 L 478 88 Z" fill="#A29BFE"/>
+</svg>

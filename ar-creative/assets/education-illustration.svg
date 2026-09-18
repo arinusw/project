@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 450" width="100%" height="100%">
+  <defs>
+    <linearGradient id="edu-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#7C69EF"/>
+      <stop offset="100%" stop-color="#5038ED"/>
+    </linearGradient>
+    <filter id="edu-shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="10" stdDeviation="14" flood-color="#5038ED" flood-opacity="0.18"/>
+    </filter>
+  </defs>
+
+  <!-- Background Layer -->
+  <circle cx="250" cy="225" r="180" fill="#F4F2FF"/>
+
+  <!-- Book / Knowledge Base -->
+  <g filter="url(#edu-shadow)">
+    <!-- Open Book Cover -->
+    <path d="M 120 300 C 180 280, 240 300, 250 305 C 260 300, 320 280, 380 300 L 380 180 C 320 160, 260 180, 250 185 C 240 180, 180 160, 120 180 Z" fill="#FFFFFF"/>
+    <!-- Book Spine & Details -->
+    <path d="M 250 185 L 250 305" stroke="#7C69EF" stroke-width="4" stroke-linecap="round"/>
+    <path d="M 140 210 Q 180 195, 230 210" fill="none" stroke="#EAE6FF" stroke-width="4" stroke-linecap="round"/>
+    <path d="M 140 230 Q 180 215, 230 230" fill="none" stroke="#EAE6FF" stroke-width="4" stroke-linecap="round"/>
+    <path d="M 270 210 Q 320 195, 360 210" fill="none" stroke="#EAE6FF" stroke-width="4" stroke-linecap="round"/>
+    <path d="M 270 230 Q 320 215, 360 230" fill="none" stroke="#EAE6FF" stroke-width="4" stroke-linecap="round"/>
+  </g>
+
+  <!-- Graduation Cap / Growth Graphic Floating -->
+  <g filter="url(#edu-shadow)" transform="translate(175, 70)">
+    <path d="M 75 20 L 140 50 L 75 80 L 10 50 Z" fill="url(#edu-grad)"/>
+    <rect x="45" y="60" width="60" height="30" rx="4" fill="#5038ED"/>
+    <path d="M 130 55 L 130 95" stroke="#FF7675" stroke-width="4" stroke-linecap="round"/>
+    <circle cx="130" cy="98" r="6" fill="#FF7675"/>
+  </g>
+
+  <!-- Digital Nodes / Sparks around -->
+  <circle cx="90" cy="140" r="10" fill="#7C69EF"/>
+  <circle cx="410" cy="130" r="12" fill="#A29BFE"/>
+  <circle cx="390" cy="330" r="8" fill="#5038ED"/>
+</svg>
