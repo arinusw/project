@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="aboutGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="hsl(250, 69%, 61%)" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="hsl(250, 69%, 61%)" stop-opacity="0.02"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background Backdrop -->
+  <rect x="40" y="40" width="420" height="320" rx="20" fill="url(#aboutGrad)" />
+
+  <!-- Central Idea / Studio Symbol -->
+  <circle cx="250" cy="180" r="70" fill="hsl(250, 69%, 61%)" opacity="0.1"/>
+  <circle cx="250" cy="180" r="50" fill="hsl(250, 69%, 61%)" opacity="0.2"/>
+  <circle cx="250" cy="180" r="30" fill="hsl(250, 69%, 61%)"/>
+
+  <!-- Lightbulb / Creativity Icon -->
+  <path d="M250 160 C238 160 230 168 230 180 C230 190 238 197 242 202 L258 202 C262 197 270 190 270 180 C270 168 262 160 250 160 Z" fill="#FFFFFF"/>
+  <rect x="244" y="205" width="12" height="6" rx="2" fill="#FFFFFF"/>
+
+  <!-- Light Rays -->
+  <line x1="250" y1="135" x2="250" y2="120" stroke="hsl(250, 69%, 61%)" stroke-width="4" stroke-linecap="round"/>
+  <line x1="295" y1="180" x2="310" y2="180" stroke="hsl(250, 69%, 61%)" stroke-width="4" stroke-linecap="round"/>
+  <line x1="205" y1="180" x2="190" y2="180" stroke="hsl(250, 69%, 61%)" stroke-width="4" stroke-linecap="round"/>
+  <line x1="282" y1="148" x2="293" y2="137" stroke="hsl(250, 69%, 61%)" stroke-width="4" stroke-linecap="round"/>
+  <line x1="218" y1="148" x2="207" y2="137" stroke="hsl(250, 69%, 61%)" stroke-width="4" stroke-linecap="round"/>
+
+  <!-- Tech & Design Badges -->
+  <g transform="translate(80, 100)">
+    <rect width="120" height="45" rx="10" fill="#FFFFFF" stroke="hsl(250, 69%, 61%)" stroke-width="1.5"/>
+    <circle cx="25" cy="22.5" r="10" fill="hsl(250, 69%, 61%)"/>
+    <text x="45" y="27" font-family="Poppins, sans-serif" font-size="11" font-weight="600" fill="#2B2C34">Kreativitas</text>
+  </g>
+
+  <g transform="translate(300, 90)">
+    <rect width="120" height="45" rx="10" fill="#FFFFFF" stroke="hsl(250, 69%, 61%)" stroke-width="1.5"/>
+    <circle cx="25" cy="22.5" r="10" fill="hsl(250, 69%, 61%)"/>
+    <text x="45" y="27" font-family="Poppins, sans-serif" font-size="11" font-weight="600" fill="#2B2C34">Teknologi</text>
+  </g>
+
+  <g transform="translate(90, 260)">
+    <rect width="130" height="45" rx="10" fill="#FFFFFF" stroke="hsl(250, 69%, 61%)" stroke-width="1.5"/>
+    <circle cx="25" cy="22.5" r="10" fill="hsl(250, 69%, 61%)"/>
+    <text x="45" y="27" font-family="Poppins, sans-serif" font-size="11" font-weight="600" fill="#2B2C34">Solusi Digital</text>
+  </g>
+
+  <g transform="translate(290, 270)">
+    <rect width="120" height="45" rx="10" fill="#FFFFFF" stroke="hsl(250, 69%, 61%)" stroke-width="1.5"/>
+    <circle cx="25" cy="22.5" r="10" fill="hsl(250, 69%, 61%)"/>
+    <text x="45" y="27" font-family="Poppins, sans-serif" font-size="11" font-weight="600" fill="#2B2C34">Edukasi</text>
+  </g>
+</svg>
