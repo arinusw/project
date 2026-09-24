@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="hero-grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#7B61FF" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#6366F1" stop-opacity="0.3"/>
+    </linearGradient>
+    <linearGradient id="hero-grad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#818CF8" stop-opacity="0.5"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="10" stdDeviation="15" flood-color="#7B61FF" flood-opacity="0.2"/>
+    </filter>
+  </defs>
+
+  <!-- Background decorative shapes -->
+  <circle cx="250" cy="250" r="180" fill="url(#hero-grad1)" opacity="0.15" />
+  <circle cx="380" cy="120" r="60" fill="#38BDF8" opacity="0.1" />
+  <circle cx="100" cy="380" r="80" fill="#7B61FF" opacity="0.1" />
+
+  <!-- Main Canvas / Monitor frame -->
+  <rect x="80" y="100" width="340" height="230" rx="16" fill="#1E1E2E" filter="url(#shadow)"/>
+  <rect x="95" y="115" width="310" height="200" rx="10" fill="#0F172A"/>
+
+  <!-- Code / Design Elements on Monitor -->
+  <rect x="115" y="135" width="120" height="12" rx="6" fill="#7B61FF"/>
+  <rect x="115" y="157" width="80" height="8" rx="4" fill="#38BDF8" opacity="0.7"/>
+  <rect x="115" y="173" width="150" height="8" rx="4" fill="#64748B" opacity="0.5"/>
+  <rect x="115" y="189" width="100" height="8" rx="4" fill="#64748B" opacity="0.5"/>
+
+  <!-- Digital Art Floating Card 1 -->
+  <rect x="260" y="145" width="125" height="100" rx="12" fill="url(#hero-grad2)"/>
+  <circle cx="300" cy="180" r="20" fill="#FFFFFF" opacity="0.8"/>
+  <polygon points="300,165 315,190 285,190" fill="#7B61FF" opacity="0.9"/>
+  <circle cx="340" cy="210" r="12" fill="#F43F5E" opacity="0.8"/>
+
+  <!-- Palette / Floating UI elements -->
+  <g transform="translate(60, 260)" filter="url(#shadow)">
+    <rect x="0" y="0" width="150" height="90" rx="14" fill="#ffffff" opacity="0.95"/>
+    <circle cx="35" cy="35" r="16" fill="#7B61FF"/>
+    <circle cx="75" cy="35" r="16" fill="#38BDF8"/>
+    <circle cx="115" cy="35" r="16" fill="#F43F5E"/>
+    <rect x="25" y="62" width="100" height="8" rx="4" fill="#CBD5E1"/>
+  </g>
+
+  <!-- Stylized Pen / Brush Vector -->
+  <g transform="translate(320, 280) rotate(-25)">
+    <rect x="0" y="0" width="24" height="120" rx="6" fill="#7B61FF"/>
+    <polygon points="0,120 12,145 24,120" fill="#38BDF8"/>
+    <circle cx="12" cy="20" r="5" fill="#FFFFFF"/>
+  </g>
+
+  <!-- Glowing Accents -->
+  <circle cx="410" cy="280" r="6" fill="#38BDF8"/>
+  <circle cx="90" cy="120" r="8" fill="#7B61FF"/>
+</svg>
