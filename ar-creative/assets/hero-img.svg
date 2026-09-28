@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="heroGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#7B68EE"/>
+      <stop offset="100%" stop-color="#4B0082"/>
+    </linearGradient>
+    <linearGradient id="heroGrad2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#9370DB"/>
+      <stop offset="100%" stop-color="#8A2BE2"/>
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00FA9A"/>
+      <stop offset="100%" stop-color="#00CED1"/>
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <!-- Background decorative shapes -->
+  <circle cx="250" cy="200" r="160" fill="url(#heroGrad1)" opacity="0.12" />
+  <circle cx="380" cy="100" r="40" fill="url(#accentGrad)" opacity="0.2" />
+  <rect x="60" y="280" width="50" height="50" rx="12" fill="url(#heroGrad2)" opacity="0.15" transform="rotate(15 85 305)"/>
+
+  <!-- Isometric / Flat Studio Desk & Laptop -->
+  <!-- Desk Base Surface -->
+  <ellipse cx="250" cy="330" rx="210" ry="30" fill="#E2E8F0" opacity="0.5"/>
+
+  <!-- Monitor / Laptop -->
+  <rect x="130" y="110" width="240" height="160" rx="12" fill="#1E1E2E" stroke="#7B68EE" stroke-width="3"/>
+  <!-- Screen content -->
+  <rect x="140" y="120" width="220" height="140" rx="8" fill="#181825"/>
+  <!-- Code lines & Graphic Canvas on Screen -->
+  <rect x="155" y="135" width="80" height="8" rx="4" fill="#6C5CE7"/>
+  <rect x="155" y="150" width="110" height="6" rx="3" fill="#A29BFE"/>
+  <rect x="155" y="162" width="60" height="6" rx="3" fill="#00FA9A"/>
+
+  <!-- Digital Art Canvas frame on Screen -->
+  <rect x="250" y="135" width="95" height="110" rx="6" fill="#2A2A3C"/>
+  <circle cx="280" cy="165" r="15" fill="url(#heroGrad2)"/>
+  <polygon points="260,220 290,185 320,220" fill="#6C5CE7" opacity="0.8"/>
+  <polygon points="285,220 310,195 335,220" fill="#00CED1" opacity="0.7"/>
+
+  <!-- Laptop Base & Keyboard -->
+  <polygon points="100,280 400,280 370,270 130,270" fill="#CCD6E0"/>
+  <rect x="210" y="272" width="80" height="5" rx="2" fill="#94A3B8"/>
+
+  <!-- Floating Creative Elements -->
+  <!-- Palette / Pen Tablet Floating -->
+  <g transform="translate(60, 120)">
+    <rect x="0" y="0" width="70" height="90" rx="10" fill="#FFFFFF" stroke="#6C5CE7" stroke-width="2" filter="url(#glow)"/>
+    <circle cx="20" cy="25" r="8" fill="#FF7675"/>
+    <circle cx="45" cy="25" r="8" fill="#74B9FF"/>
+    <circle cx="20" cy="50" r="8" fill="#55E6C1"/>
+    <circle cx="45" cy="50" r="8" fill="#FDCB6E"/>
+    <!-- Stylus -->
+    <rect x="20" y="72" width="30" height="4" rx="2" fill="#6C5CE7"/>
+  </g>
+
+  <!-- Glowing Code / Tech Bulb Floating -->
+  <g transform="translate(370, 140)">
+    <circle cx="30" cy="30" r="32" fill="#6C5CE7" opacity="0.9" filter="url(#glow)"/>
+    <path d="M22 25 L16 30 L22 35 M38 25 L44 30 L38 35 M27 38 L33 22" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round"/>
+  </g>
+
+  <!-- Floating Badge / Education Icon -->
+  <g transform="translate(350, 40)">
+    <rect x="0" y="0" width="90" height="45" rx="10" fill="#FFFFFF" stroke="#00CED1" stroke-width="2"/>
+    <text x="15" y="28" font-family="sans-serif" font-size="20" fill="#00CED1" font-weight="bold">&lt;/&gt; EDU</text>
+  </g>
+
+  <!-- Sparkles -->
+  <circle cx="120" cy="70" r="4" fill="#FDCB6E"/>
+  <circle cx="430" cy="240" r="5" fill="#6C5CE7"/>
+  <circle cx="100" cy="230" r="3" fill="#00FA9A"/>
+</svg>
