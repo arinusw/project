@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="eduGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00D2FF"/>
+      <stop offset="100%" stop-color="#7C69EF"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background Glow -->
+  <rect x="40" y="40" width="420" height="320" rx="20" fill="#181825"/>
+
+  <!-- Code/E-Learning Screen Header -->
+  <path d="M 40 60 C 40 48, 48 40, 60 40 L 440 40 C 452 40, 460 48, 460 60 L 460 85 L 40 85 Z" fill="#2A2A3D"/>
+  <circle cx="65" cy="62" r="6" fill="#FF5F56"/>
+  <circle cx="85" cy="62" r="6" fill="#FFBD2E"/>
+  <circle cx="105" cy="62" r="6" fill="#27C93F"/>
+
+  <!-- Book / Knowledge Base Centerpiece -->
+  <g transform="translate(100, 120)">
+    <!-- Open Book Base -->
+    <path d="M 20 180 Q 150 140 150 40 Q 150 140 280 180 L 280 200 Q 150 160 20 200 Z" fill="url(#eduGrad)"/>
+    <!-- Floating Light Bulb / Innovation -->
+    <circle cx="150" cy="20" r="30" fill="#FFBD2E"/>
+    <path d="M 142 12 C 142 5, 158 5, 158 12 C 158 17, 152 19, 152 23 L 148 23 C 148 19, 142 17, 142 12 Z" fill="#181825"/>
+    <rect x="148" y="25" width="4" height="3" rx="1" fill="#181825"/>
+
+    <!-- Sparkles and Code Symbols -->
+    <text x="50" y="80" fill="#00D2FF" font-family="monospace" font-size="22" font-weight="bold">&lt;/&gt;</text>
+    <text x="220" y="80" fill="#FF7B9C" font-family="monospace" font-size="22" font-weight="bold">{...}</text>
+    <path d="M 150 70 L 150 110" stroke="#FFF" stroke-width="3" stroke-dasharray="4,4"/>
+  </g>
+
+  <!-- Community Growth Lines -->
+  <path d="M 80 320 Q 250 280 420 320" fill="none" stroke="#7C69EF" stroke-width="3"/>
+  <circle cx="80" cy="320" r="6" fill="#00D2FF"/>
+  <circle cx="250" cy="298" r="6" fill="#FFBD2E"/>
+  <circle cx="420" cy="320" r="6" fill="#FF7B9C"/>
+</svg>
