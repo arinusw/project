@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="edu-grad-1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4facfe" />
+      <stop offset="100%" stop-color="#00f2fe" />
+    </linearGradient>
+    <linearGradient id="edu-grad-2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#7059e2" />
+      <stop offset="100%" stop-color="#ae61ed" />
+    </linearGradient>
+  </defs>
+
+  <!-- Card Frame -->
+  <rect x="40" y="40" width="520" height="420" rx="24" fill="#1e1c2b" stroke="#332f4c" stroke-width="2" />
+
+  <!-- Open Digital Book / Knowledge Base Visual -->
+  <g transform="translate(100, 100)">
+    <!-- Book Shadow -->
+    <ellipse cx="200" cy="270" rx="180" ry="20" fill="#13121c" opacity="0.6" />
+
+    <!-- Open Book Pages Left & Right -->
+    <path d="M 200 240 Q 110 200 20 220 L 20 80 Q 110 60 200 100 Z" fill="#2d2b42" stroke="#4facfe" stroke-width="2" />
+    <path d="M 200 240 Q 290 200 380 220 L 380 80 Q 290 60 200 100 Z" fill="#25213b" stroke="#7059e2" stroke-width="2" />
+
+    <!-- Left Page Code/Content -->
+    <line x1="50" y1="100" x2="170" y2="85" stroke="#00f2fe" stroke-width="3" stroke-linecap="round" />
+    <line x1="50" y1="120" x2="150" y2="105" stroke="#686589" stroke-width="3" stroke-linecap="round" />
+    <line x1="50" y1="140" x2="160" y2="125" stroke="#00f2fe" stroke-width="3" stroke-linecap="round" />
+    <line x1="50" y1="160" x2="120" y2="145" stroke="#686589" stroke-width="3" stroke-linecap="round" />
+
+    <!-- Right Page Graphic / Tutorial Content -->
+    <line x1="230" y1="85" x2="350" y2="100" stroke="#ae61ed" stroke-width="3" stroke-linecap="round" />
+    <line x1="230" y1="105" x2="330" y2="120" stroke="#686589" stroke-width="3" stroke-linecap="round" />
+    <circle cx="280" cy="160" r="25" fill="url(#edu-grad-2)" opacity="0.8" />
+    <path d="M 270 160 L 290 160 M 280 150 L 280 170" stroke="#ffffff" stroke-width="3" stroke-linecap="round" />
+
+    <!-- Holographic Tech Knowledge Icon Rising Above -->
+    <g transform="translate(160, 0)">
+      <circle cx="40" cy="40" r="36" fill="url(#edu-grad-1)" opacity="0.9" />
+      <!-- Graduation Cap / Student Icon -->
+      <path d="M 40 20 L 65 32 L 40 44 L 15 32 Z" fill="#ffffff" />
+      <path d="M 23 37 L 23 48 C 23 54 57 54 57 48 L 57 37" fill="none" stroke="#ffffff" stroke-width="3" />
+      <path d="M 60 35 L 60 52" stroke="#ffb199" stroke-width="3" stroke-linecap="round" />
+    </g>
+
+    <!-- Connecting Floating Nodes -->
+    <circle cx="30" cy="40" r="6" fill="#00f2fe" />
+    <circle cx="370" cy="40" r="8" fill="#ae61ed" />
+    <line x1="36" y1="40" x2="160" y2="40" stroke="#00f2fe" stroke-width="2" stroke-dasharray="4,4" />
+    <line x1="236" y1="40" x2="362" y2="40" stroke="#ae61ed" stroke-width="2" stroke-dasharray="4,4" />
+  </g>
+</svg>
