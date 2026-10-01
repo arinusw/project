@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="about-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#7059e2" />
+      <stop offset="100%" stop-color="#00f2fe" />
+    </linearGradient>
+    <linearGradient id="about-accent" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffb199" />
+      <stop offset="100%" stop-color="#ff0844" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background decorative elements -->
+  <rect x="50" y="50" width="500" height="400" rx="30" fill="#1e1c2b" stroke="#332f4c" stroke-width="2" />
+  <circle cx="150" cy="120" r="40" fill="url(#about-grad)" opacity="0.2" />
+  <circle cx="450" cy="380" r="60" fill="url(#about-accent)" opacity="0.15" />
+
+  <!-- Central Lightbulb & Digital Growth Art -->
+  <g transform="translate(150, 80)">
+    <!-- Shield / Platform Base -->
+    <path d="M 50 300 Q 150 350 250 300 L 230 180 Q 150 200 70 180 Z" fill="#2d2b42" opacity="0.8" />
+
+    <!-- Bulb / Creative Light -->
+    <path d="M 150 60 C 100 60 70 100 70 150 C 70 190 95 215 110 240 L 190 240 C 205 215 230 190 230 150 C 230 100 200 60 150 60 Z" fill="url(#about-grad)" />
+
+    <!-- Filament & Digital Nodes -->
+    <path d="M 130 240 L 130 270 Q 150 280 170 270 L 170 240" fill="none" stroke="#ffffff" stroke-width="4" stroke-linecap="round" />
+    <circle cx="150" cy="130" r="25" fill="#ffffff" opacity="0.9" />
+    <path d="M 150 115 L 150 145 M 135 130 L 165 130" stroke="#7059e2" stroke-width="5" stroke-linecap="round" />
+
+    <!-- Rays / Ideas Floating Out -->
+    <line x1="150" y1="20" x2="150" y2="40" stroke="#00f2fe" stroke-width="4" stroke-linecap="round" />
+    <line x1="60" y1="70" x2="80" y2="85" stroke="#00f2fe" stroke-width="4" stroke-linecap="round" />
+    <line x1="240" y1="70" x2="220" y2="85" stroke="#00f2fe" stroke-width="4" stroke-linecap="round" />
+    <line x1="30" y1="150" x2="50" y2="150" stroke="#ffb199" stroke-width="4" stroke-linecap="round" />
+    <line x1="270" y1="150" x2="250" y2="150" stroke="#ffb199" stroke-width="4" stroke-linecap="round" />
+
+    <!-- Code & Gear Icons Floating -->
+    <g transform="translate(-40, 160)">
+      <rect x="0" y="0" width="60" height="60" rx="15" fill="#2d2b42" stroke="#7059e2" stroke-width="2" />
+      <path d="M 20 20 L 10 30 L 20 40 M 40 20 L 50 30 L 40 40" stroke="#00f2fe" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round" />
+    </g>
+
+    <g transform="translate(280, 160)">
+      <rect x="0" y="0" width="60" height="60" rx="15" fill="#2d2b42" stroke="#ffb199" stroke-width="2" />
+      <circle cx="30" cy="30" r="12" stroke="#ffb199" stroke-width="3" fill="none" />
+      <circle cx="30" cy="30" r="4" fill="#ffb199" />
+    </g>
+  </g>
+</svg>
