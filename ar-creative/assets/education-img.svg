@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="eduGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00b894"/>
+      <stop offset="100%" stop-color="#00cec9"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#000" flood-opacity="0.12"/>
+    </filter>
+  </defs>
+
+  <!-- Circle background -->
+  <circle cx="250" cy="250" r="180" fill="#00b894" opacity="0.1"/>
+
+  <!-- Open Book & Digital Glow Frame -->
+  <g filter="url(#shadow)">
+    <!-- Monitor Base -->
+    <rect x="120" y="100" width="260" height="180" rx="12" fill="#1e1e2d"/>
+    <rect x="135" y="115" width="230" height="150" rx="6" fill="#2d2d3f"/>
+    <path d="M220,280 L280,280 L290,320 L210,320 Z" fill="#1e1e2d"/>
+    <rect x="190" y="320" width="120" height="12" rx="6" fill="#1e1e2d"/>
+  </g>
+
+  <!-- Digital Book / Graduation Icon inside screen -->
+  <path d="M250,140 L310,170 L250,200 L190,170 Z" fill="url(#eduGrad)"/>
+  <path d="M210,185 L210,225 C210,235 290,235 290,225 L290,185" fill="none" stroke="#00cec9" stroke-width="4"/>
+  <path d="M300,178 L300,220" stroke="#fdcb6e" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="300" cy="223" r="4" fill="#fdcb6e"/>
+
+  <!-- Code / Learning Floating Cards -->
+  <g transform="translate(80, 260)" filter="url(#shadow)">
+    <rect x="0" y="0" width="110" height="90" rx="12" fill="#6C5CE7"/>
+    <rect x="15" y="20" width="50" height="8" rx="4" fill="#ffffff" opacity="0.8"/>
+    <rect x="15" y="36" width="80" height="6" rx="3" fill="#ffffff" opacity="0.5"/>
+    <rect x="15" y="48" width="65" height="6" rx="3" fill="#ffffff" opacity="0.5"/>
+    <rect x="15" y="60" width="40" height="12" rx="6" fill="#00cec9"/>
+  </g>
+
+  <g transform="translate(310, 260)" filter="url(#shadow)">
+    <rect x="0" y="0" width="110" height="90" rx="12" fill="#fd79a8"/>
+    <circle cx="35" cy="35" r="16" fill="#ffffff" opacity="0.9"/>
+    <rect x="15" y="60" width="80" height="8" rx="4" fill="#ffffff" opacity="0.8"/>
+  </g>
+</svg>

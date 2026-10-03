@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="heroGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6C5CE7"/>
+      <stop offset="100%" stop-color="#a29bfe"/>
+    </linearGradient>
+    <linearGradient id="heroGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00cec9"/>
+      <stop offset="100%" stop-color="#81ecec"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="10" stdDeviation="15" flood-color="#000" flood-opacity="0.15"/>
+    </filter>
+  </defs>
+
+  <!-- Background Blob -->
+  <path d="M420,320Q380,440,260,450Q140,460,80,350Q20,240,90,130Q160,20,280,40Q400,60,430,180Q460,300,420,320Z" fill="url(#heroGrad1)" opacity="0.15" />
+
+  <!-- Main Device / Canvas Frame -->
+  <rect x="70" y="80" width="360" height="260" rx="16" fill="#1e1e2d" filter="url(#shadow)" />
+  <rect x="85" y="100" width="330" height="220" rx="8" fill="#2d2d3f" />
+
+  <!-- Code & Graphic Elements -->
+  <circle cx="110" cy="120" r="6" fill="#ff5f56"/>
+  <circle cx="130" cy="120" r="6" fill="#ffbd2e"/>
+  <circle cx="150" cy="120" r="6" fill="#27c93f"/>
+
+  <!-- Content Graphic Elements -->
+  <rect x="110" y="150" width="140" height="12" rx="4" fill="#6C5CE7" />
+  <rect x="110" y="175" width="200" height="8" rx="3" fill="#a29bfe" opacity="0.7" />
+  <rect x="110" y="195" width="170" height="8" rx="3" fill="#a29bfe" opacity="0.5" />
+
+  <rect x="110" y="225" width="80" height="60" rx="8" fill="url(#heroGrad2)" />
+  <rect x="205" y="225" width="185" height="60" rx="8" fill="#3b3b52" />
+
+  <!-- Floating Creative Elements -->
+  <g transform="translate(320, 260)" filter="url(#shadow)">
+    <rect x="0" y="0" width="120" height="120" rx="20" fill="url(#heroGrad1)"/>
+    <path d="M35,60 L50,75 L85,40" stroke="#ffffff" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  </g>
+
+  <!-- Floating Orbit Circle -->
+  <circle cx="90" cy="380" r="35" fill="url(#heroGrad2)" opacity="0.8" filter="url(#shadow)"/>
+  <path d="M75,380 L105,380 M90,365 L90,395" stroke="#ffffff" stroke-width="4" stroke-linecap="round"/>
+</svg>
