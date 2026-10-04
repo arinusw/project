@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="about-grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6C5CE7"/>
+      <stop offset="100%" stop-color="#00CEC9"/>
+    </linearGradient>
+    <filter id="shadow-about" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#000" flood-opacity="0.12"/>
+    </filter>
+  </defs>
+
+  <!-- Background Decorative Shape -->
+  <rect x="50" y="50" width="400" height="400" rx="30" fill="url(#about-grad1)" opacity="0.08"/>
+  <circle cx="250" cy="250" r="160" fill="none" stroke="#6C5CE7" stroke-width="2" stroke-dasharray="8 12" opacity="0.3"/>
+
+  <!-- Main Workstation Canvas -->
+  <g filter="url(#shadow-about)">
+    <rect x="90" y="100" width="320" height="240" rx="16" fill="#FFFFFF"/>
+    <!-- Top Bar -->
+    <path d="M 90 116 A 16 16 0 0 1 106 100 L 394 100 A 16 16 0 0 1 410 116 L 410 135 L 90 135 Z" fill="#F1F2F6"/>
+    <circle cx="115" cy="118" r="5" fill="#FF5F56"/>
+    <circle cx="130" cy="118" r="5" fill="#FFBD2E"/>
+    <circle cx="145" cy="118" r="5" fill="#27C93F"/>
+
+    <!-- Left Sidebar Menu -->
+    <rect x="105" y="150" width="60" height="175" rx="8" fill="#F8F9FA"/>
+    <rect x="115" y="165" width="40" height="8" rx="4" fill="#6C5CE7"/>
+    <rect x="115" y="185" width="30" height="6" rx="3" fill="#DFE6E9"/>
+    <rect x="115" y="200" width="35" height="6" rx="3" fill="#DFE6E9"/>
+    <rect x="115" y="215" width="25" height="6" rx="3" fill="#DFE6E9"/>
+
+    <!-- Canvas Area -->
+    <rect x="180" y="150" width="215" height="175" rx="8" fill="#F1F3F9"/>
+    <!-- Lightbulb Creative Graphic inside Canvas -->
+    <circle cx="287" cy="220" r="45" fill="url(#about-grad1)" opacity="0.85"/>
+    <path d="M 275 220 L 285 200 L 295 220 L 285 240 Z" fill="#FFFFFF"/>
+    <circle cx="287" cy="220" r="12" fill="#FFD166"/>
+  </g>
+
+  <!-- Front Floating Feature Cards -->
+  <!-- Card 1: Solutions -->
+  <g filter="url(#shadow-about)">
+    <rect x="60" y="280" width="140" height="110" rx="14" fill="#1E1E2E"/>
+    <circle cx="95" cy="315" r="16" fill="#6C5CE7"/>
+    <path d="M90 315 L93 318 L100 310" stroke="#FFF" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+    <text x="75" y="350" font-family="sans-serif" font-size="12" font-weight="bold" fill="#FFFFFF">Solusi Digital</text>
+    <text x="75" y="368" font-family="sans-serif" font-size="10" fill="#A0A0B0">Inovasi & Hasil</text>
+  </g>
+
+  <!-- Card 2: Education -->
+  <g filter="url(#shadow-about)">
+    <rect x="300" y="290" width="140" height="110" rx="14" fill="#FFFFFF"/>
+    <circle cx="335" cy="325" r="16" fill="#00CEC9"/>
+    <!-- Cap Icon -->
+    <path d="M327 325 L335 320 L343 325 L335 330 Z" fill="#FFF"/>
+    <path d="M330 328 L330 333 C330 335 340 335 340 333 L340 328" stroke="#FFF" stroke-width="1.5" fill="none"/>
+    <text x="315" y="360" font-family="sans-serif" font-size="12" font-weight="bold" fill="#2D3436">Edukasi</text>
+    <text x="315" y="378" font-family="sans-serif" font-size="10" fill="#636E72">Literasi Digital</text>
+  </g>
+
+  <!-- Decorative Accents -->
+  <circle cx="430" cy="120" r="10" fill="#FF7675"/>
+  <polygon points="70,100 74,108 83,110 74,112 70,120 66,112 57,110 66,108" fill="#FFD166"/>
+</svg>

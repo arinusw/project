@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="edu-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00CEC9"/>
+      <stop offset="100%" stop-color="#6C5CE7"/>
+    </linearGradient>
+    <filter id="shadow-edu" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#000" flood-opacity="0.12"/>
+    </filter>
+  </defs>
+
+  <!-- Outer Glow Circle -->
+  <circle cx="250" cy="250" r="180" fill="url(#edu-grad)" opacity="0.1"/>
+  <circle cx="250" cy="250" r="150" stroke="url(#edu-grad)" stroke-width="2" stroke-dasharray="6 10" fill="none"/>
+
+  <!-- Open Laptop / Workspace -->
+  <g filter="url(#shadow-edu)">
+    <!-- Screen -->
+    <rect x="110" y="110" width="280" height="180" rx="12" fill="#1E1E2E"/>
+    <rect x="120" y="120" width="260" height="160" rx="8" fill="#2D2D44"/>
+
+    <!-- Screen Content: Code & Learning Graphic -->
+    <!-- Header -->
+    <rect x="135" y="135" width="80" height="8" rx="4" fill="#6C5CE7"/>
+    <rect x="135" y="150" width="140" height="6" rx="3" fill="#DFE6E9" opacity="0.6"/>
+
+    <!-- Code Blocks -->
+    <rect x="135" y="170" width="100" height="6" rx="3" fill="#00CEC9"/>
+    <rect x="150" y="182" width="120" height="6" rx="3" fill="#FF7675"/>
+    <rect x="165" y="194" width="80" height="6" rx="3" fill="#FFD166"/>
+    <rect x="150" y="206" width="110" height="6" rx="3" fill="#a29bfe"/>
+    <rect x="135" y="218" width="70" height="6" rx="3" fill="#00CEC9"/>
+
+    <!-- Learning Chart / Diagram on right side -->
+    <circle cx="330" cy="180" r="25" stroke="#00CEC9" stroke-width="5" fill="none" stroke-dasharray="100 30"/>
+    <path d="M310 240 L330 220 L345 230 L365 205" stroke="#FFD166" stroke-width="3" fill="none" stroke-linecap="round"/>
+
+    <!-- Laptop Base -->
+    <path d="M70 290 L430 290 L410 310 L90 310 Z" fill="#DCDDE1"/>
+    <rect x="210" y="292" width="80" height="5" rx="2.5" fill="#718093"/>
+  </g>
+
+  <!-- Floating Graduation & Knowledge Badges -->
+  <g filter="url(#shadow-edu)">
+    <!-- Graduation Cap Card -->
+    <rect x="60" y="160" width="90" height="90" rx="16" fill="#FFFFFF"/>
+    <path d="M105 185 L130 198 L105 211 L80 198 Z" fill="#6C5CE7"/>
+    <path d="M92 205 L92 217 C92 222 118 222 118 217 L118 205" stroke="#6C5CE7" stroke-width="2" fill="none"/>
+    <circle cx="130" cy="205" r="3" fill="#FFD166"/>
+    <line x1="130" y1="205" x2="130" y2="218" stroke="#FFD166" stroke-width="1.5"/>
+  </g>
+
+  <g filter="url(#shadow-edu)">
+    <!-- Certificate / Idea Card -->
+    <rect x="340" y="270" width="100" height="100" rx="16" fill="#FFFFFF"/>
+    <circle cx="390" cy="305" r="18" fill="#FFD166"/>
+    <!-- Lightbulb inner icon -->
+    <path d="M390 296 C385 296 381 300 381 305 C381 309 384 311 386 313 L394 313 C396 311 399 309 399 305 C399 300 395 296 390 296 Z" fill="#1E1E2E"/>
+    <rect x="387" y="315" width="6" height="4" fill="#1E1E2E"/>
+    <text x="390" y="348" text-anchor="middle" font-family="sans-serif" font-size="9" font-weight="bold" fill="#2D3436">Edukasi</text>
+  </g>
+
+  <!-- Background Sparks -->
+  <circle cx="420" cy="120" r="6" fill="#6C5CE7"/>
+  <circle cx="80" cy="360" r="8" fill="#00CEC9"/>
+</svg>
