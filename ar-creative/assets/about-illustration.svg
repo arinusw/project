@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="aboutGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6C5CE7"/>
+      <stop offset="100%" stop-color="#8e44ad"/>
+    </linearGradient>
+    <linearGradient id="aboutGrad2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00cec9"/>
+      <stop offset="100%" stop-color="#0984e3"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background decorative circle -->
+  <circle cx="250" cy="200" r="150" fill="#6C5CE7" opacity="0.1"/>
+
+  <!-- Studio Desk Surface -->
+  <rect x="80" y="320" width="340" height="12" rx="6" fill="#2d2d44"/>
+
+  <!-- Laptop / Workstation -->
+  <rect x="170" y="220" width="160" height="95" rx="8" fill="#1e1e2e" stroke="#6C5CE7" stroke-width="2"/>
+  <rect x="178" y="228" width="144" height="79" rx="4" fill="#252538"/>
+  <!-- UI Mockup on screen -->
+  <rect x="185" y="235" width="60" height="30" rx="4" fill="url(#aboutGrad1)"/>
+  <rect x="250" y="235" width="65" height="6" rx="2" fill="#a29bfe"/>
+  <rect x="250" y="247" width="50" height="5" rx="2" fill="#a29bfe" opacity="0.6"/>
+  <rect x="185" y="272" width="130" height="28" rx="4" fill="#181825"/>
+  <line x1="192" y1="280" x2="230" y2="280" stroke="#00cec9" stroke-width="3" stroke-linecap="round"/>
+  <line x1="192" y1="290" x2="280" y2="290" stroke="#a29bfe" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Laptop Keyboard Base -->
+  <path d="M150 315 L350 315 L335 320 L165 320 Z" fill="#3d3d5c"/>
+
+  <!-- Team/Studio Symbols & Digital Ideas -->
+  <!-- Creative Rocket Launching (Digital Solutions) -->
+  <g transform="translate(90, 100)">
+    <path d="M30 0 C45 20 45 45 45 60 L15 60 C15 45 15 20 30 0 Z" fill="url(#aboutGrad1)"/>
+    <circle cx="30" cy="25" r="8" fill="#ffffff"/>
+    <path d="M15 40 L0 55 L15 60 Z" fill="#e17055"/>
+    <path d="M45 40 L60 55 L45 60 Z" fill="#e17055"/>
+    <!-- Flame -->
+    <path d="M22 60 C22 75 30 85 30 85 C30 85 38 75 38 60 Z" fill="#fdcb6e"/>
+  </g>
+
+  <!-- Digital Book & Growth Shield (Education & Service) -->
+  <g transform="translate(330, 110)">
+    <!-- Book Base -->
+    <path d="M10 40 Q 35 25 60 40 L60 70 Q 35 55 10 70 Z" fill="#00cec9" opacity="0.8"/>
+    <path d="M60 40 Q 85 25 110 40 L110 70 Q 85 55 60 70 Z" fill="#0984e3" opacity="0.8"/>
+    <!-- Graduation Cap Floating -->
+    <polygon points="60,5 10,20 60,35 110,20" fill="#6C5CE7"/>
+    <rect x="52" y="26" width="16" height="12" fill="#6C5CE7"/>
+    <path d="M100 22 L100 40" stroke="#fdcb6e" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="100" cy="42" r="3" fill="#fdcb6e"/>
+  </g>
+
+  <!-- Connection Nodes (Community / Digital Network) -->
+  <circle cx="250" cy="80" r="16" fill="#6C5CE7"/>
+  <circle cx="180" cy="60" r="10" fill="#00cec9"/>
+  <circle cx="320" cy="60" r="10" fill="#fdcb6e"/>
+  <line x1="250" y1="80" x2="180" y2="60" stroke="#6C5CE7" stroke-width="2" stroke-dasharray="4"/>
+  <line x1="250" y1="80" x2="320" y2="60" stroke="#6C5CE7" stroke-width="2" stroke-dasharray="4"/>
+</svg>
