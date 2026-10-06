@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="eduGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00cec9"/>
+      <stop offset="100%" stop-color="#6C5CE7"/>
+    </linearGradient>
+  </defs>
+
+  <circle cx="250" cy="200" r="140" fill="#00cec9" opacity="0.1"/>
+
+  <!-- Large Open Book / Digital Tablet -->
+  <rect x="100" y="120" width="300" height="200" rx="16" fill="#1e1e2e" stroke="#00cec9" stroke-width="3"/>
+  <rect x="115" y="135" width="270" height="170" rx="10" fill="#2d2d44"/>
+
+  <!-- Screen Content: Code & Educational Graphics -->
+  <rect x="130" y="150" width="100" height="140" rx="8" fill="#181825"/>
+  <!-- Code lines -->
+  <line x1="140" y1="165" x2="190" y2="165" stroke="#ff79c6" stroke-width="3" stroke-linecap="round"/>
+  <line x1="140" y1="180" x2="210" y2="180" stroke="#50fa7b" stroke-width="3" stroke-linecap="round"/>
+  <line x1="150" y1="195" x2="200" y2="195" stroke="#f1fa8c" stroke-width="3" stroke-linecap="round"/>
+  <line x1="150" y1="210" x2="180" y2="210" stroke="#bd93f9" stroke-width="3" stroke-linecap="round"/>
+  <line x1="140" y1="225" x2="215" y2="225" stroke="#8be9fd" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Graphics chart on right side -->
+  <rect x="245" y="150" width="125" height="140" rx="8" fill="url(#eduGrad)" opacity="0.2"/>
+  <path d="M260 260 L285 220 L310 240 L345 180" fill="none" stroke="#00cec9" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="345" cy="180" r="6" fill="#fdcb6e"/>
+
+  <!-- Floating Graduation Cap / Lightbulb on Top -->
+  <g transform="translate(200, 40)">
+    <polygon points="50,10 10,28 50,46 90,28" fill="#6C5CE7"/>
+    <polygon points="50,10 90,28 80,32.5 40,14.5" fill="#a29bfe"/>
+    <path d="M25 35 L25 55 C25 62 75 62 75 55 L75 35" fill="#574b90"/>
+    <path d="M85 30 L85 60" stroke="#fdcb6e" stroke-width="3"/>
+    <circle cx="85" cy="63" r="4" fill="#fdcb6e"/>
+  </g>
+</svg>
