@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="grad-about" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6C5CE7"/>
+      <stop offset="100%" stop-color="#00CEC9"/>
+    </linearGradient>
+    <filter id="shadow-about" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#000" flood-opacity="0.12"/>
+    </filter>
+  </defs>
+
+  <!-- Background Circle -->
+  <circle cx="250" cy="250" r="190" fill="url(#grad-about)" opacity="0.1"/>
+
+  <!-- Main Digital Workspace Concept -->
+  <rect x="90" y="120" width="320" height="260" rx="20" fill="#ffffff" filter="url(#shadow-about)"/>
+
+  <!-- Lightbulb / Idea Symbol -->
+  <circle cx="250" cy="210" r="45" fill="url(#grad-about)"/>
+  <path d="M238 200 L250 188 L262 200 M250 188 L250 225" stroke="#ffffff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Creative Lines & Waves -->
+  <rect x="140" y="280" width="220" height="12" rx="6" fill="#DFE6E9"/>
+  <rect x="170" y="305" width="160" height="10" rx="5" fill="#DFE6E9"/>
+
+  <!-- Floating Tech & Edu Indicators -->
+  <g filter="url(#shadow-about)">
+    <rect x="60" y="200" width="80" height="80" rx="16" fill="#ffffff"/>
+    <path d="M85 240 L100 225 L115 240 M100 225 L100 255" stroke="#6C5CE7" stroke-width="4" stroke-linecap="round"/>
+  </g>
+
+  <g filter="url(#shadow-about)">
+    <rect x="360" y="220" width="80" height="80" rx="16" fill="#6C5CE7"/>
+    <circle cx="400" cy="260" r="16" fill="#ffffff" opacity="0.9"/>
+  </g>
+</svg>
