@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="grad-hero" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6C5CE7" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#a29bfe" stop-opacity="0.8"/>
+    </linearGradient>
+    <linearGradient id="grad-accent" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00CEC9"/>
+      <stop offset="100%" stop-color="#81ECEC"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="10" stdDeviation="15" flood-color="#000" flood-opacity="0.15"/>
+    </filter>
+  </defs>
+
+  <!-- Background Abstract Shapes -->
+  <circle cx="250" cy="250" r="180" fill="url(#grad-hero)" opacity="0.15"/>
+  <rect x="80" y="90" width="340" height="240" rx="16" fill="#ffffff" filter="url(#shadow)"/>
+
+  <!-- Screen Header -->
+  <rect x="80" y="90" width="340" height="36" rx="16" fill="#f1f2f6"/>
+  <circle cx="105" cy="108" r="6" fill="#FF7675"/>
+  <circle cx="125" cy="108" r="6" fill="#FFEAA7"/>
+  <circle cx="145" cy="108" r="6" fill="#55E6C1"/>
+
+  <!-- Code / Design Canvas Content -->
+  <rect x="110" y="150" width="120" height="12" rx="6" fill="#6C5CE7"/>
+  <rect x="110" y="174" width="180" height="8" rx="4" fill="#DFE6E9"/>
+  <rect x="110" y="190" width="150" height="8" rx="4" fill="#DFE6E9"/>
+  <rect x="110" y="206" width="200" height="8" rx="4" fill="#DFE6E9"/>
+
+  <!-- Floating Cards & Graphic Badges -->
+  <g filter="url(#shadow)">
+    <rect x="260" y="160" width="130" height="110" rx="12" fill="#ffffff"/>
+    <circle cx="325" cy="200" r="28" fill="url(#grad-accent)" opacity="0.8"/>
+    <path d="M315 200 L323 208 L337 192" stroke="#ffffff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+    <rect x="280" y="240" width="90" height="6" rx="3" fill="#B2BEC3"/>
+  </g>
+
+  <!-- Bottom Floating Element -->
+  <g filter="url(#shadow)">
+    <rect x="130" y="280" width="240" height="110" rx="16" fill="#6C5CE7"/>
+    <circle cx="170" cy="335" r="24" fill="#ffffff" opacity="0.2"/>
+    <path d="M162 335 C162 325, 178 325, 178 335 C178 345, 162 345, 162 335 Z" fill="#ffffff"/>
+    <rect x="210" y="320" width="130" height="10" rx="5" fill="#ffffff"/>
+    <rect x="210" y="340" width="90" height="8" rx="4" fill="#ffffff" opacity="0.7"/>
+  </g>
+
+  <!-- Decorative Sparkles -->
+  <circle cx="80" cy="380" r="8" fill="#00CEC9"/>
+  <circle cx="410" cy="120" r="12" fill="#6C5CE7" opacity="0.5"/>
+  <circle cx="420" cy="360" r="6" fill="#FFEAA7"/>
+</svg>
