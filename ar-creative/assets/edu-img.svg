@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="eduGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00F2FE"/>
+      <stop offset="100%" stop-color="#4FACFE"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background Light -->
+  <circle cx="250" cy="250" r="170" fill="#7B61FF" opacity="0.1" />
+
+  <!-- Open Book / Screen Combination -->
+  <path d="M100 340 C170 320, 230 330, 250 350 C270 330, 330 320, 400 340 L400 180 C330 160, 270 170, 250 190 C230 170, 170 160, 100 180 Z" fill="#1E1E2A" stroke="#7B61FF" stroke-width="3" />
+  <line x1="250" y1="190" x2="250" y2="350" stroke="#7B61FF" stroke-width="3" />
+
+  <!-- Code / Content Lines on Book Pages -->
+  <!-- Left Page -->
+  <rect x="130" y="210" width="80" height="8" rx="4" fill="url(#eduGrad)" />
+  <rect x="130" y="230" width="90" height="6" rx="3" fill="#A0A0C0" opacity="0.6" />
+  <rect x="130" y="245" width="70" height="6" rx="3" fill="#A0A0C0" opacity="0.6" />
+  <rect x="130" y="260" width="85" height="6" rx="3" fill="#A0A0C0" opacity="0.6" />
+
+  <!-- Right Page -->
+  <rect x="270" y="210" width="90" height="8" rx="4" fill="#FF7B9C" />
+  <rect x="270" y="230" width="80" height="6" rx="3" fill="#A0A0C0" opacity="0.6" />
+  <rect x="270" y="245" width="100" height="6" rx="3" fill="#A0A0C0" opacity="0.6" />
+  <rect x="270" y="260" width="75" height="6" rx="3" fill="#A0A0C0" opacity="0.6" />
+
+  <!-- Lightbulb / Idea Symbol Floating Above -->
+  <g transform="translate(250, 110)">
+    <circle cx="0" cy="0" r="35" fill="#FFBD2E" />
+    <path d="M-15 15 L15 15 L10 30 L-10 30 Z" fill="#E5A000" />
+    <rect x="-8" y="32" width="16" height="6" rx="3" fill="#777" />
+    <!-- Rays -->
+    <line x1="0" y1="-45" x2="0" y2="-55" stroke="#FFBD2E" stroke-width="4" stroke-linecap="round" />
+    <line x1="-35" y1="-35" x2="-43" y2="-43" stroke="#FFBD2E" stroke-width="4" stroke-linecap="round" />
+    <line x1="35" y1="-35" x2="43" y2="-43" stroke="#FFBD2E" stroke-width="4" stroke-linecap="round" />
+    <line x1="-45" y1="0" x2="-55" y2="0" stroke="#FFBD2E" stroke-width="4" stroke-linecap="round" />
+    <line x1="45" y1="0" x2="55" y2="0" stroke="#FFBD2E" stroke-width="4" stroke-linecap="round" />
+  </g>
+</svg>

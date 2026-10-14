@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="heroGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#7B61FF" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#3A1C9A" stop-opacity="0.9"/>
+    </linearGradient>
+    <linearGradient id="heroGrad2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00F2FE"/>
+      <stop offset="100%" stop-color="#4FACFE"/>
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="15" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <!-- Background Decorative Shapes -->
+  <circle cx="250" cy="250" r="180" fill="url(#heroGrad1)" opacity="0.15" />
+  <circle cx="380" cy="120" r="60" fill="#7B61FF" opacity="0.2" />
+  <circle cx="100" cy="380" r="40" fill="#00F2FE" opacity="0.2" />
+
+  <!-- Abstract Art Frame / Monitor -->
+  <rect x="80" y="100" width="340" height="240" rx="20" fill="#1E1E2A" stroke="#7B61FF" stroke-width="3" />
+  <rect x="95" y="115" width="310" height="210" rx="12" fill="#13131A" />
+
+  <!-- Code / Design Canvas Elements inside monitor -->
+  <!-- Top bar -->
+  <circle cx="115" cy="132" r="5" fill="#FF5F56" />
+  <circle cx="130" cy="132" r="5" fill="#FFBD2E" />
+  <circle cx="145" cy="132" r="5" fill="#27C93F" />
+  <line x1="95" y1="148" x2="405" y2="148" stroke="#2B2B3A" stroke-width="2" />
+
+  <!-- Creative Geometric Artwork on Canvas -->
+  <path d="M120 280 L180 180 L230 240 L300 160 L380 280 Z" fill="url(#heroGrad2)" opacity="0.7" />
+  <circle cx="300" cy="190" r="25" fill="#FF7B9C" opacity="0.8" />
+  <rect x="140" y="210" width="50" height="50" rx="10" fill="#7B61FF" opacity="0.6" transform="rotate(15 165 235)" />
+
+  <!-- Floating Digital Creative Icons/Elements -->
+  <!-- Floating Palette -->
+  <g transform="translate(50, 220)">
+    <rect x="0" y="0" width="70" height="70" rx="18" fill="#2A2A3C" stroke="#7B61FF" stroke-width="2" />
+    <circle cx="25" cy="25" r="8" fill="#FF7B9C" />
+    <circle cx="45" cy="25" r="8" fill="#00F2FE" />
+    <circle cx="25" cy="45" r="8" fill="#FFBD2E" />
+    <circle cx="45" cy="45" r="8" fill="#7B61FF" />
+  </g>
+
+  <!-- Floating Code Badge -->
+  <g transform="translate(370, 260)">
+    <rect x="0" y="0" width="80" height="60" rx="15" fill="#2A2A3C" stroke="#00F2FE" stroke-width="2" />
+    <path d="M20 30 L30 20 M20 30 L30 40 M60 30 L50 20 M60 30 L50 40" stroke="#00F2FE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+  </g>
+
+  <!-- Base Stand -->
+  <path d="M220 340 L280 340 L290 390 L210 390 Z" fill="#2A2A3C" />
+  <rect x="180" y="390" width="140" height="12" rx="6" fill="#7B61FF" />
+
+  <!-- Glowing Accents -->
+  <circle cx="250" cy="420" r="4" fill="#00F2FE" />
+  <circle cx="230" cy="420" r="4" fill="#7B61FF" />
+  <circle cx="270" cy="420" r="4" fill="#FF7B9C" />
+</svg>
