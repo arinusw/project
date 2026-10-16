@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="aboutGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6C5CE7" />
+      <stop offset="100%" stop-color="#a29bfe" />
+    </linearGradient>
+    <filter id="shadowAbout" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#6C5CE7" flood-opacity="0.15" />
+    </filter>
+  </defs>
+
+  <!-- Background Decorative Circles -->
+  <circle cx="250" cy="200" r="150" fill="#F0EEFF" />
+  <circle cx="120" cy="100" r="30" fill="#6C5CE7" opacity="0.15" />
+  <circle cx="390" cy="300" r="45" fill="#a29bfe" opacity="0.2" />
+
+  <!-- Center Piece: Studio & Creative Hub -->
+  <g filter="url(#shadowAbout)">
+    <!-- Layered Creative Cards -->
+    <!-- Card 1: Backing -->
+    <rect x="110" y="100" width="280" height="200" rx="16" fill="#A29BFE" opacity="0.4" transform="rotate(-6 250 200)" />
+    <!-- Card 2: Main -->
+    <rect x="110" y="100" width="280" height="200" rx="16" fill="#FFFFFF" transform="rotate(2 250 200)" />
+
+    <!-- Inside Main Card Content -->
+    <rect x="140" y="130" width="80" height="80" rx="12" fill="url(#aboutGrad1)" transform="rotate(2 250 200)" />
+    <path d="M 165 175 L 180 150 L 195 175 Z" fill="#FFFFFF" opacity="0.8" transform="rotate(2 250 200)" />
+    <circle cx="190" cy="150" r="6" fill="#FFEAA7" transform="rotate(2 250 200)" />
+
+    <!-- Text / Content Bar Simulators -->
+    <rect x="235" y="140" width="130" height="10" rx="5" fill="#6C5CE7" transform="rotate(2 250 200)" />
+    <rect x="235" y="160" width="100" height="8" rx="4" fill="#D6D0FE" transform="rotate(2 250 200)" />
+    <rect x="235" y="175" width="115" height="8" rx="4" fill="#D6D0FE" transform="rotate(2 250 200)" />
+    <rect x="235" y="190" width="70" height="8" rx="4" fill="#D6D0FE" transform="rotate(2 250 200)" />
+
+    <!-- Lower Feature Badges inside Card -->
+    <rect x="140" y="225" width="100" height="40" rx="8" fill="#F8F7FF" transform="rotate(2 250 200)" />
+    <rect x="250" y="225" width="115" height="40" rx="8" fill="#F8F7FF" transform="rotate(2 250 200)" />
+
+    <!-- Mini icons inside badges -->
+    <circle cx="160" cy="245" r="10" fill="#6C5CE7" transform="rotate(2 250 200)" />
+    <rect x="178" y="241" width="50" height="6" rx="3" fill="#A29BFE" transform="rotate(2 250 200)" />
+
+    <circle cx="270" cy="245" r="10" fill="#00CEC9" transform="rotate(2 250 200)" />
+    <rect x="288" y="241" width="60" height="6" rx="3" fill="#A29BFE" transform="rotate(2 250 200)" />
+  </g>
+
+  <!-- Floating Orbital Badges -->
+  <!-- Innovation Badge -->
+  <g filter="url(#shadowAbout)" transform="translate(70, 70)">
+    <circle cx="25" cy="25" r="25" fill="#FFFFFF" />
+    <circle cx="25" cy="25" r="18" fill="#FF7675" />
+    <path d="M 20 25 L 23 28 L 30 21" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+  </g>
+
+  <!-- Education Badge -->
+  <g filter="url(#shadowAbout)" transform="translate(370, 110)">
+    <circle cx="25" cy="25" r="25" fill="#FFFFFF" />
+    <circle cx="25" cy="25" r="18" fill="#6C5CE7" />
+    <!-- Graduation Cap / Book Icon -->
+    <path d="M17 22 L25 18 L33 22 L25 26 Z M20 24.5 V28 C20 29.5 22.5 31 25 31 C27.5 31 30 29.5 30 28 V24.5" stroke="#FFFFFF" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+  </g>
+
+  <!-- Digital Growth Badge -->
+  <g filter="url(#shadowAbout)" transform="translate(320, 270)">
+    <circle cx="25" cy="25" r="25" fill="#FFFFFF" />
+    <circle cx="25" cy="25" r="18" fill="#00b894" />
+    <path d="M 18 29 L 23 24 L 27 27 L 33 20" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+    <path d="M 28 20 H 33 V 25" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+  </g>
+</svg>

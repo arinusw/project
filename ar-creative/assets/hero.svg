@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="heroGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6C5CE7" />
+      <stop offset="100%" stop-color="#a29bfe" />
+    </linearGradient>
+    <linearGradient id="heroGrad2" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#a29bfe" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#6C5CE7" stop-opacity="0.2" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="10" stdDeviation="15" flood-color="#6C5CE7" flood-opacity="0.15" />
+    </filter>
+  </defs>
+
+  <!-- Background Decorative Shapes -->
+  <circle cx="250" cy="200" r="160" fill="url(#heroGrad2)" />
+  <circle cx="380" cy="90" r="40" fill="#a29bfe" opacity="0.3" />
+  <circle cx="100" cy="320" r="25" fill="#6C5CE7" opacity="0.2" />
+
+  <!-- Main Illustration: Digital Workspace / Screen -->
+  <g filter="url(#shadow)">
+    <!-- Base Card / Monitor -->
+    <rect x="80" y="60" width="340" height="230" rx="16" fill="#FFFFFF" />
+    <!-- Screen Header -->
+    <rect x="80" y="60" width="340" height="36" rx="16" fill="#F0EEFF" />
+    <rect x="80" y="80" width="340" height="16" fill="#F0EEFF" />
+    <!-- Header Window Dots -->
+    <circle cx="105" cy="78" r="5" fill="#FF7675" />
+    <circle cx="120" cy="78" r="5" fill="#FFEAA7" />
+    <circle cx="135" cy="78" r="5" fill="#55E6C1" />
+
+    <!-- Screen Content UI Elements -->
+    <!-- Sidebar -->
+    <rect x="100" y="110" width="60" height="160" rx="8" fill="#F8F7FF" />
+    <rect x="112" y="125" width="36" height="8" rx="4" fill="#6C5CE7" />
+    <rect x="112" y="145" width="36" height="6" rx="3" fill="#D6D0FE" />
+    <rect x="112" y="160" width="36" height="6" rx="3" fill="#D6D0FE" />
+    <rect x="112" y="175" width="36" height="6" rx="3" fill="#D6D0FE" />
+
+    <!-- Main Canvas Graphics -->
+    <rect x="175" y="110" width="225" height="90" rx="8" fill="url(#heroGrad1)" />
+    <!-- Graphic Elements on Canvas -->
+    <path d="M 195 170 Q 230 130 265 155 T 335 130 L 380 180 L 195 180 Z" fill="#FFFFFF" opacity="0.3" />
+    <circle cx="340" cy="135" r="12" fill="#FFEAA7" />
+
+    <!-- Dashboard Widgets -->
+    <rect x="175" y="210" width="105" height="60" rx="8" fill="#F0EEFF" />
+    <rect x="190" y="225" width="50" height="8" rx="4" fill="#6C5CE7" />
+    <rect x="190" y="242" width="75" height="6" rx="3" fill="#A29BFE" />
+
+    <rect x="295" y="210" width="105" height="60" rx="8" fill="#F0EEFF" />
+    <circle cx="320" cy="240" r="15" fill="#6C5CE7" />
+    <rect x="345" y="232" width="40" height="6" rx="3" fill="#6C5CE7" />
+    <rect x="345" y="244" width="25" height="6" rx="3" fill="#A29BFE" />
+  </g>
+
+  <!-- Floating Creative Elements -->
+  <!-- Floating Bulb Icon Badge -->
+  <g filter="url(#shadow)" transform="translate(50, 160)">
+    <circle cx="25" cy="25" r="25" fill="#FFFFFF" />
+    <circle cx="25" cy="25" r="20" fill="#6C5CE7" />
+    <path d="M25 14 A 7 7 0 0 0 18 21 C 18 24 21 26 21 28 L 29 28 C 29 26 32 24 32 21 A 7 7 0 0 0 25 14 Z M 22 30 L 28 30 M 23 32 L 27 32" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" fill="none" />
+  </g>
+
+  <!-- Floating Code Badge -->
+  <g filter="url(#shadow)" transform="translate(390, 220)">
+    <circle cx="25" cy="25" r="25" fill="#FFFFFF" />
+    <circle cx="25" cy="25" r="20" fill="#00CEC9" />
+    <path d="M18 21 L 13 25 L 18 29 M 32 21 L 37 25 L 32 29 M 27 18 L 23 32" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+  </g>
+
+  <!-- Stand / Desk Line -->
+  <path d="M 150 330 L 350 330" stroke="#D6D0FE" stroke-width="4" stroke-linecap="round" />
+</svg>
