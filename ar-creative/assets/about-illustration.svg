@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="aboutG" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6C5CE7" />
+      <stop offset="100%" stop-color="#4834D4" />
+    </linearGradient>
+    <linearGradient id="tealG" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#22D3EE" />
+      <stop offset="100%" stop-color="#0EA5E9" />
+    </linearGradient>
+  </defs>
+
+  <!-- Outer Ring -->
+  <circle cx="250" cy="200" r="150" fill="none" stroke="#E2E8F0" stroke-width="4" stroke-dasharray="8 8" />
+
+  <!-- Central Studio Hub -->
+  <circle cx="250" cy="200" r="70" fill="url(#aboutG)" />
+  <text x="250" y="195" fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" text-anchor="middle">AR</text>
+  <text x="250" y="215" fill="#E0E7FF" font-family="sans-serif" font-size="12" text-anchor="middle">CREATIVE</text>
+
+  <!-- Orbiting Nodes -->
+  <!-- Node 1: Solutions -->
+  <g transform="translate(140, 110)">
+    <circle cx="25" cy="25" r="30" fill="#FFFFFF" stroke="#6C5CE7" stroke-width="3" />
+    <path d="M17 25 L23 31 L33 19" fill="none" stroke="#6C5CE7" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <line x1="185" y1="145" x2="210" y2="165" stroke="#6C5CE7" stroke-width="2" />
+
+  <!-- Node 2: Technology -->
+  <g transform="translate(310, 110)">
+    <circle cx="25" cy="25" r="30" fill="#FFFFFF" stroke="#0EA5E9" stroke-width="3" />
+    <circle cx="25" cy="25" r="12" fill="none" stroke="#0EA5E9" stroke-width="3" />
+  </g>
+  <line x1="315" y1="145" x2="290" y2="165" stroke="#0EA5E9" stroke-width="2" />
+
+  <!-- Node 3: Education -->
+  <g transform="translate(225, 300)">
+    <circle cx="25" cy="25" r="30" fill="#FFFFFF" stroke="#A855F7" stroke-width="3" />
+    <path d="M15 22 L25 16 L35 22 L25 28 Z" fill="none" stroke="#A855F7" stroke-width="2" />
+    <path d="M18 24.5 V30 C18 30 22 32 25 32 C28 32 32 30 32 30 V24.5" fill="none" stroke="#A855F7" stroke-width="2" />
+  </g>
+  <line x1="250" y1="270" x2="250" y2="300" stroke="#A855F7" stroke-width="2" />
+</svg>
