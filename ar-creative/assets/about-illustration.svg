@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="grad-about" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6e57e0"/>
+      <stop offset="100%" stop-color="#3a7bd5"/>
+    </linearGradient>
+    <filter id="shadow-about" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#6e57e0" flood-opacity="0.12"/>
+    </filter>
+  </defs>
+
+  <!-- Decorative Background Shapes -->
+  <rect x="60" y="50" width="380" height="300" rx="24" fill="#f8f9ff" />
+  <circle cx="400" cy="80" r="40" fill="#6e57e0" opacity="0.1"/>
+  <circle cx="90" cy="310" r="50" fill="#00d2ff" opacity="0.1"/>
+
+  <!-- Main Digital Studio Badge -->
+  <rect x="100" y="80" width="300" height="240" rx="16" fill="#ffffff" filter="url(#shadow-about)"/>
+
+  <!-- Creative Layers Illustration -->
+  <!-- Layer 1: Code/Structure -->
+  <rect x="130" y="110" width="240" height="45" rx="10" fill="#f0edff"/>
+  <circle cx="155" cy="132" r="12" fill="#6e57e0"/>
+  <rect x="180" y="125" width="120" height="6" rx="3" fill="#6e57e0"/>
+  <rect x="180" y="136" width="70" height="6" rx="3" fill="#a0aec0"/>
+
+  <!-- Layer 2: Visual Arts & Design -->
+  <rect x="130" y="170" width="240" height="45" rx="10" fill="#e6f7ff"/>
+  <circle cx="155" cy="192" r="12" fill="#00d2ff"/>
+  <rect x="180" y="185" width="100" height="6" rx="3" fill="#00d2ff"/>
+  <rect x="180" y="196" width="80" height="6" rx="3" fill="#a0aec0"/>
+
+  <!-- Layer 3: Education & Growth -->
+  <rect x="130" y="230" width="240" height="45" rx="10" fill="#fff0f6"/>
+  <circle cx="155" cy="252" r="12" fill="#ff4757"/>
+  <rect x="180" y="245" width="140" height="6" rx="3" fill="#ff4757"/>
+  <rect x="180" y="256" width="90" height="6" rx="3" fill="#a0aec0"/>
+
+  <!-- Decorative Sparkles -->
+  <path d="M 70 140 L 75 155 L 90 160 L 75 165 L 70 180 L 65 165 L 50 160 L 65 155 Z" fill="#6e57e0"/>
+  <path d="M 430 220 L 433 230 L 443 233 L 433 236 L 430 246 L 427 236 L 417 233 L 427 230 Z" fill="#00d2ff"/>
+</svg>
