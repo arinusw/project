@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="heroGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#7B61FF" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#5831F2" stop-opacity="0.8"/>
+    </linearGradient>
+    <linearGradient id="glowGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#A28BFF" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#5831F2" stop-opacity="0.0"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#5831F2" flood-opacity="0.25"/>
+    </filter>
+  </defs>
+
+  <!-- Background Glow / Abstract Shapes -->
+  <circle cx="250" cy="250" r="180" fill="url(#glowGrad)" />
+  <circle cx="360" cy="140" r="50" fill="#7B61FF" opacity="0.15" />
+  <circle cx="120" cy="380" r="70" fill="#5831F2" opacity="0.1" />
+
+  <!-- Main Digital Canvas Floating Screen -->
+  <rect x="80" y="90" width="340" height="230" rx="16" fill="#1C1B22" filter="url(#shadow)" />
+  <rect x="95" y="105" width="310" height="200" rx="10" fill="#25232F" />
+
+  <!-- Window Header Controls -->
+  <circle cx="115" cy="120" r="5" fill="#FF5F56"/>
+  <circle cx="130" cy="120" r="5" fill="#FFBD2E"/>
+  <circle cx="145" cy="120" r="5" fill="#27C93F"/>
+
+  <!-- Creative Workspace Elements inside Monitor -->
+  <!-- Code/Design UI Blocks -->
+  <rect x="115" y="145" width="120" height="8" rx="4" fill="#7B61FF"/>
+  <rect x="115" y="160" width="80" height="6" rx="3" fill="#A28BFF" opacity="0.7"/>
+  <rect x="115" y="172" width="100" height="6" rx="3" fill="#A28BFF" opacity="0.5"/>
+
+  <!-- Geometric Artwork inside Screen -->
+  <path d="M 270 270 Q 320 150 380 250 Z" fill="url(#heroGrad)" opacity="0.8"/>
+  <circle cx="290" cy="180" r="24" fill="#FFD166" />
+  <polygon points="340,150 370,200 310,200" fill="#06D6A0" opacity="0.8" />
+
+  <!-- Floating Digital Elements (Creativity Symbols) -->
+  <!-- Palette / Bulb Floating -->
+  <g filter="url(#shadow)">
+    <rect x="50" y="220" width="90" height="90" rx="18" fill="#ffffff" />
+    <path d="M 95 245 C 80 245 70 255 70 270 C 70 282 80 290 95 290 C 110 290 120 282 120 270 C 120 255 110 245 95 245 Z" fill="none" stroke="#7B61FF" stroke-width="4"/>
+    <circle cx="85" cy="265" r="4" fill="#FF5F56"/>
+    <circle cx="95" cy="258" r="4" fill="#FFBD2E"/>
+    <circle cx="105" cy="265" r="4" fill="#27C93F"/>
+  </g>
+
+  <!-- Laptop / Keyboard Base -->
+  <path d="M 50 360 L 450 360 C 460 360 465 368 455 378 L 420 410 C 415 415 400 415 390 415 L 110 415 C 100 415 85 415 80 410 L 45 378 C 35 368 40 360 50 360 Z" fill="#2E2B3A" filter="url(#shadow)"/>
+  <rect x="210" y="370" width="80" height="6" rx="3" fill="#7B61FF"/>
+
+  <!-- Code/Sparkle Floating Badges -->
+  <g filter="url(#shadow)">
+    <rect x="340" y="300" width="110" height="70" rx="14" fill="#7B61FF" />
+    <text x="395" y="342" font-family="sans-serif" font-weight="bold" font-size="22" fill="#ffffff" text-anchor="middle">&lt;/&gt;</text>
+  </g>
+
+  <!-- Sparkles -->
+  <path d="M 430 100 L 435 115 L 450 120 L 435 125 L 430 140 L 425 125 L 410 120 L 425 115 Z" fill="#FFD166"/>
+  <path d="M 70 120 L 73 130 L 83 133 L 73 136 L 70 146 L 67 136 L 57 133 L 67 130 Z" fill="#7B61FF"/>
+</svg>

@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="aboutGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#7B61FF"/>
+      <stop offset="100%" stop-color="#5831F2"/>
+    </linearGradient>
+    <filter id="shadowAbout" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#5831F2" flood-opacity="0.2"/>
+    </filter>
+  </defs>
+
+  <!-- Background Decorative Shapes -->
+  <circle cx="250" cy="250" r="190" fill="#7B61FF" opacity="0.08"/>
+  <rect x="70" y="80" width="360" height="340" rx="24" fill="#ffffff" filter="url(#shadowAbout)"/>
+
+  <!-- Content Elements: Team / Studio Concept -->
+  <rect x="100" y="110" width="300" height="180" rx="16" fill="#F4F3FF"/>
+
+  <!-- Lightbulb / Innovation Central Icon -->
+  <circle cx="250" cy="200" r="45" fill="url(#aboutGrad)" filter="url(#shadowAbout)"/>
+  <path d="M 240 185 L 260 185 M 250 175 L 250 195" stroke="#ffffff" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="250" cy="200" r="20" fill="none" stroke="#FFD166" stroke-width="4"/>
+
+  <!-- Three Focus Pillars Below -->
+  <!-- Pillar 1: Kreativitas -->
+  <rect x="100" y="310" width="90" height="80" rx="12" fill="#7B61FF" opacity="0.1"/>
+  <rect x="120" y="325" width="50" height="10" rx="5" fill="#7B61FF"/>
+  <rect x="115" y="345" width="60" height="6" rx="3" fill="#5831F2" opacity="0.6"/>
+  <rect x="125" y="358" width="40" height="6" rx="3" fill="#5831F2" opacity="0.4"/>
+
+  <!-- Pillar 2: Teknologi -->
+  <rect x="205" y="310" width="90" height="80" rx="12" fill="#7B61FF" opacity="0.15"/>
+  <rect x="225" y="325" width="50" height="10" rx="5" fill="#5831F2"/>
+  <rect x="220" y="345" width="60" height="6" rx="3" fill="#7B61FF" opacity="0.6"/>
+  <rect x="230" y="358" width="40" height="6" rx="3" fill="#7B61FF" opacity="0.4"/>
+
+  <!-- Pillar 3: Edukasi -->
+  <rect x="310" y="310" width="90" height="80" rx="12" fill="#7B61FF" opacity="0.1"/>
+  <rect x="330" y="325" width="50" height="10" rx="5" fill="#7B61FF"/>
+  <rect x="325" y="345" width="60" height="6" rx="3" fill="#5831F2" opacity="0.6"/>
+  <rect x="335" y="358" width="40" height="6" rx="3" fill="#5831F2" opacity="0.4"/>
+
+  <!-- Gear & Connection Lines -->
+  <path d="M 180 200 L 205 200 M 295 200 L 320 200" stroke="#7B61FF" stroke-width="3" stroke-dasharray="4 4"/>
+</svg>
