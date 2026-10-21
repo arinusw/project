@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="eduGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38EF7D" />
+      <stop offset="100%" stop-color="#11998E" />
+    </linearGradient>
+    <linearGradient id="eduPurple" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#7B61FF" />
+      <stop offset="100%" stop-color="#6344E7" />
+    </linearGradient>
+    <filter id="eduShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="6" stdDeviation="8" flood-color="#000000" flood-opacity="0.1"/>
+    </filter>
+  </defs>
+
+  <!-- Open Book / Digital Platform Concept -->
+  <path d="M 150 280 Q 300 240 450 280 L 450 140 Q 300 100 150 140 Z" fill="#202231" filter="url(#eduShadow)" />
+  <path d="M 150 280 Q 300 240 450 280 L 450 290 Q 300 250 150 290 Z" fill="#151621" />
+
+  <!-- Digital Light Rays / Knowledge streams rising -->
+  <path d="M 300 200 L 220 80" stroke="url(#eduGrad)" stroke-width="3" stroke-linecap="round" />
+  <path d="M 300 200 L 300 60" stroke="url(#eduPurple)" stroke-width="4" stroke-linecap="round" />
+  <path d="M 300 200 L 380 80" stroke="#FF8E53" stroke-width="3" stroke-linecap="round" />
+
+  <!-- Floating Tech / Learning Icons -->
+  <!-- Atom / Tech Symbol -->
+  <circle cx="300" cy="50" r="18" fill="url(#eduPurple)" filter="url(#eduShadow)" />
+  <circle cx="300" cy="50" r="8" fill="#FFF" />
+
+  <!-- Code Tag Symbol -->
+  <circle cx="210" cy="70" r="16" fill="url(#eduGrad)" filter="url(#eduShadow)" />
+  <path d="M205 66 L200 70 L205 74 M215 66 L220 70 L215 74" stroke="#FFF" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" />
+
+  <!-- Bulb / Creativity Symbol -->
+  <circle cx="390" cy="70" r="16" fill="#FF8E53" filter="url(#eduShadow)" />
+  <circle cx="390" cy="68" r="6" fill="#FFF" />
+
+  <!-- Grid dots background -->
+  <circle cx="120" cy="100" r="3" fill="#7B61FF" opacity="0.5"/>
+  <circle cx="140" cy="80" r="4" fill="#38EF7D" opacity="0.6"/>
+  <circle cx="460" cy="110" r="3" fill="#FF8E53" opacity="0.5"/>
+  <circle cx="480" cy="80" r="5" fill="#7B61FF" opacity="0.6"/>
+</svg>
