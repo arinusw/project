@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 450" width="100%" height="100%">
+  <defs>
+    <linearGradient id="eduGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00B894"/>
+      <stop offset="100%" stop-color="#55E6C1"/>
+    </linearGradient>
+    <filter id="eduShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#00B894" flood-opacity="0.15"/>
+    </filter>
+  </defs>
+
+  <circle cx="250" cy="225" r="170" fill="#E6FAF5"/>
+
+  <!-- Education Screen / Board -->
+  <g filter="url(#eduShadow)">
+    <rect x="80" y="80" width="340" height="240" rx="16" fill="#FFFFFF"/>
+    <rect x="80" y="80" width="340" height="45" rx="16" fill="url(#eduGrad)"/>
+    <text x="110" y="108" fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold">Literasi &amp; Edukasi Digital</text>
+
+    <!-- Code Editor / Learning Visual -->
+    <rect x="100" y="145" width="180" height="150" rx="10" fill="#2D3436"/>
+    <circle cx="115" cy="160" r="4" fill="#FF7675"/>
+    <circle cx="127" cy="160" r="4" fill="#FFEAA7"/>
+    <circle cx="139" cy="160" r="4" fill="#55E6C1"/>
+
+    <text x="115" y="185" fill="#74B9FF" font-family="monospace" font-size="11">&lt;learning&gt;</text>
+    <text x="125" y="205" fill="#55E6C1" font-family="monospace" font-size="11">const skill = "Digital";</text>
+    <text x="125" y="225" fill="#FFEAA7" font-family="monospace" font-size="11">shareKnowledge();</text>
+    <text x="115" y="245" fill="#74B9FF" font-family="monospace" font-size="11">&lt;/learning&gt;</text>
+
+    <!-- Interactive Community / Growth Chart -->
+    <rect x="295" y="145" width="105" height="150" rx="10" fill="#F8F9FE"/>
+    <rect x="310" y="230" width="15" height="45" rx="4" fill="#A29BFE"/>
+    <rect x="332" y="200" width="15" height="75" rx="4" fill="#6C5CE7"/>
+    <rect x="354" y="170" width="15" height="105" rx="4" fill="#00B894"/>
+    <path d="M 317 220 L 339 190 L 361 160" stroke="#FF7675" stroke-width="3" fill="none" stroke-linecap="round"/>
+  </g>
+
+  <!-- Laptop / Desk Base Stand -->
+  <path d="M 180 320 L 320 320 L 350 370 L 150 370 Z" fill="#DFE6E9"/>
+</svg>
