@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Ar Creative - Digital Creative Studio & Edukasi Teknologi. Solusi jasa kreatif, produk digital, dan literasi teknologi untuk individu, komunitas, instansi, dan UMKM.">
+    <title>Ar Creative | Digital Creative Portfolio & Service</title>
+
+    <!-- Google Fonts: Poppins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Remix Icons CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Header Navigation -->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#home" class="nav__logo">
+                <i class="ri-code-s-slash-line nav__logo-icon"></i> Ar Creative
+            </a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active-link">
+                            <i class="ri-home-4-line nav__icon"></i> Beranda
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">
+                            <i class="ri-user-line nav__icon"></i> Tentang
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#services" class="nav__link">
+                            <i class="ri-service-line nav__icon"></i> Layanan
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#education" class="nav__link">
+                            <i class="ri-book-open-line nav__icon"></i> Edukasi
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#social" class="nav__link">
+                            <i class="ri-share-line nav__icon"></i> Sosial
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#contact" class="nav__link">
+                            <i class="ri-contacts-line nav__icon"></i> Kontak
+                        </a>
+                    </li>
+                </ul>
+
+                <!-- Close Button for Mobile Menu -->
+                <div class="nav__close" id="nav-close">
+                    <i class="ri-close-line"></i>
+                </div>
+            </div>
+
+            <div class="nav__btns">
+                <!-- Theme Change Button -->
+                <i class="ri-moon-line change-theme" id="theme-button" title="Ganti Tema"></i>
+
+                <!-- Toggle Button for Mobile Menu -->
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="ri-menu-line"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main">
+        <!-- 1. Hero Section -->
+        <section class="home section" id="home">
+            <div class="home__container container grid">
+                <div class="home__social">
+                    <a href="https://www.facebook.com/arkreative" target="_blank" rel="noopener noreferrer" class="home__social-icon" aria-label="Facebook">
+                        <i class="ri-facebook-circle-fill"></i>
+                    </a>
+                    <a href="https://www.instagram.com/arcreative_26" target="_blank" rel="noopener noreferrer" class="home__social-icon" aria-label="Instagram">
+                        <i class="ri-instagram-line"></i>
+                    </a>
+                    <a href="https://www.youtube.com/@arcreative-24" target="_blank" rel="noopener noreferrer" class="home__social-icon" aria-label="YouTube">
+                        <i class="ri-youtube-fill"></i>
+                    </a>
+                </div>
+
+                <div class="home__data">
+                    <span class="home__subtitle">Jasa & Produk Digital | Edukasi Teknologi</span>
+                    <h1 class="home__title">Ar Creative</h1>
+                    <p class="home__description">
+                        Studio kreatif digital yang berfokus pada penyediaan layanan jasa, produk digital inovatif, serta edukasi teknologi mendalam untuk individu, komunitas, instansi, dan UMKM.
+                    </p>
+                    <div class="home__buttons">
+                        <a href="#services" class="button button--flex">
+                            Lihat Layanan <i class="ri-arrow-right-line button__icon"></i>
+                        </a>
+                        <a href="#contact" class="button button--flex button--ghost">
+                            Hubungi Kami <i class="ri-chat-3-line button__icon"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="home__img">
+                    <svg class="home__blob" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+                        <defs>
+                            <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+                                <stop offset="0%" style="stop-color:hsl(250, 69%, 61%);stop-opacity:1" />
+                                <stop offset="100%" style="stop-color:hsl(280, 60%, 50%);stop-opacity:1" />
+                            </linearGradient>
+                        </defs>
+                        <!-- Digital Work Illustration Background Circle -->
+                        <circle cx="250" cy="250" r="210" fill="url(#grad1)" opacity="0.15" />
+                        <rect x="110" y="120" width="280" height="190" rx="16" fill="#1e1e2d" />
+                        <rect x="125" y="135" width="250" height="135" rx="8" fill="#2d2d42" />
+                        <!-- Screen Details -->
+                        <circle cx="145" cy="150" r="4" fill="#ff5f56" />
+                        <circle cx="157" cy="150" r="4" fill="#ffbd2e" />
+                        <circle cx="169" cy="150" r="4" fill="#27c93f" />
+                        <!-- Digital Graphic Shapes inside Laptop -->
+                        <rect x="145" y="170" width="110" height="85" rx="6" fill="url(#grad1)" opacity="0.8" />
+                        <path d="M 270 180 L 350 180" stroke="hsl(250, 69%, 61%)" stroke-width="6" stroke-linecap="round" />
+                        <path d="M 270 200 L 330 200" stroke="#8c8cae" stroke-width="4" stroke-linecap="round" />
+                        <path d="M 270 215 L 340 215" stroke="#8c8cae" stroke-width="4" stroke-linecap="round" />
+                        <path d="M 270 230 L 310 230" stroke="#8c8cae" stroke-width="4" stroke-linecap="round" />
+                        <!-- Laptop Stand -->
+                        <path d="M 70 320 L 430 320 L 400 340 L 100 340 Z" fill="#3a3a52" />
+                        <!-- Floating Digital Elements -->
+                        <circle cx="90" cy="140" r="28" fill="url(#grad1)" />
+                        <path d="M 82 140 L 98 140 M 90 132 L 90 148" stroke="#ffffff" stroke-width="4" stroke-linecap="round" />
+                        <rect x="380" y="240" width="45" height="45" rx="10" fill="url(#grad1)" transform="rotate(15 402 262)" />
+                    </svg>
+                </div>
+            </div>
+        </section>
+
+        <!-- 2. About Section -->
+        <section class="about section" id="about">
+            <h2 class="section__title">Tentang Kami</h2>
+            <span class="section__subtitle">Mengenal Lebih Dekat Ar Creative</span>
+
+            <div class="about__container container grid">
+                <div class="about__image">
+                    <svg class="about__svg" viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+                        <defs>
+                            <linearGradient id="grad2" x1="0%" y1="0%" x2="100%" y2="100%">
+                                <stop offset="0%" style="stop-color:hsl(250, 69%, 61%);stop-opacity:1" />
+                                <stop offset="100%" style="stop-color:hsl(210, 80%, 60%);stop-opacity:1" />
+                            </linearGradient>
+                        </defs>
+                        <!-- Creative Studio Digital Art Canvas -->
+                        <rect x="50" y="50" width="300" height="300" rx="24" fill="url(#grad2)" opacity="0.12" />
+                        <!-- Digital Canvas Palette -->
+                        <path d="M 100 120 C 100 80, 300 80, 300 140 C 300 200, 260 280, 180 280 C 120 280, 100 240, 100 120 Z" fill="#ffffff" stroke="hsl(250, 69%, 61%)" stroke-width="4" />
+                        <circle cx="150" cy="140" r="14" fill="#ff5f56" />
+                        <circle cx="190" cy="120" r="14" fill="#ffbd2e" />
+                        <circle cx="235" cy="140" r="14" fill="#27c93f" />
+                        <circle cx="250" cy="180" r="14" fill="hsl(250, 69%, 61%)" />
+                        <!-- Stylized Brush / Stylus -->
+                        <path d="M 120 250 L 260 110" stroke="#2d2d42" stroke-width="12" stroke-linecap="round" />
+                        <path d="M 260 110 L 280 90 L 290 100 L 270 120 Z" fill="url(#grad2)" />
+                    </svg>
+                </div>
+
+                <div class="about__data">
+                    <p class="about__description">
+                        <strong>Ar Creative</strong> adalah studio kreatif digital yang berdedikasi untuk mendorong transformasi digital secara inklusif dan berkelanjutan. Kami menyediakan berbagai layanan jasa desain & pengembangan digital serta produk digital berkualitas tinggi.
+                    </p>
+                    <p class="about__description">
+                        Dengan fokus mendalam pada <strong>kreativitas, teknologi modern, dan solusi digital terintegrasi</strong>, kami senantiasa membantu ekosistem bisnis dan publik mencapai potensi digital terbaiknya.
+                    </p>
+                    <p class="about__description">
+                        Selain layanan komersial, Ar Creative berkomitmen penuh dalam <strong>berbagi edukasi seputar teknologi dan dunia digital</strong> untuk meningkatkan literasi digital masyarakat secara berkesinambungan.
+                    </p>
+
+                    <div class="about__info">
+                        <div>
+                            <span class="about__info-title">100%</span>
+                            <span class="about__info-name">Solusi <br> Digital</span>
+                        </div>
+                        <div>
+                            <span class="about__info-title">Kreatif</span>
+                            <span class="about__info-name">Pendekatan <br> Inovatif</span>
+                        </div>
+                        <div>
+                            <span class="about__info-title">Edukasi</span>
+                            <span class="about__info-name">Berbagi <br> Pengetahuan</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 3. Services Section -->
+        <section class="services section" id="services">
+            <h2 class="section__title">Layanan Kami</h2>
+            <span class="section__subtitle">Solusi Digital Lengkap & Professional</span>
+
+            <div class="services__container container grid">
+                <!-- Card 1 -->
+                <div class="services__content">
+                    <div>
+                        <i class="ri-layout-4-line services__icon"></i>
+                        <h3 class="services__title">Jasa Kreatif <br> Digital</h3>
+                    </div>
+                    <p class="services__description">
+                        Pembuatan website responsif, desain UI/UX aplikasi, branding identitas visual, serta pembuatan banner & materi grafis profesional.
+                    </p>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="services__content">
+                    <div>
+                        <i class="ri-box-3-line services__icon"></i>
+                        <h3 class="services__title">Produk <br> Digital</h3>
+                    </div>
+                    <p class="services__description">
+                        Penyediaan template website siap pakai, komponen source code, aset grafik/vektor premium, serta e-book & modul praktis.
+                    </p>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="services__content">
+                    <div>
+                        <i class="ri-vidicon-line services__icon"></i>
+                        <h3 class="services__title">Multimedia & <br> Konten Kreatif</h3>
+                    </div>
+                    <p class="services__description">
+                        Pengembangan konten media sosial, video editing, motion graphic, dan karya ilustrasi seni digital berbasis kebutuhan visual brand Anda.
+                    </p>
+                </div>
+
+                <!-- Card 4 -->
+                <div class="services__content">
+                    <div>
+                        <i class="ri-graduation-cap-line services__icon"></i>
+                        <h3 class="services__title">Edukasi & <br> Literasi Teknologi</h3>
+                    </div>
+                    <p class="services__description">
+                        Penyelenggaraan workshop teknologi, mentoring coding/desain, modul pembelajaran interaktif, serta webinar komunitas digital.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- 4. Education / Content Section -->
+        <section class="education section" id="education">
+            <h2 class="section__title">Edukasi Teknologi</h2>
+            <span class="section__subtitle">Mendukung Pembelajaran Digital & Kreativitas Lokal</span>
+
+            <div class="education__container container grid">
+                <div class="education__data">
+                    <h3 class="education__heading">Komitmen Edukasi Ar Creative</h3>
+                    <p class="education__description">
+                        Kami percaya bahwa akses terhadap pengetahuan teknologi adalah kunci pertumbuhan masa depan. Ar Creative aktif membagikan materi edukatif seputar teknologi, web development, dan desain digital untuk membantu siapapun berkembang.
+                    </p>
+
+                    <ul class="education__list">
+                        <li class="education__item">
+                            <i class="ri-checkbox-circle-fill education__icon"></i>
+                            <div>
+                                <strong>Membagikan Edukasi Seputaran Teknologi:</strong>
+                                Tutorial praktis, tips & trik pemrograman, serta perkembangan teknologi terkini.
+                            </div>
+                        </li>
+                        <li class="education__item">
+                            <i class="ri-checkbox-circle-fill education__icon"></i>
+                            <div>
+                                <strong>Mendukung Pembelajaran Digital & Kreativitas Lokal:</strong>
+                                Mendorong talenta lokal, instansi, dan UMKM untuk mengadopsi perangkat digital secara efektif.
+                            </div>
+                        </li>
+                        <li class="education__item">
+                            <i class="ri-checkbox-circle-fill education__icon"></i>
+                            <div>
+                                <strong>Komunitas & Mentoring:</strong>
+                                Sesi diskusi interaktif, modul riset terbuka, dan pembekalan keterampilan digital praktis.
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="education__card">
+                    <div class="education__badge">
+                        <i class="ri-lightbulb-line"></i>
+                    </div>
+                    <h4 class="education__card-title">Topik Edukasi Utama</h4>
+                    <ul class="education__topics">
+                        <li><i class="ri-arrow-right-s-line"></i> Web Development & Pemrograman</li>
+                        <li><i class="ri-arrow-right-s-line"></i> Desain UI/UX & Ilustrasi Digital</li>
+                        <li><i class="ri-arrow-right-s-line"></i> Pengelolaan Konten Kreatif</li>
+                        <li><i class="ri-arrow-right-s-line"></i> Digital Marketing & Branding UMKM</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- 5. Social Media Section -->
+        <section class="social section" id="social">
+            <h2 class="section__title">Media Sosial</h2>
+            <span class="section__subtitle">Terhubung Dengan Ar Creative Di Berbagai Platform</span>
+
+            <div class="social__container container grid">
+                <a href="https://www.facebook.com/arkreative" target="_blank" rel="noopener noreferrer" class="social__card">
+                    <i class="ri-facebook-circle-fill social__icon social__icon--facebook"></i>
+                    <h3 class="social__title">Facebook</h3>
+                    <span class="social__subtitle">@arkreative</span>
+                    <span class="social__button">Kunjungi <i class="ri-arrow-right-line"></i></span>
+                </a>
+
+                <a href="https://www.instagram.com/arcreative_26" target="_blank" rel="noopener noreferrer" class="social__card">
+                    <i class="ri-instagram-line social__icon social__icon--instagram"></i>
+                    <h3 class="social__title">Instagram</h3>
+                    <span class="social__subtitle">@arcreative_26</span>
+                    <span class="social__button">Kunjungi <i class="ri-arrow-right-line"></i></span>
+                </a>
+
+                <a href="https://www.youtube.com/@arcreative-24" target="_blank" rel="noopener noreferrer" class="social__card">
+                    <i class="ri-youtube-fill social__icon social__icon--youtube"></i>
+                    <h3 class="social__title">YouTube</h3>
+                    <span class="social__subtitle">@arcreative-24</span>
+                    <span class="social__button">Kunjungi <i class="ri-arrow-right-line"></i></span>
+                </a>
+            </div>
+        </section>
+
+        <!-- 6. Contact Section -->
+        <section class="contact section" id="contact">
+            <h2 class="section__title">Hubungi Kami</h2>
+            <span class="section__subtitle">Sampaikan Pertanyaan, Proyek, Atau Kerjasama</span>
+
+            <div class="contact__container container grid">
+                <div class="contact__information-group">
+                    <div class="contact__information">
+                        <i class="ri-whatsapp-line contact__icon"></i>
+                        <div>
+                            <h3 class="contact__title">WhatsApp / Telepon</h3>
+                            <span class="contact__subtitle">+62 812 4861 6454</span>
+                        </div>
+                    </div>
+
+                    <div class="contact__information">
+                        <i class="ri-mail-line contact__icon"></i>
+                        <div>
+                            <h3 class="contact__title">Email</h3>
+                            <span class="contact__subtitle">infostudio ari</span>
+                        </div>
+                    </div>
+
+                    <div class="contact__information">
+                        <i class="ri-map-pin-line contact__icon"></i>
+                        <div>
+                            <h3 class="contact__title">Lokasi Studio</h3>
+                            <span class="contact__subtitle">Indonesia</span>
+                        </div>
+                    </div>
+                </div>
+
+                <form action="contact.php" method="POST" class="contact__form" id="contact-form">
+                    <div class="contact__inputs grid">
+                        <div class="contact__content">
+                            <label for="name" class="contact__label">Nama Lengkap</label>
+                            <input type="text" id="name" name="name" class="contact__input" required placeholder="Masukkan nama Anda">
+                        </div>
+
+                        <div class="contact__content">
+                            <label for="email" class="contact__label">Email</label>
+                            <input type="email" id="email" name="email" class="contact__input" required placeholder="Masukkan email Anda">
+                        </div>
+                    </div>
+
+                    <div class="contact__content">
+                        <label for="subject" class="contact__label">Subjek / Topik</label>
+                        <input type="text" id="subject" name="subject" class="contact__input" required placeholder="Subjek pesan Anda">
+                    </div>
+
+                    <div class="contact__content contact__form-area">
+                        <label for="message" class="contact__label">Pesan</label>
+                        <textarea id="message" name="message" class="contact__input" required placeholder="Tuliskan pesan atau kebutuhan proyek Anda..."></textarea>
+                    </div>
+
+                    <div>
+                        <button type="submit" class="button button--flex" id="contact-button">
+                            Kirim Pesan <i class="ri-send-plane-fill button__icon"></i>
+                        </button>
+                    </div>
+
+                    <p class="contact__message" id="contact-message"></p>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- 7. Footer -->
+    <footer class="footer">
+        <div class="footer__bg">
+            <div class="footer__container container grid">
+                <div>
+                    <h1 class="footer__title">Ar Creative</h1>
+                    <span class="footer__subtitle">Digital Creative Studio & Edukasi Teknologi</span>
+                </div>
+
+                <ul class="footer__links">
+                    <li>
+                        <a href="#services" class="footer__link">Layanan</a>
+                    </li>
+                    <li>
+                        <a href="#education" class="footer__link">Edukasi</a>
+                    </li>
+                    <li>
+                        <a href="#contact" class="footer__link">Kontak</a>
+                    </li>
+                </ul>
+
+                <div class="footer__socials">
+                    <a href="https://www.facebook.com/arkreative" target="_blank" rel="noopener noreferrer" class="footer__social" aria-label="Facebook">
+                        <i class="ri-facebook-circle-fill"></i>
+                    </a>
+                    <a href="https://www.instagram.com/arcreative_26" target="_blank" rel="noopener noreferrer" class="footer__social" aria-label="Instagram">
+                        <i class="ri-instagram-line"></i>
+                    </a>
+                    <a href="https://www.youtube.com/@arcreative-24" target="_blank" rel="noopener noreferrer" class="footer__social" aria-label="YouTube">
+                        <i class="ri-youtube-fill"></i>
+                    </a>
+                </div>
+            </div>
+
+            <p class="footer__copy">&#169; Ar Creative – Digital Creative & Technology Education. Hak Cipta Dilindungi.</p>
+        </div>
+    </footer>
+
+    <!-- Scroll Up Button -->
+    <a href="#" class="scrollup" id="scroll-up" aria-label="Scroll ke atas">
+        <i class="ri-arrow-up-line scrollup__icon"></i>
+    </a>
+
+    <!-- ScrollReveal CDN for animations -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- Custom JS -->
+    <script src="js/main.js"></script>
+</body>
+</html>
