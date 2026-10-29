@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#6C5CE7;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#a29bfe;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="grad2" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#fd79a8;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#e84393;stop-opacity:1" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="10" stdDeviation="15" flood-color="#6C5CE7" flood-opacity="0.2"/>
+    </filter>
+  </defs>
+
+  <!-- Background Decorative Shapes -->
+  <circle cx="250" cy="250" r="180" fill="url(#grad1)" opacity="0.15" />
+  <circle cx="360" cy="140" r="40" fill="url(#grad2)" opacity="0.2" />
+  <circle cx="120" cy="380" r="60" fill="url(#grad1)" opacity="0.2" />
+
+  <!-- Main Art Canvas Floating Board -->
+  <rect x="80" y="90" width="340" height="260" rx="20" fill="#ffffff" filter="url(#shadow)" />
+
+  <!-- Screen Header -->
+  <rect x="80" y="90" width="340" height="40" rx="20" fill="#f1f2f6" />
+  <circle cx="110" cy="110" r="6" fill="#ff7675" />
+  <circle cx="130" cy="110" r="6" fill="#ffeaa7" />
+  <circle cx="150" cy="110" r="6" fill="#55efc4" />
+
+  <!-- Digital Graphic Elements on Screen -->
+  <!-- Vector paths / Design elements -->
+  <path d="M 120 280 C 180 180, 220 320, 280 200 C 320 120, 360 220, 380 160" fill="none" stroke="url(#grad1)" stroke-width="8" stroke-linecap="round"/>
+
+  <circle cx="280" cy="200" r="12" fill="#fd79a8" />
+  <circle cx="180" cy="230" r="8" fill="#6C5CE7" />
+  <circle cx="340" cy="170" r="10" fill="#00b894" />
+
+  <!-- Floating Stylus / Pen -->
+  <g transform="translate(260, 220) rotate(-35)">
+    <rect x="0" y="0" width="16" height="120" rx="8" fill="url(#grad2)"/>
+    <polygon points="0,120 16,120 8,145" fill="#2d3436"/>
+  </g>
+
+  <!-- Glowing Stars / Sparkles -->
+  <path d="M 390 100 L 394 112 L 406 116 L 394 120 L 390 132 L 386 120 L 374 116 L 386 112 Z" fill="#fdcb6e" />
+  <path d="M 90 220 L 93 229 L 102 232 L 93 235 L 90 244 L 87 235 L 78 232 L 87 229 Z" fill="#6C5CE7" />
+</svg>
