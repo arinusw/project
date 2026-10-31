@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="heroGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6c5ce7" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#a29bfe" stop-opacity="0.2"/>
+    </linearGradient>
+    <linearGradient id="heroGrad2" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#7d5fff"/>
+      <stop offset="100%" stop-color="#7158e2"/>
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00d2d3"/>
+      <stop offset="100%" stop-color="#54a0ff"/>
+    </linearGradient>
+    <filter id="softGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="15" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <!-- Ambient background glow blobs -->
+  <circle cx="250" cy="250" r="180" fill="url(#heroGrad1)" filter="url(#softGlow)" opacity="0.5"/>
+  <circle cx="360" cy="160" r="70" fill="url(#accentGrad)" opacity="0.3" filter="url(#softGlow)"/>
+
+  <!-- Geometric Abstract Base -->
+  <rect x="90" y="110" width="320" height="280" rx="24" fill="#ffffff" fill-opacity="0.07" stroke="rgba(255,255,255,0.2)" stroke-width="2"/>
+
+  <!-- Digital Workspace Concept -->
+  <!-- Laptop / Screen Platform -->
+  <rect x="120" y="140" width="260" height="170" rx="14" fill="#1e1e2f" stroke="#6c5ce7" stroke-width="2"/>
+  <rect x="135" y="155" width="230" height="135" rx="8" fill="#141421"/>
+
+  <!-- Screen Elements: Code & Design Canvas -->
+  <!-- Header bar -->
+  <circle cx="150" cy="170" r="4" fill="#ff5f56"/>
+  <circle cx="162" cy="170" r="4" fill="#ffbd2e"/>
+  <circle cx="174" cy="170" r="4" fill="#27c93f"/>
+  <line x1="190" y1="170" x2="340" y2="170" stroke="rgba(255,255,255,0.15)" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- Code lines & design elements -->
+  <rect x="150" y="185" width="75" height="8" rx="4" fill="#6c5ce7"/>
+  <rect x="150" y="200" width="110" height="6" rx="3" fill="#a29bfe" opacity="0.7"/>
+  <rect x="160" y="212" width="80" height="6" rx="3" fill="#00d2d3" opacity="0.7"/>
+  <rect x="160" y="224" width="95" height="6" rx="3" fill="rgba(255,255,255,0.3)"/>
+  <rect x="150" y="236" width="60" height="6" rx="3" fill="#ff7675" opacity="0.7"/>
+  <rect x="150" y="248" width="100" height="6" rx="3" fill="rgba(255,255,255,0.3)"/>
+
+  <!-- Digital Art / Palette graphic on screen right -->
+  <rect x="270" y="185" width="85" height="80" rx="8" fill="url(#heroGrad2)" opacity="0.8"/>
+  <polygon points="290,245 310,215 325,230 335,220 345,245" fill="#ffffff" opacity="0.85"/>
+  <circle cx="330" cy="205" r="7" fill="#ffeaa7"/>
+
+  <!-- Laptop Base & Keyboard reflection -->
+  <path d="M 80 320 L 420 320 L 400 335 L 100 335 Z" fill="#2d3436" opacity="0.9"/>
+  <rect x="220" y="323" width="60" height="4" rx="2" fill="rgba(255,255,255,0.3)"/>
+
+  <!-- Floating Creative Orbs / Digital Elements -->
+  <!-- Creative Orb 1 (Design) -->
+  <g transform="translate(70, 200)">
+    <circle cx="25" cy="25" r="28" fill="#ffffff" fill-opacity="0.1" stroke="#a29bfe" stroke-width="2"/>
+    <path d="M 17 25 Q 25 15 33 25 T 41 25" fill="none" stroke="#6c5ce7" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="25" cy="25" r="4" fill="#00d2d3"/>
+  </g>
+
+  <!-- Creative Orb 2 (Code / Tech) -->
+  <g transform="translate(370, 260)">
+    <circle cx="25" cy="25" r="30" fill="#ffffff" fill-opacity="0.1" stroke="#00d2d3" stroke-width="2"/>
+    <text x="25" y="32" font-family="monospace" font-size="20" font-weight="bold" fill="#00d2d3" text-anchor="middle">&lt;/&gt;</text>
+  </g>
+
+  <!-- Creative Orb 3 (Education / Idea) -->
+  <g transform="translate(350, 70)">
+    <circle cx="25" cy="25" r="26" fill="#ffffff" fill-opacity="0.1" stroke="#ffeaa7" stroke-width="2"/>
+    <circle cx="25" cy="23" r="10" fill="none" stroke="#ffeaa7" stroke-width="2.5"/>
+    <line x1="25" y1="33" x2="25" y2="37" stroke="#ffeaa7" stroke-width="2.5" stroke-linecap="round"/>
+  </g>
+</svg>
