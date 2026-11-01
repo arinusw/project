@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="eduGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4facfe"/>
+      <stop offset="100%" stop-color="#00f2fe"/>
+    </linearGradient>
+    <linearGradient id="eduGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6c5ce7"/>
+      <stop offset="100%" stop-color="#a367dc"/>
+    </linearGradient>
+    <linearGradient id="bookCover" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e2235"/>
+      <stop offset="100%" stop-color="#141724"/>
+    </linearGradient>
+    <filter id="eduShadow" x="-10%" y="-10%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#000" flood-opacity="0.22"/>
+    </filter>
+  </defs>
+
+  <!-- Ambient circles -->
+  <circle cx="250" cy="190" r="150" fill="url(#eduGrad1)" opacity="0.12"/>
+  <circle cx="340" cy="110" r="80" fill="url(#eduGrad2)" opacity="0.15"/>
+
+  <!-- Open Digital Book / Portal of Knowledge -->
+  <g filter="url(#eduShadow)">
+    <!-- Left Page -->
+    <path d="M110 260 C180 250 240 255 250 270 L250 120 C240 105 180 100 110 110 Z" fill="#202438" stroke="#3b4263" stroke-width="2"/>
+    <!-- Right Page -->
+    <path d="M390 260 C320 250 260 255 250 270 L250 120 C260 105 320 100 390 110 Z" fill="#242940" stroke="#3b4263" stroke-width="2"/>
+    <!-- Spine glow -->
+    <line x1="250" y1="120" x2="250" y2="270" stroke="#6c5ce7" stroke-width="3"/>
+  </g>
+
+  <!-- Content on Left Page: Digital Learning & Code -->
+  <rect x="135" y="140" width="80" height="6" rx="3" fill="#6c5ce7"/>
+  <rect x="135" y="155" width="95" height="4" rx="2" fill="#8e94a8"/>
+  <rect x="135" y="167" width="85" height="4" rx="2" fill="#8e94a8"/>
+  <rect x="135" y="179" width="70" height="4" rx="2" fill="#8e94a8"/>
+  <rect x="135" y="200" width="90" height="30" rx="6" fill="#141724" stroke="#6c5ce7" stroke-width="1"/>
+  <text x="180" y="220" fill="#00f2fe" font-size="11" font-family="'Poppins', sans-serif" text-anchor="middle" font-weight="bold">&lt;Edukasi/&gt;</text>
+
+  <!-- Content on Right Page: Creative Media & Community -->
+  <rect x="270" y="140" width="85" height="6" rx="3" fill="#00cec9"/>
+  <rect x="270" y="155" width="90" height="4" rx="2" fill="#8e94a8"/>
+  <rect x="270" y="167" width="75" height="4" rx="2" fill="#8e94a8"/>
+  <rect x="270" y="179" width="85" height="4" rx="2" fill="#8e94a8"/>
+  <!-- Visual mini chart -->
+  <rect x="275" y="215" width="12" height="18" rx="2" fill="#6c5ce7"/>
+  <rect x="295" y="205" width="12" height="28" rx="2" fill="#00cec9"/>
+  <rect x="315" y="195" width="12" height="38" rx="2" fill="#ffeaa7"/>
+  <rect x="335" y="200" width="12" height="33" rx="2" fill="#ff7675"/>
+
+  <!-- Rising Rocket / Innovation Symbol out of the book -->
+  <g filter="url(#eduShadow)">
+    <!-- Rocket Body -->
+    <path d="M250 50 C265 75 268 105 265 130 L235 130 C232 105 235 75 250 50 Z" fill="url(#eduGrad2)"/>
+    <!-- Rocket Window -->
+    <circle cx="250" cy="90" r="8" fill="#ffffff"/>
+    <circle cx="250" cy="90" r="5" fill="#242940"/>
+    <!-- Rocket Wings -->
+    <path d="M235 110 L220 130 L235 128 Z" fill="#ff7675"/>
+    <path d="M265 110 L280 130 L265 128 Z" fill="#ff7675"/>
+    <!-- Rocket Thrust flame -->
+    <polygon points="242,130 258,130 250,150" fill="#f1c40f"/>
+    <polygon points="245,130 255,130 250,142" fill="#e74c3c"/>
+  </g>
+
+  <!-- Floating Star & Graduation Cap / Light of Knowledge -->
+  <g filter="url(#eduShadow)">
+    <circle cx="95" cy="100" r="24" fill="#2d324d" stroke="#6c5ce7" stroke-width="1.5"/>
+    <!-- Mortarboard hat -->
+    <polygon points="95,90 108,97 95,104 82,97" fill="#6c5ce7"/>
+    <rect x="89" y="102" width="12" height="6" rx="2" fill="#845ec2"/>
+    <path d="M106 98 L108 108" stroke="#f1c40f" stroke-width="1.5"/>
+  </g>
+
+  <g filter="url(#eduShadow)">
+    <circle cx="405" cy="95" r="24" fill="#2d324d" stroke="#00cec9" stroke-width="1.5"/>
+    <polygon points="405,84 408,91 416,92 410,97 412,105 405,100 398,105 400,97 394,92 402,91" fill="#ffeaa7"/>
+  </g>
+
+  <!-- Base shadow -->
+  <ellipse cx="250" cy="310" rx="170" ry="14" fill="#000000" opacity="0.25"/>
+</svg>

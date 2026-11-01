@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="aboutGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6c5ce7"/>
+      <stop offset="100%" stop-color="#845ec2"/>
+    </linearGradient>
+    <linearGradient id="aboutGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4facfe"/>
+      <stop offset="100%" stop-color="#00f2fe"/>
+    </linearGradient>
+    <filter id="aboutShadow" x="-10%" y="-10%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="10" stdDeviation="14" flood-color="#000" flood-opacity="0.2"/>
+    </filter>
+  </defs>
+
+  <!-- Ambient circles -->
+  <circle cx="260" cy="190" r="140" fill="url(#aboutGrad1)" opacity="0.12"/>
+  <circle cx="160" cy="120" r="70" fill="url(#aboutGrad2)" opacity="0.15"/>
+
+  <!-- Main Digital Canvas / Tablet -->
+  <g filter="url(#aboutShadow)">
+    <rect x="110" y="60" width="280" height="260" rx="24" fill="#1e2130" stroke="#3d4361" stroke-width="2"/>
+    <!-- Screen -->
+    <rect x="125" y="75" width="250" height="230" rx="16" fill="#131622"/>
+  </g>
+
+  <!-- Studio Emblem & Layered Geometric Shapes -->
+  <!-- Layer 1 -->
+  <rect x="150" y="105" width="200" height="42" rx="10" fill="#20263b"/>
+  <circle cx="175" cy="126" r="12" fill="url(#aboutGrad1)"/>
+  <path d="M171 126 L174 129 L179 123" stroke="#ffffff" stroke-width="2" stroke-linecap="round" fill="none"/>
+  <rect x="198" y="119" width="90" height="6" rx="3" fill="#ffffff"/>
+  <rect x="198" y="130" width="60" height="4" rx="2" fill="#8e94a8"/>
+
+  <!-- Layer 2 - Creative Palette -->
+  <g filter="url(#aboutShadow)">
+    <rect x="145" y="160" width="105" height="115" rx="14" fill="url(#aboutGrad1)"/>
+    <circle cx="175" cy="190" r="14" fill="#ffffff" opacity="0.25"/>
+    <!-- Pencil / Pen tip icon -->
+    <path d="M171 195 L182 184 L185 187 L174 198 Z" fill="#ffffff"/>
+    <rect x="160" y="220" width="75" height="5" rx="2.5" fill="#ffffff"/>
+    <rect x="160" y="232" width="50" height="4" rx="2" fill="#e0dcfc"/>
+    <rect x="160" y="244" width="65" height="4" rx="2" fill="#c4bbf0"/>
+  </g>
+
+  <!-- Layer 3 - Tech & Logic -->
+  <g filter="url(#aboutShadow)">
+    <rect x="260" y="160" width="115" height="115" rx="14" fill="#20263b" stroke="#00f2fe" stroke-width="1.5"/>
+    <circle cx="290" cy="190" r="14" fill="#00f2fe" opacity="0.2"/>
+    <text x="290" y="195" fill="#00f2fe" font-size="12" font-weight="bold" font-family="'Poppins', sans-serif" text-anchor="middle">&lt;&gt;</text>
+    <rect x="275" y="220" width="85" height="5" rx="2.5" fill="#ffffff"/>
+    <rect x="275" y="232" width="60" height="4" rx="2" fill="#8e94a8"/>
+    <rect x="275" y="244" width="70" height="4" rx="2" fill="#00f2fe" opacity="0.7"/>
+  </g>
+
+  <!-- Floating Elements: Creativity & Innovation -->
+  <g filter="url(#aboutShadow)">
+    <!-- Lightbulb / Idea symbol -->
+    <circle cx="85" cy="200" r="30" fill="#2d324d" stroke="#f1c40f" stroke-width="2"/>
+    <circle cx="85" cy="195" r="10" fill="#f1c40f"/>
+    <rect x="82" y="208" width="6" height="3" rx="1.5" fill="#f1c40f"/>
+    <rect x="83" y="213" width="4" height="2" rx="1" fill="#f1c40f"/>
+  </g>
+
+  <g filter="url(#aboutShadow)">
+    <!-- Compass / Growth symbol -->
+    <circle cx="410" cy="150" r="28" fill="#2d324d" stroke="#6c5ce7" stroke-width="2"/>
+    <polygon points="410,135 416,149 410,146 404,149" fill="#ff7675"/>
+    <polygon points="410,165 416,151 410,154 404,151" fill="#74b9ff"/>
+  </g>
+
+  <!-- Base shadow -->
+  <ellipse cx="250" cy="340" rx="140" ry="12" fill="#000000" opacity="0.2"/>
+</svg>
