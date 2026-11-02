@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="aboutGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8b5cf6" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#ec4899" stop-opacity="0.05"/>
+    </linearGradient>
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#7c3aed"/>
+      <stop offset="100%" stop-color="#c026d3"/>
+    </linearGradient>
+    <filter id="aboutShadow" x="-10%" y="-10%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="10" stdDeviation="14" flood-color="#7c3aed" flood-opacity="0.15"/>
+    </filter>
+  </defs>
+
+  <!-- Background shape -->
+  <rect x="50" y="40" width="400" height="320" rx="40" fill="url(#aboutGrad)"/>
+
+  <!-- Back Card: Technology & Code -->
+  <g transform="translate(100, 70)" filter="url(#aboutShadow)">
+    <rect width="210" height="150" rx="16" fill="#1e293b"/>
+    <circle cx="25" cy="25" r="5" fill="#f43f5e"/>
+    <circle cx="40" cy="25" r="5" fill="#f59e0b"/>
+    <circle cx="55" cy="25" r="5" fill="#10b981"/>
+    <rect x="25" y="50" width="120" height="8" rx="4" fill="#38bdf8"/>
+    <rect x="25" y="70" width="150" height="6" rx="3" fill="#64748b"/>
+    <rect x="25" y="85" width="100" height="6" rx="3" fill="#64748b"/>
+    <rect x="25" y="100" width="130" height="6" rx="3" fill="#64748b"/>
+  </g>
+
+  <!-- Front Card: Creative & Design -->
+  <g transform="translate(190, 140)" filter="url(#aboutShadow)">
+    <rect width="220" height="170" rx="20" fill="#ffffff"/>
+    <rect x="18" y="18" width="184" height="85" rx="12" fill="url(#cardGrad)"/>
+    <!-- Palette / Art elements -->
+    <circle cx="65" cy="60" r="18" fill="#ffffff" opacity="0.3"/>
+    <circle cx="110" cy="50" r="12" fill="#ffffff" opacity="0.4"/>
+    <polygon points="145,45 160,75 130,75" fill="#ffffff" opacity="0.35"/>
+
+    <!-- Text / metrics representation -->
+    <rect x="20" y="120" width="90" height="10" rx="5" fill="#7c3aed"/>
+    <rect x="20" y="140" width="140" height="7" rx="3.5" fill="#cbd5e1"/>
+  </g>
+
+  <!-- Floating badge: Education / Growth -->
+  <g transform="translate(70, 240)" filter="url(#aboutShadow)">
+    <circle cx="40" cy="40" r="35" fill="#ffffff"/>
+    <circle cx="40" cy="40" r="28" fill="#ec4899" opacity="0.15"/>
+    <path d="M40 26 L52 33 L40 40 L28 33 Z" fill="#ec4899"/>
+    <path d="M33 37 L33 46 C33 49 47 49 47 46 L47 37" stroke="#ec4899" stroke-width="2.5" fill="none"/>
+  </g>
+</svg>
