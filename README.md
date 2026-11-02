@@ -25,13 +25,16 @@ Repository ini bersifat **dinamis** dan akan terus diperbarui seiring perkembang
 ```text
 project/
 │
-├── project-1/
+├── ar-creative/
 │   ├── index.html
-│   ├── style.css
-│   └── script.js
-│
-├── project-2/
-│   ├── README.md
-│   └── source-code/
+│   ├── contact.php
+│   ├── css/
+│   │   └── style.css
+│   ├── js/
+│   │   └── main.js
+│   └── assets/
+│       ├── hero-illustration.svg
+│       ├── about-illustration.svg
+│       └── education-illustration.svg
 │
 └── README.md
