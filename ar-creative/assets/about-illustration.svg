@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="aboutGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6c5ce7"/>
+      <stop offset="100%" stop-color="#a29bfe"/>
+    </linearGradient>
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1f1d36"/>
+      <stop offset="100%" stop-color="#2d2a4a"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background circular aura -->
+  <circle cx="250" cy="250" r="190" fill="#6c5ce7" opacity="0.12"/>
+  <circle cx="250" cy="250" r="140" fill="#a29bfe" opacity="0.1"/>
+
+  <!-- Isometric or modern card stack -->
+  <!-- Back card: Creativity & Art -->
+  <g transform="translate(60, 90) rotate(-6)">
+    <rect width="260" height="170" rx="16" fill="url(#cardGrad)" stroke="#6c5ce7" stroke-width="2"/>
+    <circle cx="45" cy="45" r="18" fill="#e84393" opacity="0.8"/>
+    <rect x="75" y="38" width="120" height="12" rx="4" fill="#ffffff" opacity="0.8"/>
+    <rect x="35" y="80" width="190" height="8" rx="4" fill="#a29bfe" opacity="0.5"/>
+    <rect x="35" y="100" width="150" height="8" rx="4" fill="#a29bfe" opacity="0.4"/>
+    <rect x="35" y="120" width="110" height="8" rx="4" fill="#a29bfe" opacity="0.3"/>
+  </g>
+
+  <!-- Middle card: Tech Solutions -->
+  <g transform="translate(180, 150) rotate(5)">
+    <rect width="260" height="170" rx="16" fill="#18192b" stroke="#00cec9" stroke-width="2"/>
+    <circle cx="45" cy="45" r="18" fill="#00cec9" opacity="0.8"/>
+    <rect x="75" y="38" width="110" height="12" rx="4" fill="#ffffff" opacity="0.8"/>
+    <rect x="35" y="80" width="170" height="8" rx="4" fill="#81ecec" opacity="0.5"/>
+    <rect x="35" y="100" width="190" height="8" rx="4" fill="#81ecec" opacity="0.4"/>
+    <rect x="35" y="120" width="130" height="8" rx="4" fill="#81ecec" opacity="0.3"/>
+  </g>
+
+  <!-- Front card: Digital Education -->
+  <g transform="translate(110, 240)">
+    <rect width="280" height="180" rx="16" fill="#24213d" stroke="#fdcb6e" stroke-width="2.5"/>
+    <circle cx="50" cy="50" r="22" fill="#fdcb6e" opacity="0.9"/>
+    <!-- Graduation / Book icon element -->
+    <polygon points="50,40 65,47 50,54 35,47" fill="#24213d"/>
+    <path d="M42,51 L42,58 Q50,62 58,58 L58,51" stroke="#24213d" stroke-width="2" fill="none"/>
+    <rect x="85" y="42" width="140" height="14" rx="5" fill="#ffffff"/>
+    <rect x="35" y="95" width="210" height="10" rx="4" fill="#ffeaa7" opacity="0.7"/>
+    <rect x="35" y="118" width="180" height="10" rx="4" fill="#ffeaa7" opacity="0.5"/>
+
+    <!-- Mini progress bar -->
+    <rect x="35" y="145" width="210" height="8" rx="4" fill="#383359"/>
+    <rect x="35" y="145" width="140" height="8" rx="4" fill="#fdcb6e"/>
+  </g>
+
+  <!-- Digital particles / floating nodes -->
+  <circle cx="80" cy="380" r="6" fill="#6c5ce7"/>
+  <circle cx="430" cy="130" r="8" fill="#e84393"/>
+  <circle cx="420" cy="380" r="7" fill="#00cec9"/>
+  <line x1="80" y1="380" x2="110" y2="350" stroke="#6c5ce7" stroke-width="1.5" stroke-dasharray="3,3"/>
+  <line x1="430" y1="130" x2="390" y2="180" stroke="#e84393" stroke-width="1.5" stroke-dasharray="3,3"/>
+</svg>
