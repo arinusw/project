@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
+  <defs>
+    <linearGradient id="logoGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6C5CE7"/>
+      <stop offset="100%" stop-color="#a29bfe"/>
+    </linearGradient>
+  </defs>
+  <rect width="100" height="100" rx="24" fill="url(#logoGrad)"/>
+  <!-- Stylized "Ar" Monogram & Creative Spark -->
+  <path d="M28 72 L45 28 L56 28 L72 72 M34 56 L66 56" stroke="#ffffff" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <circle cx="70" cy="30" r="5" fill="#ffd166"/>
+  <path d="M70 20 L70 40 M60 30 L80 30" stroke="#ffd166" stroke-width="2.5" stroke-linecap="round"/>
+</svg>

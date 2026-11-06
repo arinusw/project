@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 450" width="100%" height="100%">
+  <defs>
+    <linearGradient id="abBgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00cec9" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#6c5ce7" stop-opacity="0.08"/>
+    </linearGradient>
+    <linearGradient id="primaryGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6c5ce7"/>
+      <stop offset="100%" stop-color="#5843e4"/>
+    </linearGradient>
+    <filter id="abShadow" x="-10%" y="-10%" width="125%" height="125%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#4f46e5" flood-opacity="0.12"/>
+    </filter>
+  </defs>
+
+  <!-- Background Abstract Blob -->
+  <path d="M430,220 C460,320 370,410 260,420 C150,430 70,360 50,260 C30,160 120,60 220,50 C320,40 400,120 430,220 Z" fill="url(#abBgGrad)"/>
+
+  <!-- Creative Teamwork / Studio Elements -->
+  <!-- Main Isometric Platform -->
+  <g filter="url(#abShadow)">
+    <polygon points="250,140 430,220 250,300 70,220" fill="#ffffff"/>
+    <polygon points="70,220 250,300 250,325 70,245" fill="#e2e8f0"/>
+    <polygon points="250,300 430,220 430,245 250,325" fill="#cbd5e1"/>
+  </g>
+
+  <!-- Pillar 1: Digital Creative (Left) -->
+  <g filter="url(#abShadow)">
+    <rect x="110" y="160" width="80" height="90" rx="12" fill="#ffffff"/>
+    <rect x="122" y="172" width="56" height="36" rx="6" fill="#e0e7ff"/>
+    <circle cx="150" cy="190" r="10" fill="#6c5ce7"/>
+    <rect x="122" y="218" width="56" height="6" rx="3" fill="#6c5ce7"/>
+    <rect x="122" y="230" width="36" height="6" rx="3" fill="#cbd5e1"/>
+  </g>
+
+  <!-- Pillar 2: Core Centerpiece - Innovation Lighthouse -->
+  <g filter="url(#abShadow)">
+    <rect x="215" y="90" width="70" height="130" rx="14" fill="url(#primaryGrad)"/>
+    <!-- Glowing Core Elements -->
+    <circle cx="250" cy="130" r="18" fill="#ffffff" fill-opacity="0.2"/>
+    <circle cx="250" cy="130" r="10" fill="#ffd166"/>
+    <!-- Code bars inside core -->
+    <rect x="228" y="165" width="44" height="6" rx="3" fill="#ffffff" fill-opacity="0.8"/>
+    <rect x="228" y="177" width="30" height="6" rx="3" fill="#ffffff" fill-opacity="0.6"/>
+    <rect x="228" y="189" width="38" height="6" rx="3" fill="#ffffff" fill-opacity="0.4"/>
+  </g>
+
+  <!-- Pillar 3: Education & Growth (Right) -->
+  <g filter="url(#abShadow)">
+    <rect x="310" y="160" width="80" height="90" rx="12" fill="#ffffff"/>
+    <rect x="322" y="172" width="56" height="36" rx="6" fill="#ccfbf1"/>
+    <!-- Graduation Cap / Growth Icon -->
+    <path d="M350,180 L366,188 L350,196 L334,188 Z" fill="#00cec9"/>
+    <path d="M340,193 L340,201 C340,204 360,204 360,201 L360,193" fill="none" stroke="#00cec9" stroke-width="2"/>
+    <rect x="322" y="218" width="56" height="6" rx="3" fill="#00cec9"/>
+    <rect x="322" y="230" width="42" height="6" rx="3" fill="#cbd5e1"/>
+  </g>
+
+  <!-- Connecting Nodes / Synapses of Collaboration -->
+  <path d="M190,205 C210,195 210,180 215,170" fill="none" stroke="#6c5ce7" stroke-width="3" stroke-dasharray="4,4"/>
+  <path d="M285,170 C295,180 300,195 310,205" fill="none" stroke="#00cec9" stroke-width="3" stroke-dasharray="4,4"/>
+
+  <!-- Decorative Orbit Elements -->
+  <ellipse cx="250" cy="270" rx="160" ry="40" fill="none" stroke="#6c5ce7" stroke-width="1.5" stroke-dasharray="6,6" opacity="0.4"/>
+  <circle cx="90" cy="270" r="6" fill="#ffd166"/>
+  <circle cx="410" cy="270" r="6" fill="#fd79a8"/>
+</svg>
