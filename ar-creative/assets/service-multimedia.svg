@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <rect width="64" height="64" rx="16" fill="#fd79a8" fill-opacity="0.12"/>
+  <!-- Multimedia Film & Player -->
+  <rect x="14" y="16" width="36" height="32" rx="6" fill="#ffffff" stroke="#e84393" stroke-width="3"/>
+  <polygon points="28,26 40,32 28,38" fill="#e84393"/>
+  <!-- Audio & Sparks -->
+  <path d="M46 14 Q52 12 50 20" stroke="#fd79a8" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  <circle cx="16" cy="14" r="3" fill="#ffd166"/>
+</svg>

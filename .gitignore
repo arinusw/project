@@ -137,3 +137,10 @@ dist
 # Vite logs files
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
+
+# Verification and local testing artifacts
+verification/
+*.log
+php_server.log
+__pycache__/
+.pytest_cache/
