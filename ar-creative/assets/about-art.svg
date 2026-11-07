@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 450" width="100%" height="100%">
+  <defs>
+    <linearGradient id="aboutGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#34D399" />
+      <stop offset="100%" stop-color="#7C5CFC" />
+    </linearGradient>
+    <linearGradient id="shieldGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#2D2A4A" />
+      <stop offset="100%" stop-color="#19172B" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background decorative rings -->
+  <circle cx="250" cy="225" r="170" fill="none" stroke="#7C5CFC" stroke-width="1.5" stroke-dasharray="6 6" opacity="0.3"/>
+  <circle cx="250" cy="225" r="130" fill="none" stroke="#34D399" stroke-width="1.5" opacity="0.25"/>
+
+  <!-- Central Digital Creative Canvas -->
+  <rect x="110" y="85" width="280" height="280" rx="28" fill="url(#shieldGrad)" stroke="#7C5CFC" stroke-width="2"/>
+
+  <!-- Isometric / Layered Studio Illustration -->
+  <!-- Layer 1: Code & Base Architecture -->
+  <g transform="translate(145, 125)">
+    <rect width="210" height="42" rx="10" fill="#24213B" stroke="#7C5CFC" stroke-width="1" stroke-opacity="0.4"/>
+    <circle cx="22" cy="21" r="6" fill="#7C5CFC"/>
+    <text x="40" y="25" fill="#E2E8F0" font-family="'Poppins', sans-serif" font-size="12" font-weight="600">&lt;Solusi Digital&gt;</text>
+  </g>
+
+  <!-- Layer 2: Creative Design & Multimedia -->
+  <g transform="translate(145, 185)">
+    <rect width="210" height="42" rx="10" fill="#24213B" stroke="#38BDF8" stroke-width="1" stroke-opacity="0.4"/>
+    <circle cx="22" cy="21" r="6" fill="#38BDF8"/>
+    <text x="40" y="25" fill="#E2E8F0" font-family="'Poppins', sans-serif" font-size="12" font-weight="600">Kreativitas &amp; Seni</text>
+  </g>
+
+  <!-- Layer 3: Education & Technology Literacy -->
+  <g transform="translate(145, 245)">
+    <rect width="210" height="42" rx="10" fill="#24213B" stroke="#34D399" stroke-width="1" stroke-opacity="0.4"/>
+    <circle cx="22" cy="21" r="6" fill="#34D399"/>
+    <text x="40" y="25" fill="#E2E8F0" font-family="'Poppins', sans-serif" font-size="12" font-weight="600">Edukasi &amp; Literasi</text>
+  </g>
+
+  <!-- Floating Badges -->
+  <!-- Left Innovation Badge -->
+  <g transform="translate(65, 170)">
+    <rect width="70" height="70" rx="18" fill="#1B192E" stroke="#F59E0B" stroke-width="2"/>
+    <circle cx="35" cy="35" r="18" fill="#F59E0B" fill-opacity="0.2"/>
+    <path d="M35 23 L35 37 M28 30 L42 30" stroke="#F59E0B" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="35" cy="45" r="3" fill="#F59E0B"/>
+  </g>
+
+  <!-- Right Community & Local Growth Badge -->
+  <g transform="translate(365, 215)">
+    <rect width="75" height="75" rx="18" fill="#1B192E" stroke="#EC4899" stroke-width="2"/>
+    <circle cx="37" cy="37" r="18" fill="#EC4899" fill-opacity="0.2"/>
+    <!-- Heart / Community symbol -->
+    <path d="M 37 46 C 30 40, 25 34, 25 29 C 25 24, 29 22, 33 24 C 35 25, 37 27, 37 27 C 37 27, 39 25, 41 24 C 45 22, 49 24, 49 29 C 49 34, 44 40, 37 46 Z" fill="#EC4899"/>
+  </g>
+
+  <!-- Sparkles -->
+  <circle cx="100" cy="95" r="4" fill="#7C5CFC"/>
+  <circle cx="410" cy="115" r="5" fill="#34D399"/>
+  <circle cx="180" cy="390" r="4" fill="#38BDF8"/>
+  <circle cx="340" cy="400" r="5" fill="#F59E0B"/>
+</svg>
