@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="heroGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6956e5" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#a498f3" stop-opacity="0.3"/>
+    </linearGradient>
+    <linearGradient id="heroGrad2" x1="100%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ff7597" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#ff9eb5" stop-opacity="0.3"/>
+    </linearGradient>
+    <linearGradient id="codeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2a2559"/>
+      <stop offset="100%" stop-color="#19163b"/>
+    </linearGradient>
+    <filter id="heroShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#413880" flood-opacity="0.25"/>
+    </filter>
+  </defs>
+
+  <!-- Background Abstract Tech Circles & Floating Blobs -->
+  <circle cx="250" cy="250" r="190" fill="url(#heroGrad1)" opacity="0.15"/>
+  <circle cx="360" cy="140" r="70" fill="url(#heroGrad2)" opacity="0.2"/>
+  <circle cx="120" cy="380" r="50" fill="url(#heroGrad1)" opacity="0.25"/>
+
+  <!-- Floating Tech Badges / Sparks -->
+  <g opacity="0.6">
+    <circle cx="120" cy="130" r="6" fill="#6956e5"/>
+    <circle cx="400" cy="340" r="8" fill="#ff7597"/>
+    <circle cx="240" cy="70" r="5" fill="#6956e5"/>
+    <path d="M 380 90 L 390 100 L 380 110 L 370 100 Z" fill="#6956e5" opacity="0.7"/>
+    <path d="M 90 280 L 100 290 L 90 300 L 80 290 Z" fill="#ff7597" opacity="0.7"/>
+  </g>
+
+  <!-- Main Illustration: Digital Studio Laptop & Creative Workspace -->
+  <g filter="url(#heroShadow)">
+    <!-- Desk Pad Base -->
+    <ellipse cx="250" cy="410" rx="190" ry="32" fill="#302c52" opacity="0.2"/>
+
+    <!-- Laptop Base -->
+    <path d="M 130 380 L 370 380 L 390 395 L 110 395 Z" fill="#4d467c"/>
+    <rect x="220" y="380" width="60" height="6" rx="3" fill="#a498f3"/>
+
+    <!-- Laptop Screen Outer -->
+    <rect x="150" y="190" width="200" height="190" rx="14" fill="#201c3e"/>
+    <!-- Laptop Screen Inner -->
+    <rect x="158" y="198" width="184" height="166" rx="8" fill="url(#codeGrad)"/>
+
+    <!-- Code Editor UI Mockup inside Laptop -->
+    <rect x="168" y="210" width="164" height="20" rx="4" fill="#2f2b5a"/>
+    <circle cx="178" cy="220" r="3.5" fill="#ff5f56"/>
+    <circle cx="188" cy="220" r="3.5" fill="#ffbd2e"/>
+    <circle cx="198" cy="220" r="3.5" fill="#27c93f"/>
+
+    <!-- Code Lines / Digital Waves inside Screen -->
+    <rect x="168" y="242" width="70" height="7" rx="3.5" fill="#a498f3"/>
+    <rect x="246" y="242" width="45" height="7" rx="3.5" fill="#ff7597"/>
+    <rect x="180" y="258" width="110" height="6" rx="3" fill="#6956e5"/>
+    <rect x="195" y="272" width="85" height="6" rx="3" fill="#c3bef7"/>
+    <rect x="180" y="286" width="60" height="6" rx="3" fill="#ff9eb5"/>
+    <rect x="168" y="300" width="50" height="6" rx="3" fill="#6956e5"/>
+
+    <!-- Vector Art / Canvas preview on screen -->
+    <path d="M 235 320 L 265 340 L 315 305 L 325 345 L 225 345 Z" fill="#6956e5" opacity="0.6"/>
+    <circle cx="295" cy="315" r="9" fill="#ffbd2e" opacity="0.85"/>
+  </g>
+
+  <!-- Floating UI & Design Elements around Laptop -->
+  <!-- Floating Color Palette Badge (Creative) -->
+  <g filter="url(#heroShadow)" transform="translate(70, 160)">
+    <rect x="0" y="0" width="90" height="75" rx="12" fill="#ffffff" opacity="0.95"/>
+    <circle cx="22" cy="25" r="10" fill="#6956e5"/>
+    <circle cx="45" cy="25" r="10" fill="#ff7597"/>
+    <circle cx="68" cy="25" r="10" fill="#ffbd2e"/>
+    <rect x="15" y="46" width="60" height="6" rx="3" fill="#e5e5f0"/>
+    <rect x="15" y="57" width="38" height="6" rx="3" fill="#a498f3"/>
+  </g>
+
+  <!-- Floating Digital Lightbulb / Tech Education Badge -->
+  <g filter="url(#heroShadow)" transform="translate(340, 150)">
+    <rect x="0" y="0" width="85" height="85" rx="14" fill="#ffffff" opacity="0.95"/>
+    <circle cx="42.5" cy="35" r="18" fill="#6956e5" opacity="0.15"/>
+    <!-- Idea Bulb / Technology Icon -->
+    <path d="M 42.5 22 C 34 22 29 27 29 34 C 29 39 33 43 35 46 L 50 46 C 52 43 56 39 56 34 C 56 27 51 22 42.5 22 Z" fill="#ffbd2e"/>
+    <rect x="37.5" y="49" width="10" height="3" rx="1.5" fill="#6956e5"/>
+    <rect x="39.5" y="54" width="6" height="2" rx="1" fill="#6956e5"/>
+    <rect x="15" y="66" width="55" height="5" rx="2.5" fill="#a498f3"/>
+  </g>
+
+  <!-- Floating Code / Curly Braces Badge -->
+  <g filter="url(#heroShadow)" transform="translate(325, 290)">
+    <rect x="0" y="0" width="105" height="60" rx="10" fill="#2a2559" opacity="0.95"/>
+    <text x="52.5" y="38" font-family="monospace" font-size="22" font-weight="bold" fill="#6956e5" text-anchor="middle">&lt;/&gt;</text>
+    <rect x="20" y="47" width="65" height="4" rx="2" fill="#a498f3" opacity="0.5"/>
+  </g>
+</svg>
