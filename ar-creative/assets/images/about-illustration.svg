@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="aboutGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6c5ce7"/>
+      <stop offset="100%" stop-color="#fd79a8"/>
+    </linearGradient>
+    <filter id="aboutShadow" x="-10%" y="-10%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#4834d4" flood-opacity="0.2"/>
+    </filter>
+  </defs>
+
+  <circle cx="250" cy="250" r="190" fill="#f4f3ff" opacity="0.6"/>
+  <circle cx="250" cy="250" r="140" fill="none" stroke="#6c5ce7" stroke-width="2" stroke-dasharray="8 8"/>
+
+  <!-- Center Hexagon / Studio Core -->
+  <g filter="url(#aboutShadow)">
+    <polygon points="250,150 330,196 330,288 250,334 170,288 170,196" fill="#ffffff" stroke="#6c5ce7" stroke-width="4"/>
+    <circle cx="250" cy="242" r="40" fill="url(#aboutGrad)"/>
+    <text x="250" y="252" font-family="'Poppins', sans-serif" font-weight="900" font-size="28" fill="#ffffff" text-anchor="middle">Ar</text>
+  </g>
+
+  <!-- Surrounding Innovation Nodes -->
+  <!-- Node 1: Kreativitas (Top Left) -->
+  <g transform="translate(100, 90)" filter="url(#aboutShadow)">
+    <circle cx="45" cy="45" r="40" fill="#ffffff" stroke="#e0e0fc" stroke-width="2"/>
+    <circle cx="45" cy="45" r="28" fill="#fff0f5"/>
+    <!-- Palette icon -->
+    <path d="M45,28 C35.6,28 28,35.6 28,45 C28,52 33,56 38,56 C40,56 41,55 42,54 C43,53 44,52 46,52 C49.3,52 52,54.7 52,58 C52,59 52,60 51.7,61 C58,58.8 62,52.5 62,45 C62,35.6 54.4,28 45,28 Z" fill="#e84393"/>
+  </g>
+
+  <!-- Node 2: Teknologi & Solusi (Top Right) -->
+  <g transform="translate(315, 90)" filter="url(#aboutShadow)">
+    <circle cx="45" cy="45" r="40" fill="#ffffff" stroke="#e0e0fc" stroke-width="2"/>
+    <circle cx="45" cy="45" r="28" fill="#eef2ff"/>
+    <!-- Chip / Tech icon -->
+    <rect x="34" y="34" width="22" height="22" rx="4" fill="#6c5ce7"/>
+    <rect x="38" y="38" width="14" height="14" rx="2" fill="#ffffff"/>
+    <line x1="45" y1="28" x2="45" y2="34" stroke="#6c5ce7" stroke-width="2.5"/>
+    <line x1="45" y1="56" x2="45" y2="62" stroke="#6c5ce7" stroke-width="2.5"/>
+    <line x1="28" y1="45" x2="34" y2="45" stroke="#6c5ce7" stroke-width="2.5"/>
+    <line x1="56" y1="45" x2="62" y2="45" stroke="#6c5ce7" stroke-width="2.5"/>
+  </g>
+
+  <!-- Node 3: Edukasi Digital (Bottom Center) -->
+  <g transform="translate(205, 330)" filter="url(#aboutShadow)">
+    <circle cx="45" cy="45" r="40" fill="#ffffff" stroke="#e0e0fc" stroke-width="2"/>
+    <circle cx="45" cy="45" r="28" fill="#e6fffa"/>
+    <!-- Book / Education icon -->
+    <path d="M45 42 C41 38 35 38 32 38 L32 54 C35 54 41 54 45 57 C49 54 55 54 58 54 L58 38 C55 38 49 38 45 42 Z" fill="#00b894"/>
+    <line x1="45" y1="42" x2="45" y2="57" stroke="#00b894" stroke-width="2"/>
+  </g>
+
+  <!-- Connecting Lines -->
+  <line x1="175" y1="150" x2="210" y2="185" stroke="#a29bfe" stroke-width="2" stroke-dasharray="4 4"/>
+  <line x1="325" y1="150" x2="290" y2="185" stroke="#a29bfe" stroke-width="2" stroke-dasharray="4 4"/>
+  <line x1="250" y1="290" x2="250" y2="330" stroke="#a29bfe" stroke-width="2" stroke-dasharray="4 4"/>
+</svg>

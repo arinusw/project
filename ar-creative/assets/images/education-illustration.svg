@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="eduGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00cec9"/>
+      <stop offset="100%" stop-color="#6c5ce7"/>
+    </linearGradient>
+    <filter id="eduShadow" x="-10%" y="-10%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="10" stdDeviation="14" flood-color="#0984e3" flood-opacity="0.2"/>
+    </filter>
+  </defs>
+
+  <rect x="50" y="50" width="400" height="400" rx="40" fill="#f8f9ff"/>
+
+  <!-- Open Laptop with Learning Portal -->
+  <g filter="url(#eduShadow)">
+    <!-- Base -->
+    <path d="M 100 370 L 400 370 L 420 385 L 80 385 Z" fill="#b2bec3"/>
+    <rect x="210" y="370" width="80" height="6" rx="3" fill="#636e72"/>
+    <!-- Screen -->
+    <rect x="120" y="140" width="260" height="190" rx="16" fill="#2d3436"/>
+    <rect x="130" y="150" width="240" height="170" rx="10" fill="#ffffff"/>
+
+    <!-- Video / Lecture Player Frame inside Screen -->
+    <rect x="142" y="162" width="140" height="90" rx="8" fill="url(#eduGrad)"/>
+    <!-- Play Triangle -->
+    <polygon points="205,197 225,207 205,217" fill="#ffffff"/>
+
+    <!-- Course Modules list on right -->
+    <rect x="292" y="162" width="68" height="18" rx="4" fill="#f1f2f6"/>
+    <rect x="296" y="167" width="40" height="8" rx="2" fill="#6c5ce7"/>
+    <rect x="292" y="186" width="68" height="18" rx="4" fill="#f1f2f6"/>
+    <rect x="296" y="191" width="50" height="8" rx="2" fill="#00cec9"/>
+    <rect x="292" y="210" width="68" height="18" rx="4" fill="#f1f2f6"/>
+    <rect x="296" y="215" width="45" height="8" rx="2" fill="#fd79a8"/>
+    <rect x="292" y="234" width="68" height="18" rx="4" fill="#f1f2f6"/>
+    <rect x="296" y="239" width="35" height="8" rx="2" fill="#fdcb6e"/>
+
+    <!-- Discussion & Code Snippet bottom of screen -->
+    <rect x="142" y="262" width="218" height="46" rx="6" fill="#f8f9fe"/>
+    <circle cx="158" cy="285" r="10" fill="#6c5ce7"/>
+    <rect x="176" y="276" width="110" height="7" rx="3" fill="#a29bfe"/>
+    <rect x="176" y="287" width="70" height="6" rx="3" fill="#dfe6e9"/>
+  </g>
+
+  <!-- Floating Graduation Cap Badge -->
+  <g transform="translate(65, 100) rotate(-12)" filter="url(#eduShadow)">
+    <circle cx="40" cy="40" r="36" fill="#6c5ce7"/>
+    <path d="M 40 22 L 64 34 L 40 46 L 16 34 Z" fill="#ffffff"/>
+    <path d="M 26 40 L 26 52 C 26 56 54 56 54 52 L 54 40" fill="none" stroke="#ffffff" stroke-width="3"/>
+    <circle cx="64" cy="42" r="3" fill="#fdcb6e"/>
+  </g>
+
+  <!-- Community Collaboration Chat Bubble -->
+  <g transform="translate(330, 80) rotate(10)" filter="url(#eduShadow)">
+    <rect x="0" y="0" width="110" height="70" rx="18" fill="#00b894"/>
+    <circle cx="35" cy="35" r="6" fill="#ffffff"/>
+    <circle cx="55" cy="35" r="6" fill="#ffffff"/>
+    <circle cx="75" cy="35" r="6" fill="#ffffff"/>
+    <polygon points="30,70 45,70 30,82" fill="#00b894"/>
+  </g>
+</svg>
