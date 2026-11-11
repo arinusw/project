@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="heroGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6c5ce7" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#a29bfe" stop-opacity="0.9"/>
+    </linearGradient>
+    <linearGradient id="heroGrad2" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#7d5fff" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#fd79a8" stop-opacity="0.4"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="12" stdDeviation="15" flood-color="#4834d4" flood-opacity="0.25"/>
+    </filter>
+  </defs>
+
+  <!-- Background Abstract Floating Blobs -->
+  <circle cx="250" cy="250" r="180" fill="url(#heroGrad2)" filter="blur(20px)"/>
+  <rect x="80" y="80" width="340" height="340" rx="60" fill="url(#heroGrad1)" opacity="0.15" transform="rotate(15 250 250)"/>
+
+  <!-- Digital Workspace Desk Base / Tablet Frame -->
+  <g filter="url(#shadow)">
+    <rect x="90" y="100" width="320" height="230" rx="24" fill="#ffffff" stroke="#e0e0fc" stroke-width="3"/>
+    <!-- Screen Header -->
+    <rect x="90" y="100" width="320" height="38" rx="24" fill="#f4f3ff"/>
+    <rect x="90" y="126" width="320" height="12" fill="#f4f3ff"/>
+    <circle cx="116" cy="119" r="5" fill="#ff7675"/>
+    <circle cx="132" cy="119" r="5" fill="#fdcb6e"/>
+    <circle cx="148" cy="119" r="5" fill="#00b894"/>
+    <rect x="180" y="112" width="140" height="14" rx="7" fill="#e2e0fb"/>
+
+    <!-- Screen UI Elements -->
+    <!-- Sidebar -->
+    <rect x="108" y="152" width="55" height="160" rx="10" fill="#f0effe"/>
+    <rect x="116" y="165" width="39" height="8" rx="4" fill="#a29bfe"/>
+    <rect x="116" y="182" width="30" height="6" rx="3" fill="#cbc6fc"/>
+    <rect x="116" y="196" width="34" height="6" rx="3" fill="#cbc6fc"/>
+    <rect x="116" y="210" width="28" height="6" rx="3" fill="#cbc6fc"/>
+
+    <!-- Main Content Area: Vector Canvas -->
+    <rect x="175" y="152" width="218" height="110" rx="12" fill="#fafaff"/>
+    <!-- Graphic Elements on Canvas -->
+    <path d="M 195 240 Q 240 180 270 215 T 350 190" fill="none" stroke="#6c5ce7" stroke-width="4" stroke-linecap="round"/>
+    <circle cx="270" cy="215" r="7" fill="#fd79a8"/>
+    <rect x="295" y="170" width="24" height="24" rx="6" fill="#0984e3" opacity="0.8"/>
+    <polygon points="210,185 225,160 240,185" fill="#fdcb6e"/>
+
+    <!-- Bottom Data Cards -->
+    <rect x="175" y="272" width="102" height="40" rx="8" fill="#f3f1ff"/>
+    <rect x="185" y="282" width="50" height="8" rx="4" fill="#6c5ce7"/>
+    <rect x="185" y="295" width="70" height="6" rx="3" fill="#a29bfe"/>
+
+    <rect x="287" y="272" width="106" height="40" rx="8" fill="#e8f8f5"/>
+    <rect x="297" y="282" width="50" height="8" rx="4" fill="#00b894"/>
+    <rect x="297" y="295" width="75" height="6" rx="3" fill="#55efc4"/>
+  </g>
+
+  <!-- Floating Digital Tools -->
+  <!-- Stylus / Pen Tool -->
+  <g transform="translate(340, 70) rotate(25)" filter="url(#shadow)">
+    <rect x="0" y="0" width="18" height="110" rx="8" fill="#2d3436"/>
+    <polygon points="0,110 9,130 18,110" fill="#636e72"/>
+    <polygon points="6,124 9,130 12,124" fill="#00cec9"/>
+    <rect x="0" y="30" width="18" height="12" fill="#6c5ce7"/>
+  </g>
+
+  <!-- Code Badge -->
+  <g transform="translate(60, 240) rotate(-10)" filter="url(#shadow)">
+    <rect x="0" y="0" width="90" height="60" rx="14" fill="#ffffff" stroke="#6c5ce7" stroke-width="2"/>
+    <text x="45" y="37" font-family="monospace" font-size="20" font-weight="bold" fill="#6c5ce7" text-anchor="middle">&lt;/&gt;</text>
+  </g>
+
+  <!-- Creative Star Badge -->
+  <g transform="translate(350, 310)" filter="url(#shadow)">
+    <circle cx="35" cy="35" r="32" fill="#6c5ce7"/>
+    <path d="M 35 15 L 41 28 L 55 30 L 45 40 L 47 54 L 35 47 L 23 54 L 25 40 L 15 30 L 29 28 Z" fill="#fdcb6e"/>
+  </g>
+
+  <!-- Education Lightbulb Badge -->
+  <g transform="translate(85, 330) rotate(8)" filter="url(#shadow)">
+    <circle cx="30" cy="30" r="26" fill="#00cec9"/>
+    <circle cx="30" cy="26" r="12" fill="#ffffff"/>
+    <rect x="26" y="38" width="8" height="6" rx="2" fill="#ffffff"/>
+  </g>
+</svg>
